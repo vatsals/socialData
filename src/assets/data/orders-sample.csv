@@ -1,0 +1,831 @@
+orderID,productID,productName,customerID,employeeID,orderDate,requiredDate,shippedDate,shipVia,freight,shipName,shipAddress,shipCity,shipRegion,shipPostalCode,shipCountry,unitPrice,quantity,discount
+10248,11,Queso Cabrales,VINET,5,00:00.0,00:00.0,00:00.0,3,32.38,Vins et alcools Chevalier,59 rue de l'Abbaye,Reims,NULL,51100,France,14,12,0
+10249,14,Tofu,TOMSP,6,00:00.0,00:00.0,00:00.0,1,11.61,Toms SpezialitÃ_ten,Luisenstr. 48,MÃ_nster,NULL,44087,Germany,18.6,9,0
+10250,41,Jack's New England Clam Chowder,HANAR,4,00:00.0,00:00.0,00:00.0,2,65.83,Hanari Carnes,Rua do PaÃ§o 67,Rio de Janeiro,RJ,05454-876,Brazil,7.7,10,0
+10251,22,Gustaf's KnÃ_ckebrÃ¶d,VICTE,3,00:00.0,00:00.0,00:00.0,1,41.34,Victuailles en stock,2 rue du Commerce,Lyon,NULL,69004,France,16.8,6,0.05
+10252,20,Sir Rodney's Marmalade,SUPRD,4,00:00.0,00:00.0,00:00.0,2,51.3,SuprÃªmes dÃ©lices,Boulevard Tirou 255,Charleroi,NULL,B-6000,Belgium,64.8,40,0.05
+10253,31,Gorgonzola Telino,HANAR,3,00:00.0,00:00.0,00:00.0,2,58.17,Hanari Carnes,Rua do PaÃ§o 67,Rio de Janeiro,RJ,05454-876,Brazil,10,20,0
+10254,24,GuaranÃ¡ FantÃ¡stica,CHOPS,5,00:00.0,00:00.0,00:00.0,2,22.98,Chop-suey Chinese,Hauptstr. 31,Bern,NULL,3012,Switzerland,3.6,15,0.15
+10255,2,Chang,RICSU,9,00:00.0,00:00.0,00:00.0,3,148.33,Richter Supermarkt,Starenweg 5,GenÃ¨ve,NULL,1204,Switzerland,15.2,20,0
+10256,53,Perth Pasties,WELLI,3,00:00.0,00:00.0,00:00.0,2,13.97,Wellington Importadora,Rua do Mercado 12,Resende,SP,08737-363,Brazil,26.2,15,0
+10257,27,Schoggi Schokolade,HILAA,4,00:00.0,00:00.0,00:00.0,3,81.91,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San CristÃ_bal,TÃ¡chira,5022,Venezuela,35.1,25,0
+10258,2,Chang,ERNSH,1,00:00.0,00:00.0,00:00.0,1,140.51,Ernst Handel,Kirchgasse 6,Graz,NULL,8010,Austria,15.2,50,0.2
+10259,21,Sir Rodney's Scones,CENTC,4,00:00.0,00:00.0,00:00.0,3,3.25,Centro comercial Moctezuma,Sierras de Granada 9993,MÃ©xico D.F.,NULL,5022,Mexico,8,10,0
+10260,41,Jack's New England Clam Chowder,OTTIK,4,00:00.0,00:00.0,00:00.0,1,55.09,Ottilies KÃ_seladen,Mehrheimerstr. 369,KÃ¶ln,NULL,50739,Germany,7.7,16,0.25
+10261,21,Sir Rodney's Scones,QUEDE,4,00:00.0,00:00.0,00:00.0,2,3.05,Que DelÃ_cia,Rua da Panificadora 12,Rio de Janeiro,RJ,02389-673,Brazil,8,20,0
+10262,5,Chef Anton's Gumbo Mix,RATTC,8,00:00.0,00:00.0,00:00.0,3,48.29,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,17,12,0.2
+10263,16,Pavlova,ERNSH,9,00:00.0,00:00.0,00:00.0,3,146.06,Ernst Handel,Kirchgasse 6,Graz,NULL,8010,Austria,13.9,60,0.25
+10264,2,Chang,FOLKO,6,00:00.0,00:00.0,00:00.0,3,3.67,Folk och fÃ_ HB,Ã…kergatan 24,BrÃ_cke,NULL,S-844 67,Sweden,15.2,35,0
+10265,17,Alice Mutton,BLONP,2,00:00.0,00:00.0,00:00.0,1,55.28,Blondel pÃ¨re et fils,24 place KlÃ©ber,Strasbourg,NULL,67000,France,31.2,30,0
+10266,12,Queso Manchego La Pastora,WARTH,3,00:00.0,00:00.0,00:00.0,3,25.73,Wartian Herkku,Torikatu 38,Oulu,NULL,90110,Finland,30.4,12,0.05
+10267,40,Boston Crab Meat,FRANK,4,00:00.0,00:00.0,00:00.0,1,208.58,Frankenversand,Berliner Platz 43,MÃ_nchen,NULL,80805,Germany,14.7,50,0
+10268,29,ThÃ_ringer Rostbratwurst,GROSR,8,00:00.0,00:00.0,00:00.0,3,66.29,GROSELLA-Restaurante,5Âª Ave. Los Palos Grandes,Caracas,DF,1081,Venezuela,99,10,0
+10269,33,Geitost,WHITC,5,00:00.0,00:00.0,00:00.0,1,4.56,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA,2,60,0.05
+10270,36,Inlagd Sill,WARTH,1,00:00.0,00:00.0,00:00.0,1,136.54,Wartian Herkku,Torikatu 38,Oulu,NULL,90110,Finland,15.2,30,0
+10271,33,Geitost,SPLIR,6,00:00.0,00:00.0,00:00.0,2,4.54,Split Rail Beer & Ale,P.O. Box 555,Lander,WY,82520,USA,2,24,0
+10272,20,Sir Rodney's Marmalade,RATTC,6,00:00.0,00:00.0,00:00.0,2,98.03,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,64.8,6,0
+10273,10,Ikura,QUICK,3,00:00.0,00:00.0,00:00.0,3,76.07,QUICK-Stop,TaucherstraÃŸe 10,Cunewalde,NULL,1307,Germany,24.8,24,0.05
+10274,71,Flotemysost,VINET,6,00:00.0,00:00.0,00:00.0,1,6.01,Vins et alcools Chevalier,59 rue de l'Abbaye,Reims,NULL,51100,France,17.2,20,0
+10275,24,GuaranÃ¡ FantÃ¡stica,MAGAA,1,00:00.0,00:00.0,00:00.0,1,26.93,Magazzini Alimentari Riuniti,Via Ludovico il Moro 22,Bergamo,NULL,24100,Italy,3.6,12,0.05
+10276,10,Ikura,TORTU,8,00:00.0,00:00.0,00:00.0,3,13.84,Tortuga Restaurante,Avda. Azteca 123,MÃ©xico D.F.,NULL,5033,Mexico,24.8,15,0
+10277,28,RÃ¶ssle Sauerkraut,MORGK,2,00:00.0,00:00.0,00:00.0,3,125.77,Morgenstern Gesundkost,Heerstr. 22,Leipzig,NULL,4179,Germany,36.4,20,0
+10278,44,Gula Malacca,BERGS,8,00:00.0,00:00.0,00:00.0,2,92.69,Berglunds snabbkÃ¶p,BerguvsvÃ_gen  8,LuleÃ¥,NULL,S-958 22,Sweden,15.5,16,0
+10279,17,Alice Mutton,LEHMS,8,00:00.0,00:00.0,00:00.0,2,25.83,Lehmanns Marktstand,Magazinweg 7,Frankfurt a.M.,NULL,60528,Germany,31.2,15,0.25
+10280,24,GuaranÃ¡ FantÃ¡stica,BERGS,2,00:00.0,00:00.0,00:00.0,1,8.98,Berglunds snabbkÃ¶p,BerguvsvÃ_gen  8,LuleÃ¥,NULL,S-958 22,Sweden,3.6,12,0
+10281,19,Teatime Chocolate Biscuits,ROMEY,4,00:00.0,00:00.0,00:00.0,1,2.94,Romero y tomillo,Gran VÃ_a 1,Madrid,NULL,28001,Spain,7.3,1,0
+10282,30,Nord-Ost Matjeshering,ROMEY,4,00:00.0,00:00.0,00:00.0,1,12.69,Romero y tomillo,Gran VÃ_a 1,Madrid,NULL,28001,Spain,20.7,6,0
+10283,15,Genen Shouyu,LILAS,3,00:00.0,00:00.0,00:00.0,3,84.81,LILA-Supermercado,Carrera 52 con Ave. BolÃ_var #65-98 Llano Largo,Barquisimeto,Lara,3508,Venezuela,12.4,20,0
+10284,27,Schoggi Schokolade,LEHMS,4,00:00.0,00:00.0,00:00.0,1,76.56,Lehmanns Marktstand,Magazinweg 7,Frankfurt a.M.,NULL,60528,Germany,35.1,15,0.25
+10285,1,Chai,QUICK,1,00:00.0,00:00.0,00:00.0,2,76.83,QUICK-Stop,TaucherstraÃŸe 10,Cunewalde,NULL,1307,Germany,14.4,45,0.2
+10286,35,Steeleye Stout,QUICK,8,00:00.0,00:00.0,00:00.0,3,229.24,QUICK-Stop,TaucherstraÃŸe 10,Cunewalde,NULL,1307,Germany,14.4,100,0
+10287,16,Pavlova,RICAR,8,00:00.0,00:00.0,00:00.0,3,12.76,Ricardo Adocicados,Av. Copacabana 267,Rio de Janeiro,RJ,02389-890,Brazil,13.9,40,0.15
+10288,54,TourtiÃ¨re,REGGC,4,00:00.0,00:00.0,00:00.0,1,7.45,Reggiani Caseifici,Strada Provinciale 124,Reggio Emilia,NULL,42100,Italy,5.9,10,0.1
+10289,3,Aniseed Syrup,BSBEV,7,00:00.0,00:00.0,00:00.0,3,22.77,B's Beverages,Fauntleroy Circus,London,NULL,EC2 5NT,UK,8,30,0
+10290,5,Chef Anton's Gumbo Mix,COMMI,8,00:00.0,00:00.0,00:00.0,1,79.7,ComÃ©rcio Mineiro,Av. dos LusÃ_adas 23,Sao Paulo,SP,05432-043,Brazil,17,20,0
+10291,13,Konbu,QUEDE,6,00:00.0,00:00.0,00:00.0,2,6.4,Que DelÃ_cia,Rua da Panificadora 12,Rio de Janeiro,RJ,02389-673,Brazil,4.8,20,0.1
+10292,20,Sir Rodney's Marmalade,TRADH,1,00:00.0,00:00.0,00:00.0,2,1.35,TradiÃ§ao Hipermercados,Av. InÃªs de Castro 414,Sao Paulo,SP,05634-030,Brazil,64.8,20,0
+10293,18,Carnarvon Tigers,TORTU,1,00:00.0,00:00.0,00:00.0,3,21.18,Tortuga Restaurante,Avda. Azteca 123,MÃ©xico D.F.,NULL,5033,Mexico,50,12,0
+10294,1,Chai,RATTC,4,00:00.0,00:00.0,00:00.0,2,147.26,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,14.4,18,0
+10295,56,Gnocchi di nonna Alice,VINET,2,00:00.0,00:00.0,00:00.0,2,1.15,Vins et alcools Chevalier,59 rue de l'Abbaye,Reims,NULL,51100,France,30.4,4,0
+10296,11,Queso Cabrales,LILAS,6,00:00.0,00:00.0,00:00.0,1,0.12,LILA-Supermercado,Carrera 52 con Ave. BolÃ_var #65-98 Llano Largo,Barquisimeto,Lara,3508,Venezuela,16.8,12,0
+10297,39,Chartreuse verte,BLONP,5,00:00.0,00:00.0,00:00.0,2,5.74,Blondel pÃ¨re et fils,24 place KlÃ©ber,Strasbourg,NULL,67000,France,14.4,60,0
+10298,2,Chang,HUNGO,6,00:00.0,00:00.0,00:00.0,2,168.22,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,NULL,Ireland,15.2,40,0
+10299,19,Teatime Chocolate Biscuits,RICAR,4,00:00.0,00:00.0,00:00.0,2,29.76,Ricardo Adocicados,Av. Copacabana 267,Rio de Janeiro,RJ,02389-890,Brazil,7.3,15,0
+10300,66,Louisiana Hot Spiced Okra,MAGAA,2,00:00.0,00:00.0,00:00.0,2,17.68,Magazzini Alimentari Riuniti,Via Ludovico il Moro 22,Bergamo,NULL,24100,Italy,13.6,30,0
+10301,40,Boston Crab Meat,WANDK,8,00:00.0,00:00.0,00:00.0,2,45.08,Die Wandernde Kuh,Adenauerallee 900,Stuttgart,NULL,70563,Germany,14.7,10,0
+10302,17,Alice Mutton,SUPRD,4,00:00.0,00:00.0,00:00.0,2,6.27,SuprÃªmes dÃ©lices,Boulevard Tirou 255,Charleroi,NULL,B-6000,Belgium,31.2,40,0
+10303,40,Boston Crab Meat,GODOS,7,00:00.0,00:00.0,00:00.0,2,107.83,Godos Cocina TÃ_pica,C/ Romero 33,Sevilla,NULL,41101,Spain,14.7,40,0.1
+10304,49,Maxilaku,TORTU,1,00:00.0,00:00.0,00:00.0,2,63.79,Tortuga Restaurante,Avda. Azteca 123,MÃ©xico D.F.,NULL,5033,Mexico,16,30,0
+10305,18,Carnarvon Tigers,OLDWO,8,00:00.0,00:00.0,00:00.0,3,257.62,Old World Delicatessen,2743 Bering St.,Anchorage,AK,99508,USA,50,25,0.1
+10306,30,Nord-Ost Matjeshering,ROMEY,1,00:00.0,00:00.0,00:00.0,3,7.56,Romero y tomillo,Gran VÃ_a 1,Madrid,NULL,28001,Spain,20.7,10,0
+10307,62,Tarte au sucre,LONEP,2,00:00.0,00:00.0,00:00.0,2,0.56,Lonesome Pine Restaurant,89 Chiaroscuro Rd.,Portland,OR,97219,USA,39.4,10,0
+10308,69,Gudbrandsdalsost,ANATR,7,00:00.0,00:00.0,00:00.0,3,1.61,Ana Trujillo Emparedados y helados,Avda. de la ConstituciÃ_n 2222,MÃ©xico D.F.,NULL,5021,Mexico,28.8,1,0
+10309,4,Chef Anton's Cajun Seasoning,HUNGO,3,00:00.0,00:00.0,00:00.0,1,47.3,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,NULL,Ireland,17.6,20,0
+10310,16,Pavlova,THEBI,8,00:00.0,00:00.0,00:00.0,2,17.52,The Big Cheese,89 Jefferson Way Suite 2,Portland,OR,97201,USA,13.9,10,0
+10311,42,Singaporean Hokkien Fried Mee,DUMON,1,00:00.0,00:00.0,00:00.0,3,24.69,Du monde entier,67 rue des Cinquante Otages,Nantes,NULL,44000,France,11.2,6,0
+10312,28,RÃ¶ssle Sauerkraut,WANDK,2,00:00.0,00:00.0,00:00.0,2,40.26,Die Wandernde Kuh,Adenauerallee 900,Stuttgart,NULL,70563,Germany,36.4,4,0
+10313,36,Inlagd Sill,QUICK,2,00:00.0,00:00.0,00:00.0,2,1.96,QUICK-Stop,TaucherstraÃŸe 10,Cunewalde,NULL,1307,Germany,15.2,12,0
+10314,32,Mascarpone Fabioli,RATTC,1,00:00.0,00:00.0,00:00.0,2,74.16,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,25.6,40,0.1
+10315,34,Sasquatch Ale,ISLAT,4,00:00.0,00:00.0,00:00.0,2,41.76,Island Trading,Garden House Crowther Way,Cowes,Isle of Wight,PO31 7PJ,UK,11.2,14,0
+10316,41,Jack's New England Clam Chowder,RATTC,1,00:00.0,00:00.0,00:00.0,3,150.15,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,7.7,10,0
+10317,1,Chai,LONEP,6,00:00.0,00:00.0,00:00.0,1,12.69,Lonesome Pine Restaurant,89 Chiaroscuro Rd.,Portland,OR,97219,USA,14.4,20,0
+10318,41,Jack's New England Clam Chowder,ISLAT,8,00:00.0,00:00.0,00:00.0,2,4.73,Island Trading,Garden House Crowther Way,Cowes,Isle of Wight,PO31 7PJ,UK,7.7,20,0
+10319,17,Alice Mutton,TORTU,7,00:00.0,00:00.0,00:00.0,3,64.5,Tortuga Restaurante,Avda. Azteca 123,MÃ©xico D.F.,NULL,5033,Mexico,31.2,8,0
+10320,71,Flotemysost,WARTH,5,00:00.0,00:00.0,00:00.0,3,34.57,Wartian Herkku,Torikatu 38,Oulu,NULL,90110,Finland,17.2,30,0
+10321,35,Steeleye Stout,ISLAT,3,00:00.0,00:00.0,00:00.0,2,3.43,Island Trading,Garden House Crowther Way,Cowes,Isle of Wight,PO31 7PJ,UK,14.4,10,0
+10322,52,Filo Mix,PERIC,7,00:00.0,00:00.0,00:00.0,3,0.4,Pericles Comidas clÃ¡sicas,Calle Dr. Jorge Cash 321,MÃ©xico D.F.,NULL,5033,Mexico,5.6,20,0
+10323,15,Genen Shouyu,KOENE,4,00:00.0,00:00.0,00:00.0,1,4.88,KÃ¶niglich Essen,Maubelstr. 90,Brandenburg,NULL,14776,Germany,12.4,5,0
+10324,16,Pavlova,SAVEA,9,00:00.0,00:00.0,00:00.0,1,214.27,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,13.9,21,0.15
+10325,6,Grandma's Boysenberry Spread,KOENE,1,00:00.0,00:00.0,00:00.0,3,64.86,KÃ¶niglich Essen,Maubelstr. 90,Brandenburg,NULL,14776,Germany,20,6,0
+10326,4,Chef Anton's Cajun Seasoning,BOLID,4,00:00.0,00:00.0,00:00.0,2,77.92,BÃ_lido Comidas preparadas,C/ Araquil 67,Madrid,NULL,28023,Spain,17.6,24,0
+10327,2,Chang,FOLKO,2,00:00.0,00:00.0,00:00.0,1,63.36,Folk och fÃ_ HB,Ã…kergatan 24,BrÃ_cke,NULL,S-844 67,Sweden,15.2,25,0.2
+10328,59,Raclette Courdavault,FURIB,4,00:00.0,00:00.0,00:00.0,3,87.03,Furia Bacalhau e Frutos do Mar,Jardim das rosas n. 32,Lisboa,NULL,1675,Portugal,44,9,0
+10329,19,Teatime Chocolate Biscuits,SPLIR,4,00:00.0,00:00.0,00:00.0,2,191.67,Split Rail Beer & Ale,P.O. Box 555,Lander,WY,82520,USA,7.3,10,0.05
+10330,26,GumbÃ_r GummibÃ_rchen,LILAS,3,00:00.0,00:00.0,00:00.0,1,12.75,LILA-Supermercado,Carrera 52 con Ave. BolÃ_var #65-98 Llano Largo,Barquisimeto,Lara,3508,Venezuela,24.9,50,0.15
+10331,54,TourtiÃ¨re,BONAP,9,00:00.0,00:00.0,00:00.0,1,10.19,Bon app',12 rue des Bouchers,Marseille,NULL,13008,France,5.9,15,0
+10332,18,Carnarvon Tigers,MEREP,3,00:00.0,00:00.0,00:00.0,2,52.84,MÃ¨re Paillarde,43 rue St. Laurent,MontrÃ©al,QuÃ©bec,H1J 1C3,Canada,50,40,0.2
+10333,14,Tofu,WARTH,5,00:00.0,00:00.0,00:00.0,3,0.59,Wartian Herkku,Torikatu 38,Oulu,NULL,90110,Finland,18.6,10,0
+10334,52,Filo Mix,VICTE,8,00:00.0,00:00.0,00:00.0,2,8.56,Victuailles en stock,2 rue du Commerce,Lyon,NULL,69004,France,5.6,8,0
+10335,2,Chang,HUNGO,7,00:00.0,00:00.0,00:00.0,2,42.11,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,NULL,Ireland,15.2,7,0.2
+10336,4,Chef Anton's Cajun Seasoning,PRINI,7,00:00.0,00:00.0,00:00.0,2,15.51,Princesa Isabel Vinhos,Estrada da saÃºde n. 58,Lisboa,NULL,1756,Portugal,17.6,18,0.1
+10337,23,TunnbrÃ¶d,FRANK,4,00:00.0,00:00.0,00:00.0,3,108.26,Frankenversand,Berliner Platz 43,MÃ_nchen,NULL,80805,Germany,7.2,40,0
+10338,17,Alice Mutton,OLDWO,4,00:00.0,00:00.0,00:00.0,3,84.21,Old World Delicatessen,2743 Bering St.,Anchorage,AK,99508,USA,31.2,20,0
+10339,4,Chef Anton's Cajun Seasoning,MEREP,2,00:00.0,00:00.0,00:00.0,2,15.66,MÃ¨re Paillarde,43 rue St. Laurent,MontrÃ©al,QuÃ©bec,H1J 1C3,Canada,17.6,10,0
+10340,18,Carnarvon Tigers,BONAP,1,00:00.0,00:00.0,00:00.0,3,166.31,Bon app',12 rue des Bouchers,Marseille,NULL,13008,France,50,20,0.05
+10341,33,Geitost,SIMOB,7,00:00.0,00:00.0,00:00.0,3,26.78,Simons bistro,VinbÃ_ltet 34,Kobenhavn,NULL,1734,Denmark,2,8,0
+10342,2,Chang,FRANK,4,00:00.0,00:00.0,00:00.0,2,54.83,Frankenversand,Berliner Platz 43,MÃ_nchen,NULL,80805,Germany,15.2,24,0.2
+10343,64,Wimmers gute SemmelknÃ¶del,LEHMS,4,00:00.0,00:00.0,00:00.0,1,110.37,Lehmanns Marktstand,Magazinweg 7,Frankfurt a.M.,NULL,60528,Germany,26.6,50,0
+10344,4,Chef Anton's Cajun Seasoning,WHITC,4,00:00.0,00:00.0,00:00.0,2,23.29,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA,17.6,35,0
+10345,8,Northwoods Cranberry Sauce,QUICK,2,00:00.0,00:00.0,00:00.0,2,249.06,QUICK-Stop,TaucherstraÃŸe 10,Cunewalde,NULL,1307,Germany,32,70,0
+10346,17,Alice Mutton,RATTC,3,00:00.0,00:00.0,00:00.0,3,142.08,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,31.2,36,0.1
+10347,25,NuNuCa NuÃŸ-Nougat-Creme,FAMIA,4,00:00.0,00:00.0,00:00.0,3,3.1,Familia Arquibaldo,Rua OrÃ_s 92,Sao Paulo,SP,05442-030,Brazil,11.2,10,0
+10348,1,Chai,WANDK,4,00:00.0,00:00.0,00:00.0,2,0.78,Die Wandernde Kuh,Adenauerallee 900,Stuttgart,NULL,70563,Germany,14.4,15,0.15
+10349,54,TourtiÃ¨re,SPLIR,7,00:00.0,00:00.0,00:00.0,1,8.63,Split Rail Beer & Ale,P.O. Box 555,Lander,WY,82520,USA,5.9,24,0
+10350,50,Valkoinen suklaa,LAMAI,6,00:00.0,00:00.0,00:00.0,2,64.19,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,NULL,31000,France,13,15,0.1
+10351,38,CÃ´te de Blaye,ERNSH,1,00:00.0,00:00.0,00:00.0,1,162.33,Ernst Handel,Kirchgasse 6,Graz,NULL,8010,Austria,210.8,20,0.05
+10352,24,GuaranÃ¡ FantÃ¡stica,FURIB,3,00:00.0,00:00.0,00:00.0,3,1.3,Furia Bacalhau e Frutos do Mar,Jardim das rosas n. 32,Lisboa,NULL,1675,Portugal,3.6,10,0
+10353,11,Queso Cabrales,PICCO,7,00:00.0,00:00.0,00:00.0,3,360.63,Piccolo und mehr,Geislweg 14,Salzburg,NULL,5020,Austria,16.8,12,0.2
+10354,1,Chai,PERIC,8,00:00.0,00:00.0,00:00.0,3,53.8,Pericles Comidas clÃ¡sicas,Calle Dr. Jorge Cash 321,MÃ©xico D.F.,NULL,5033,Mexico,14.4,12,0
+10355,24,GuaranÃ¡ FantÃ¡stica,AROUT,6,00:00.0,00:00.0,00:00.0,1,41.95,Around the Horn,Brook Farm Stratford St. Mary,Colchester,Essex,CO7 6JX,UK,3.6,25,0
+10356,31,Gorgonzola Telino,WANDK,6,00:00.0,00:00.0,00:00.0,2,36.71,Die Wandernde Kuh,Adenauerallee 900,Stuttgart,NULL,70563,Germany,10,30,0
+10357,10,Ikura,LILAS,1,00:00.0,00:00.0,00:00.0,3,34.88,LILA-Supermercado,Carrera 52 con Ave. BolÃ_var #65-98 Llano Largo,Barquisimeto,Lara,3508,Venezuela,24.8,30,0.2
+10358,24,GuaranÃ¡ FantÃ¡stica,LAMAI,5,00:00.0,00:00.0,00:00.0,1,19.64,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,NULL,31000,France,3.6,10,0.05
+10359,16,Pavlova,SEVES,5,00:00.0,00:00.0,00:00.0,3,288.43,Seven Seas Imports,90 Wadhurst Rd.,London,NULL,OX15 4NB,UK,13.9,56,0.05
+10360,28,RÃ¶ssle Sauerkraut,BLONP,4,00:00.0,00:00.0,00:00.0,3,131.7,Blondel pÃ¨re et fils,24 place KlÃ©ber,Strasbourg,NULL,67000,France,36.4,30,0
+10361,39,Chartreuse verte,QUICK,1,00:00.0,00:00.0,00:00.0,2,183.17,QUICK-Stop,TaucherstraÃŸe 10,Cunewalde,NULL,1307,Germany,14.4,54,0.1
+10362,25,NuNuCa NuÃŸ-Nougat-Creme,BONAP,3,00:00.0,00:00.0,00:00.0,1,96.04,Bon app',12 rue des Bouchers,Marseille,NULL,13008,France,11.2,50,0
+10363,31,Gorgonzola Telino,DRACD,4,00:00.0,00:00.0,00:00.0,3,30.54,Drachenblut Delikatessen,Walserweg 21,Aachen,NULL,52066,Germany,10,20,0
+10364,69,Gudbrandsdalsost,EASTC,1,00:00.0,00:00.0,00:00.0,1,71.97,Eastern Connection,35 King George,London,NULL,WX3 6FW,UK,28.8,30,0
+10365,11,Queso Cabrales,ANTON,3,00:00.0,00:00.0,00:00.0,2,22,Antonio Moreno TaquerÃ_a,Mataderos  2312,MÃ©xico D.F.,NULL,5023,Mexico,16.8,24,0
+10366,65,Louisiana Fiery Hot Pepper Sauce,GALED,8,00:00.0,00:00.0,00:00.0,2,10.14,GalerÃ_a del gastronÃ_mo,Rambla de CataluÃ±a 23,Barcelona,NULL,8022,Spain,16.8,5,0
+10367,34,Sasquatch Ale,VAFFE,7,00:00.0,00:00.0,00:00.0,3,13.55,Vaffeljernet,Smagsloget 45,Ã…rhus,NULL,8200,Denmark,11.2,36,0
+10368,21,Sir Rodney's Scones,ERNSH,2,00:00.0,00:00.0,00:00.0,2,101.95,Ernst Handel,Kirchgasse 6,Graz,NULL,8010,Austria,8,5,0.1
+10369,29,ThÃ_ringer Rostbratwurst,SPLIR,8,00:00.0,00:00.0,00:00.0,2,195.68,Split Rail Beer & Ale,P.O. Box 555,Lander,WY,82520,USA,99,20,0
+10370,1,Chai,CHOPS,6,00:00.0,00:00.0,00:00.0,2,1.17,Chop-suey Chinese,Hauptstr. 31,Bern,NULL,3012,Switzerland,14.4,15,0.15
+10371,36,Inlagd Sill,LAMAI,1,00:00.0,00:00.0,00:00.0,1,0.45,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,NULL,31000,France,15.2,6,0.2
+10372,20,Sir Rodney's Marmalade,QUEEN,5,00:00.0,00:00.0,00:00.0,2,890.78,Queen Cozinha,Alameda dos CanÃ rios 891,Sao Paulo,SP,05487-020,Brazil,64.8,12,0.25
+10373,58,Escargots de Bourgogne,HUNGO,4,00:00.0,00:00.0,00:00.0,3,124.12,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,NULL,Ireland,10.6,80,0.2
+10374,31,Gorgonzola Telino,WOLZA,1,00:00.0,00:00.0,00:00.0,3,3.94,Wolski Zajazd,ul. Filtrowa 68,Warszawa,NULL,01-012,Poland,10,30,0
+10375,14,Tofu,HUNGC,3,00:00.0,00:00.0,00:00.0,2,20.12,Hungry Coyote Import Store,City Center Plaza 516 Main St.,Elgin,OR,97827,USA,18.6,15,0
+10376,31,Gorgonzola Telino,MEREP,1,00:00.0,00:00.0,00:00.0,2,20.39,MÃ¨re Paillarde,43 rue St. Laurent,MontrÃ©al,QuÃ©bec,H1J 1C3,Canada,10,42,0.05
+10377,28,RÃ¶ssle Sauerkraut,SEVES,1,00:00.0,00:00.0,00:00.0,3,22.21,Seven Seas Imports,90 Wadhurst Rd.,London,NULL,OX15 4NB,UK,36.4,20,0.15
+10378,71,Flotemysost,FOLKO,5,00:00.0,00:00.0,00:00.0,3,5.44,Folk och fÃ_ HB,Ã…kergatan 24,BrÃ_cke,NULL,S-844 67,Sweden,17.2,6,0
+10379,41,Jack's New England Clam Chowder,QUEDE,2,00:00.0,00:00.0,00:00.0,1,45.03,Que DelÃ_cia,Rua da Panificadora 12,Rio de Janeiro,RJ,02389-673,Brazil,7.7,8,0.1
+10380,30,Nord-Ost Matjeshering,HUNGO,8,00:00.0,00:00.0,00:00.0,3,35.03,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,NULL,Ireland,20.7,18,0.1
+10381,74,Longlife Tofu,LILAS,3,00:00.0,00:00.0,00:00.0,3,7.99,LILA-Supermercado,Carrera 52 con Ave. BolÃ_var #65-98 Llano Largo,Barquisimeto,Lara,3508,Venezuela,8,14,0
+10382,5,Chef Anton's Gumbo Mix,ERNSH,4,00:00.0,00:00.0,00:00.0,1,94.77,Ernst Handel,Kirchgasse 6,Graz,NULL,8010,Austria,17,32,0
+10383,13,Konbu,AROUT,8,00:00.0,00:00.0,00:00.0,3,34.24,Around the Horn,Brook Farm Stratford St. Mary,Colchester,Essex,CO7 6JX,UK,4.8,20,0
+10384,20,Sir Rodney's Marmalade,BERGS,3,00:00.0,00:00.0,00:00.0,3,168.64,Berglunds snabbkÃ¶p,BerguvsvÃ_gen  8,LuleÃ¥,NULL,S-958 22,Sweden,64.8,28,0
+10385,7,Uncle Bob's Organic Dried Pears,SPLIR,1,00:00.0,00:00.0,00:00.0,2,30.96,Split Rail Beer & Ale,P.O. Box 555,Lander,WY,82520,USA,24,10,0.2
+10386,24,GuaranÃ¡ FantÃ¡stica,FAMIA,9,00:00.0,00:00.0,00:00.0,3,13.99,Familia Arquibaldo,Rua OrÃ_s 92,Sao Paulo,SP,05442-030,Brazil,3.6,15,0
+10387,24,GuaranÃ¡ FantÃ¡stica,SANTG,1,00:00.0,00:00.0,00:00.0,2,93.63,SantÃ© Gourmet,Erling Skakkes gate 78,Stavern,NULL,4110,Norway,3.6,15,0
+10388,45,Rogede sild,SEVES,2,00:00.0,00:00.0,00:00.0,1,34.86,Seven Seas Imports,90 Wadhurst Rd.,London,NULL,OX15 4NB,UK,7.6,15,0.2
+10389,10,Ikura,BOTTM,4,00:00.0,00:00.0,00:00.0,2,47.42,Bottom-Dollar Markets,23 Tsawassen Blvd.,Tsawassen,BC,T2F 8M4,Canada,24.8,16,0
+10390,31,Gorgonzola Telino,ERNSH,6,00:00.0,00:00.0,00:00.0,1,126.38,Ernst Handel,Kirchgasse 6,Graz,NULL,8010,Austria,10,60,0.1
+10391,13,Konbu,DRACD,3,00:00.0,00:00.0,00:00.0,3,5.45,Drachenblut Delikatessen,Walserweg 21,Aachen,NULL,52066,Germany,4.8,18,0
+10392,69,Gudbrandsdalsost,PICCO,2,00:00.0,00:00.0,00:00.0,3,122.46,Piccolo und mehr,Geislweg 14,Salzburg,NULL,5020,Austria,28.8,50,0
+10393,2,Chang,SAVEA,1,00:00.0,00:00.0,00:00.0,3,126.56,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,15.2,25,0.25
+10394,13,Konbu,HUNGC,1,00:00.0,00:00.0,00:00.0,3,30.34,Hungry Coyote Import Store,City Center Plaza 516 Main St.,Elgin,OR,97827,USA,4.8,10,0
+10395,46,Spegesild,HILAA,6,00:00.0,00:00.0,00:00.0,1,184.41,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San CristÃ_bal,TÃ¡chira,5022,Venezuela,9.6,28,0.1
+10396,23,TunnbrÃ¶d,FRANK,1,00:00.0,00:00.0,00:00.0,3,135.35,Frankenversand,Berliner Platz 43,MÃ_nchen,NULL,80805,Germany,7.2,40,0
+10397,21,Sir Rodney's Scones,PRINI,5,00:00.0,00:00.0,00:00.0,1,60.26,Princesa Isabel Vinhos,Estrada da saÃºde n. 58,Lisboa,NULL,1756,Portugal,8,10,0.15
+10398,35,Steeleye Stout,SAVEA,2,00:00.0,00:00.0,00:00.0,3,89.16,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,14.4,30,0
+10399,68,Scottish Longbreads,VAFFE,8,00:00.0,00:00.0,00:00.0,3,27.36,Vaffeljernet,Smagsloget 45,Ã…rhus,NULL,8200,Denmark,10,60,0
+10400,29,ThÃ_ringer Rostbratwurst,EASTC,1,00:00.0,00:00.0,00:00.0,3,83.93,Eastern Connection,35 King George,London,NULL,WX3 6FW,UK,99,21,0
+10401,30,Nord-Ost Matjeshering,RATTC,1,00:00.0,00:00.0,00:00.0,1,12.51,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,20.7,18,0
+10402,23,TunnbrÃ¶d,ERNSH,8,00:00.0,00:00.0,00:00.0,2,67.88,Ernst Handel,Kirchgasse 6,Graz,NULL,8010,Austria,7.2,60,0
+10403,16,Pavlova,ERNSH,4,00:00.0,00:00.0,00:00.0,3,73.79,Ernst Handel,Kirchgasse 6,Graz,NULL,8010,Austria,13.9,21,0.15
+10404,26,GumbÃ_r GummibÃ_rchen,MAGAA,2,00:00.0,00:00.0,00:00.0,1,155.97,Magazzini Alimentari Riuniti,Via Ludovico il Moro 22,Bergamo,NULL,24100,Italy,24.9,30,0.05
+10405,3,Aniseed Syrup,LINOD,1,00:00.0,00:00.0,00:00.0,1,34.82,LINO-Delicateses,Ave. 5 de Mayo Porlamar,I. de Margarita,Nueva Esparta,4980,Venezuela,8,50,0
+10406,1,Chai,QUEEN,7,00:00.0,00:00.0,00:00.0,1,108.04,Queen Cozinha,Alameda dos CanÃ rios 891,Sao Paulo,SP,05487-020,Brazil,14.4,10,0
+10407,11,Queso Cabrales,OTTIK,2,00:00.0,00:00.0,00:00.0,2,91.48,Ottilies KÃ_seladen,Mehrheimerstr. 369,KÃ¶ln,NULL,50739,Germany,16.8,30,0
+10408,37,Gravad lax,FOLIG,8,00:00.0,00:00.0,00:00.0,1,11.26,Folies gourmandes,184 chaussÃ©e de Tournai,Lille,NULL,59000,France,20.8,10,0
+10409,14,Tofu,OCEAN,3,00:00.0,00:00.0,00:00.0,1,29.83,OcÃ©ano AtlÃ¡ntico Ltda.,Ing. Gustavo Moncada 8585 Piso 20-A,Buenos Aires,NULL,1010,Argentina,18.6,12,0
+10410,33,Geitost,BOTTM,3,00:00.0,00:00.0,00:00.0,3,2.4,Bottom-Dollar Markets,23 Tsawassen Blvd.,Tsawassen,BC,T2F 8M4,Canada,2,49,0
+10411,41,Jack's New England Clam Chowder,BOTTM,9,00:00.0,00:00.0,00:00.0,3,23.65,Bottom-Dollar Markets,23 Tsawassen Blvd.,Tsawassen,BC,T2F 8M4,Canada,7.7,25,0.2
+10412,14,Tofu,WARTH,8,00:00.0,00:00.0,00:00.0,2,3.77,Wartian Herkku,Torikatu 38,Oulu,NULL,90110,Finland,18.6,20,0.1
+10413,1,Chai,LAMAI,3,00:00.0,00:00.0,00:00.0,2,95.66,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,NULL,31000,France,14.4,24,0
+10414,19,Teatime Chocolate Biscuits,FAMIA,2,00:00.0,00:00.0,00:00.0,3,21.48,Familia Arquibaldo,Rua OrÃ_s 92,Sao Paulo,SP,05442-030,Brazil,7.3,18,0.05
+10415,17,Alice Mutton,HUNGC,3,00:00.0,00:00.0,00:00.0,1,0.2,Hungry Coyote Import Store,City Center Plaza 516 Main St.,Elgin,OR,97827,USA,31.2,2,0
+10416,19,Teatime Chocolate Biscuits,WARTH,8,00:00.0,00:00.0,00:00.0,3,22.72,Wartian Herkku,Torikatu 38,Oulu,NULL,90110,Finland,7.3,20,0
+10417,38,CÃ´te de Blaye,SIMOB,4,00:00.0,00:00.0,00:00.0,3,70.29,Simons bistro,VinbÃ_ltet 34,Kobenhavn,NULL,1734,Denmark,210.8,50,0
+10418,2,Chang,QUICK,4,00:00.0,00:00.0,00:00.0,1,17.55,QUICK-Stop,TaucherstraÃŸe 10,Cunewalde,NULL,1307,Germany,15.2,60,0
+10419,60,Camembert Pierrot,RICSU,4,00:00.0,00:00.0,00:00.0,2,137.35,Richter Supermarkt,Starenweg 5,GenÃ¨ve,NULL,1204,Switzerland,27.2,60,0.05
+10420,9,Mishi Kobe Niku,WELLI,3,00:00.0,00:00.0,00:00.0,1,44.12,Wellington Importadora,Rua do Mercado 12,Resende,SP,08737-363,Brazil,77.6,20,0.1
+10421,19,Teatime Chocolate Biscuits,QUEDE,8,00:00.0,00:00.0,00:00.0,1,99.23,Que DelÃ_cia,Rua da Panificadora 12,Rio de Janeiro,RJ,02389-673,Brazil,7.3,4,0.15
+10422,26,GumbÃ_r GummibÃ_rchen,FRANS,2,00:00.0,00:00.0,00:00.0,1,3.02,Franchi S.p.A.,Via Monte Bianco 34,Torino,NULL,10100,Italy,24.9,2,0
+10423,31,Gorgonzola Telino,GOURL,6,00:00.0,00:00.0,00:00.0,3,24.5,Gourmet Lanchonetes,Av. Brasil 442,Campinas,SP,04876-786,Brazil,10,14,0
+10424,35,Steeleye Stout,MEREP,7,00:00.0,00:00.0,00:00.0,2,370.61,MÃ¨re Paillarde,43 rue St. Laurent,MontrÃ©al,QuÃ©bec,H1J 1C3,Canada,14.4,60,0.2
+10425,55,PÃ¢tÃ© chinois,LAMAI,6,00:00.0,00:00.0,00:00.0,2,7.93,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,NULL,31000,France,19.2,10,0.25
+10426,56,Gnocchi di nonna Alice,GALED,4,00:00.0,00:00.0,00:00.0,1,18.69,GalerÃ_a del gastronÃ_mo,Rambla de CataluÃ±a 23,Barcelona,NULL,8022,Spain,30.4,5,0
+10427,14,Tofu,PICCO,4,00:00.0,00:00.0,00:00.0,2,31.29,Piccolo und mehr,Geislweg 14,Salzburg,NULL,5020,Austria,18.6,35,0
+10428,46,Spegesild,REGGC,7,00:00.0,00:00.0,00:00.0,1,11.09,Reggiani Caseifici,Strada Provinciale 124,Reggio Emilia,NULL,42100,Italy,9.6,20,0
+10429,50,Valkoinen suklaa,HUNGO,3,00:00.0,00:00.0,00:00.0,2,56.63,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,NULL,Ireland,13,40,0
+10430,17,Alice Mutton,ERNSH,4,00:00.0,00:00.0,00:00.0,1,458.78,Ernst Handel,Kirchgasse 6,Graz,NULL,8010,Austria,31.2,45,0.2
+10431,17,Alice Mutton,BOTTM,4,00:00.0,00:00.0,00:00.0,2,44.17,Bottom-Dollar Markets,23 Tsawassen Blvd.,Tsawassen,BC,T2F 8M4,Canada,31.2,50,0.25
+10432,26,GumbÃ_r GummibÃ_rchen,SPLIR,3,00:00.0,00:00.0,00:00.0,2,4.34,Split Rail Beer & Ale,P.O. Box 555,Lander,WY,82520,USA,24.9,10,0
+10433,56,Gnocchi di nonna Alice,PRINI,3,00:00.0,00:00.0,00:00.0,3,73.83,Princesa Isabel Vinhos,Estrada da saÃºde n. 58,Lisboa,NULL,1756,Portugal,30.4,28,0
+10434,11,Queso Cabrales,FOLKO,3,00:00.0,00:00.0,00:00.0,2,17.92,Folk och fÃ_ HB,Ã…kergatan 24,BrÃ_cke,NULL,S-844 67,Sweden,16.8,6,0
+10435,2,Chang,CONSH,8,00:00.0,00:00.0,00:00.0,2,9.21,Consolidated Holdings,Berkeley Gardens 12  Brewery,London,NULL,WX1 6LT,UK,15.2,10,0
+10436,46,Spegesild,BLONP,3,00:00.0,00:00.0,00:00.0,2,156.66,Blondel pÃ¨re et fils,24 place KlÃ©ber,Strasbourg,NULL,67000,France,9.6,5,0
+10437,53,Perth Pasties,WARTH,8,00:00.0,00:00.0,00:00.0,1,19.97,Wartian Herkku,Torikatu 38,Oulu,NULL,90110,Finland,26.2,15,0
+10438,19,Teatime Chocolate Biscuits,TOMSP,3,00:00.0,00:00.0,00:00.0,2,8.24,Toms SpezialitÃ_ten,Luisenstr. 48,MÃ_nster,NULL,44087,Germany,7.3,15,0.2
+10439,12,Queso Manchego La Pastora,MEREP,6,00:00.0,00:00.0,00:00.0,3,4.07,MÃ¨re Paillarde,43 rue St. Laurent,MontrÃ©al,QuÃ©bec,H1J 1C3,Canada,30.4,15,0
+10440,2,Chang,SAVEA,4,00:00.0,00:00.0,00:00.0,2,86.53,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,15.2,45,0.15
+10441,27,Schoggi Schokolade,OLDWO,3,00:00.0,00:00.0,00:00.0,2,73.02,Old World Delicatessen,2743 Bering St.,Anchorage,AK,99508,USA,35.1,50,0
+10442,11,Queso Cabrales,ERNSH,3,00:00.0,00:00.0,00:00.0,2,47.94,Ernst Handel,Kirchgasse 6,Graz,NULL,8010,Austria,16.8,30,0
+10443,11,Queso Cabrales,REGGC,8,00:00.0,00:00.0,00:00.0,1,13.95,Reggiani Caseifici,Strada Provinciale 124,Reggio Emilia,NULL,42100,Italy,16.8,6,0.2
+10444,17,Alice Mutton,BERGS,3,00:00.0,00:00.0,00:00.0,3,3.5,Berglunds snabbkÃ¶p,BerguvsvÃ_gen  8,LuleÃ¥,NULL,S-958 22,Sweden,31.2,10,0
+10445,39,Chartreuse verte,BERGS,3,00:00.0,00:00.0,00:00.0,1,9.3,Berglunds snabbkÃ¶p,BerguvsvÃ_gen  8,LuleÃ¥,NULL,S-958 22,Sweden,14.4,6,0
+10446,19,Teatime Chocolate Biscuits,TOMSP,6,00:00.0,00:00.0,00:00.0,1,14.68,Toms SpezialitÃ_ten,Luisenstr. 48,MÃ_nster,NULL,44087,Germany,7.3,12,0.1
+10447,19,Teatime Chocolate Biscuits,RICAR,4,00:00.0,00:00.0,00:00.0,2,68.66,Ricardo Adocicados,Av. Copacabana 267,Rio de Janeiro,RJ,02389-890,Brazil,7.3,40,0
+10448,26,GumbÃ_r GummibÃ_rchen,RANCH,4,00:00.0,00:00.0,00:00.0,2,38.82,Rancho grande,Av. del Libertador 900,Buenos Aires,NULL,1010,Argentina,24.9,6,0
+10449,10,Ikura,BLONP,3,00:00.0,00:00.0,00:00.0,2,53.3,Blondel pÃ¨re et fils,24 place KlÃ©ber,Strasbourg,NULL,67000,France,24.8,14,0
+10450,10,Ikura,VICTE,8,00:00.0,00:00.0,00:00.0,2,7.23,Victuailles en stock,2 rue du Commerce,Lyon,NULL,69004,France,24.8,20,0.2
+10451,55,PÃ¢tÃ© chinois,QUICK,4,00:00.0,00:00.0,00:00.0,3,189.09,QUICK-Stop,TaucherstraÃŸe 10,Cunewalde,NULL,1307,Germany,19.2,120,0.1
+10452,28,RÃ¶ssle Sauerkraut,SAVEA,8,00:00.0,00:00.0,00:00.0,1,140.26,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,36.4,15,0
+10453,48,Chocolade,AROUT,1,00:00.0,00:00.0,00:00.0,2,25.36,Around the Horn,Brook Farm Stratford St. Mary,Colchester,Essex,CO7 6JX,UK,10.2,15,0.1
+10454,16,Pavlova,LAMAI,4,00:00.0,00:00.0,00:00.0,3,2.74,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,NULL,31000,France,13.9,20,0.2
+10455,39,Chartreuse verte,WARTH,8,00:00.0,00:00.0,00:00.0,2,180.45,Wartian Herkku,Torikatu 38,Oulu,NULL,90110,Finland,14.4,20,0
+10456,21,Sir Rodney's Scones,KOENE,8,00:00.0,00:00.0,00:00.0,2,8.12,KÃ¶niglich Essen,Maubelstr. 90,Brandenburg,NULL,14776,Germany,8,40,0.15
+10457,59,Raclette Courdavault,KOENE,2,00:00.0,00:00.0,00:00.0,1,11.57,KÃ¶niglich Essen,Maubelstr. 90,Brandenburg,NULL,14776,Germany,44,36,0
+10458,26,GumbÃ_r GummibÃ_rchen,SUPRD,7,00:00.0,00:00.0,00:00.0,3,147.06,SuprÃªmes dÃ©lices,Boulevard Tirou 255,Charleroi,NULL,B-6000,Belgium,24.9,30,0
+10459,7,Uncle Bob's Organic Dried Pears,VICTE,4,00:00.0,00:00.0,00:00.0,2,25.09,Victuailles en stock,2 rue du Commerce,Lyon,NULL,69004,France,24,16,0.05
+10460,68,Scottish Longbreads,FOLKO,8,00:00.0,00:00.0,00:00.0,1,16.27,Folk och fÃ_ HB,Ã…kergatan 24,BrÃ_cke,NULL,S-844 67,Sweden,10,21,0.25
+10461,21,Sir Rodney's Scones,LILAS,1,00:00.0,00:00.0,00:00.0,3,148.61,LILA-Supermercado,Carrera 52 con Ave. BolÃ_var #65-98 Llano Largo,Barquisimeto,Lara,3508,Venezuela,8,40,0.25
+10462,13,Konbu,CONSH,2,00:00.0,00:00.0,00:00.0,1,6.17,Consolidated Holdings,Berkeley Gardens 12  Brewery,London,NULL,WX1 6LT,UK,4.8,1,0
+10463,19,Teatime Chocolate Biscuits,SUPRD,5,00:00.0,00:00.0,00:00.0,3,14.78,SuprÃªmes dÃ©lices,Boulevard Tirou 255,Charleroi,NULL,B-6000,Belgium,7.3,21,0
+10464,4,Chef Anton's Cajun Seasoning,FURIB,4,00:00.0,00:00.0,00:00.0,2,89,Furia Bacalhau e Frutos do Mar,Jardim das rosas n. 32,Lisboa,NULL,1675,Portugal,17.6,16,0.2
+10465,24,GuaranÃ¡ FantÃ¡stica,VAFFE,1,00:00.0,00:00.0,00:00.0,3,145.04,Vaffeljernet,Smagsloget 45,Ã…rhus,NULL,8200,Denmark,3.6,25,0
+10466,11,Queso Cabrales,COMMI,4,00:00.0,00:00.0,00:00.0,1,11.93,ComÃ©rcio Mineiro,Av. dos LusÃ_adas 23,Sao Paulo,SP,05432-043,Brazil,16.8,10,0
+10467,24,GuaranÃ¡ FantÃ¡stica,MAGAA,8,00:00.0,00:00.0,00:00.0,2,4.93,Magazzini Alimentari Riuniti,Via Ludovico il Moro 22,Bergamo,NULL,24100,Italy,3.6,28,0
+10468,30,Nord-Ost Matjeshering,KOENE,3,00:00.0,00:00.0,00:00.0,3,44.12,KÃ¶niglich Essen,Maubelstr. 90,Brandenburg,NULL,14776,Germany,20.7,8,0
+10469,2,Chang,WHITC,1,00:00.0,00:00.0,00:00.0,1,60.18,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA,15.2,40,0.15
+10470,18,Carnarvon Tigers,BONAP,4,00:00.0,00:00.0,00:00.0,2,64.56,Bon app',12 rue des Bouchers,Marseille,NULL,13008,France,50,30,0
+10471,7,Uncle Bob's Organic Dried Pears,BSBEV,2,00:00.0,00:00.0,00:00.0,3,45.59,B's Beverages,Fauntleroy Circus,London,NULL,EC2 5NT,UK,24,30,0
+10472,24,GuaranÃ¡ FantÃ¡stica,SEVES,8,00:00.0,00:00.0,00:00.0,1,4.2,Seven Seas Imports,90 Wadhurst Rd.,London,NULL,OX15 4NB,UK,3.6,80,0.05
+10473,33,Geitost,ISLAT,1,00:00.0,00:00.0,00:00.0,3,16.37,Island Trading,Garden House Crowther Way,Cowes,Isle of Wight,PO31 7PJ,UK,2,12,0
+10474,14,Tofu,PERIC,5,00:00.0,00:00.0,00:00.0,2,83.49,Pericles Comidas clÃ¡sicas,Calle Dr. Jorge Cash 321,MÃ©xico D.F.,NULL,5033,Mexico,18.6,12,0
+10475,31,Gorgonzola Telino,SUPRD,9,00:00.0,00:00.0,00:00.0,1,68.52,SuprÃªmes dÃ©lices,Boulevard Tirou 255,Charleroi,NULL,B-6000,Belgium,10,35,0.15
+10476,55,PÃ¢tÃ© chinois,HILAA,8,00:00.0,00:00.0,00:00.0,3,4.41,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San CristÃ_bal,TÃ¡chira,5022,Venezuela,19.2,2,0.05
+10477,1,Chai,PRINI,5,00:00.0,00:00.0,00:00.0,2,13.02,Princesa Isabel Vinhos,Estrada da saÃºde n. 58,Lisboa,NULL,1756,Portugal,14.4,15,0
+10478,10,Ikura,VICTE,2,00:00.0,00:00.0,00:00.0,3,4.81,Victuailles en stock,2 rue du Commerce,Lyon,NULL,69004,France,24.8,20,0.05
+10479,38,CÃ´te de Blaye,RATTC,3,00:00.0,00:00.0,00:00.0,3,708.95,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,210.8,30,0
+10480,47,Zaanse koeken,FOLIG,6,00:00.0,00:00.0,00:00.0,2,1.35,Folies gourmandes,184 chaussÃ©e de Tournai,Lille,NULL,59000,France,7.6,30,0
+10481,49,Maxilaku,RICAR,8,00:00.0,00:00.0,00:00.0,2,64.33,Ricardo Adocicados,Av. Copacabana 267,Rio de Janeiro,RJ,02389-890,Brazil,16,24,0
+10482,40,Boston Crab Meat,LAZYK,1,00:00.0,00:00.0,00:00.0,3,7.48,Lazy K Kountry Store,12 Orchestra Terrace,Walla Walla,WA,99362,USA,14.7,10,0
+10483,34,Sasquatch Ale,WHITC,7,00:00.0,00:00.0,00:00.0,2,15.28,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA,11.2,35,0.05
+10484,21,Sir Rodney's Scones,BSBEV,3,00:00.0,00:00.0,00:00.0,3,6.88,B's Beverages,Fauntleroy Circus,London,NULL,EC2 5NT,UK,8,14,0
+10485,2,Chang,LINOD,4,00:00.0,00:00.0,00:00.0,2,64.45,LINO-Delicateses,Ave. 5 de Mayo Porlamar,I. de Margarita,Nueva Esparta,4980,Venezuela,15.2,20,0.1
+10486,11,Queso Cabrales,HILAA,1,00:00.0,00:00.0,00:00.0,2,30.53,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San CristÃ_bal,TÃ¡chira,5022,Venezuela,16.8,5,0
+10487,19,Teatime Chocolate Biscuits,QUEEN,2,00:00.0,00:00.0,00:00.0,2,71.07,Queen Cozinha,Alameda dos CanÃ rios 891,Sao Paulo,SP,05487-020,Brazil,7.3,5,0
+10488,59,Raclette Courdavault,FRANK,8,00:00.0,00:00.0,00:00.0,2,4.93,Frankenversand,Berliner Platz 43,MÃ_nchen,NULL,80805,Germany,44,30,0
+10489,11,Queso Cabrales,PICCO,6,00:00.0,00:00.0,00:00.0,2,5.29,Piccolo und mehr,Geislweg 14,Salzburg,NULL,5020,Austria,16.8,15,0.25
+10490,59,Raclette Courdavault,HILAA,7,00:00.0,00:00.0,00:00.0,2,210.19,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San CristÃ_bal,TÃ¡chira,5022,Venezuela,44,60,0
+10491,44,Gula Malacca,FURIB,8,00:00.0,00:00.0,00:00.0,3,16.96,Furia Bacalhau e Frutos do Mar,Jardim das rosas n. 32,Lisboa,NULL,1675,Portugal,15.5,15,0.15
+10492,25,NuNuCa NuÃŸ-Nougat-Creme,BOTTM,3,00:00.0,00:00.0,00:00.0,1,62.89,Bottom-Dollar Markets,23 Tsawassen Blvd.,Tsawassen,BC,T2F 8M4,Canada,11.2,60,0.05
+10493,65,Louisiana Fiery Hot Pepper Sauce,LAMAI,4,00:00.0,00:00.0,00:00.0,3,10.64,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,NULL,31000,France,16.8,15,0.1
+10494,56,Gnocchi di nonna Alice,COMMI,4,00:00.0,00:00.0,00:00.0,2,65.99,ComÃ©rcio Mineiro,Av. dos LusÃ_adas 23,Sao Paulo,SP,05432-043,Brazil,30.4,30,0
+10495,23,TunnbrÃ¶d,LAUGB,3,00:00.0,00:00.0,00:00.0,3,4.65,Laughing Bacchus Wine Cellars,2319 Elm St.,Vancouver,BC,V3F 2K1,Canada,7.2,10,0
+10496,31,Gorgonzola Telino,TRADH,7,00:00.0,00:00.0,00:00.0,2,46.77,TradiÃ§ao Hipermercados,Av. InÃªs de Castro 414,Sao Paulo,SP,05634-030,Brazil,10,20,0.05
+10497,56,Gnocchi di nonna Alice,LEHMS,7,00:00.0,00:00.0,00:00.0,1,36.21,Lehmanns Marktstand,Magazinweg 7,Frankfurt a.M.,NULL,60528,Germany,30.4,14,0
+10498,24,GuaranÃ¡ FantÃ¡stica,HILAA,8,00:00.0,00:00.0,00:00.0,2,29.75,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San CristÃ_bal,TÃ¡chira,5022,Venezuela,4.5,14,0
+10499,28,RÃ¶ssle Sauerkraut,LILAS,4,00:00.0,00:00.0,00:00.0,2,102.02,LILA-Supermercado,Carrera 52 con Ave. BolÃ_var #65-98 Llano Largo,Barquisimeto,Lara,3508,Venezuela,45.6,20,0
+10500,15,Genen Shouyu,LAMAI,6,00:00.0,00:00.0,00:00.0,1,42.68,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,NULL,31000,France,15.5,12,0.05
+10501,54,TourtiÃ¨re,BLAUS,9,00:00.0,00:00.0,00:00.0,3,8.85,Blauer See Delikatessen,Forsterstr. 57,Mannheim,NULL,68306,Germany,7.45,20,0
+10502,45,Rogede sild,PERIC,2,00:00.0,00:00.0,00:00.0,1,69.32,Pericles Comidas clÃ¡sicas,Calle Dr. Jorge Cash 321,MÃ©xico D.F.,NULL,5033,Mexico,9.5,21,0
+10503,14,Tofu,HUNGO,6,00:00.0,00:00.0,00:00.0,2,16.74,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,NULL,Ireland,23.25,70,0
+10504,2,Chang,WHITC,4,00:00.0,00:00.0,00:00.0,3,59.13,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA,19,12,0
+10505,62,Tarte au sucre,MEREP,3,00:00.0,00:00.0,00:00.0,3,7.13,MÃ¨re Paillarde,43 rue St. Laurent,MontrÃ©al,QuÃ©bec,H1J 1C3,Canada,49.3,3,0
+10506,25,NuNuCa NuÃŸ-Nougat-Creme,KOENE,9,00:00.0,00:00.0,00:00.0,2,21.19,KÃ¶niglich Essen,Maubelstr. 90,Brandenburg,NULL,14776,Germany,14,18,0.1
+10507,43,Ipoh Coffee,ANTON,7,00:00.0,00:00.0,00:00.0,1,47.45,Antonio Moreno TaquerÃ_a,Mataderos  2312,MÃ©xico D.F.,NULL,5023,Mexico,46,15,0.15
+10508,13,Konbu,OTTIK,1,00:00.0,00:00.0,00:00.0,2,4.99,Ottilies KÃ_seladen,Mehrheimerstr. 369,KÃ¶ln,NULL,50739,Germany,6,10,0
+10509,28,RÃ¶ssle Sauerkraut,BLAUS,4,00:00.0,00:00.0,00:00.0,1,0.15,Blauer See Delikatessen,Forsterstr. 57,Mannheim,NULL,68306,Germany,45.6,3,0
+10510,29,ThÃ_ringer Rostbratwurst,SAVEA,6,00:00.0,00:00.0,00:00.0,3,367.63,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,123.79,36,0
+10511,4,Chef Anton's Cajun Seasoning,BONAP,4,00:00.0,00:00.0,00:00.0,3,350.64,Bon app',12 rue des Bouchers,Marseille,NULL,13008,France,22,50,0.15
+10512,24,GuaranÃ¡ FantÃ¡stica,FAMIA,7,00:00.0,00:00.0,00:00.0,2,3.53,Familia Arquibaldo,Rua OrÃ_s 92,Sao Paulo,SP,05442-030,Brazil,4.5,10,0.15
+10513,21,Sir Rodney's Scones,WANDK,7,00:00.0,00:00.0,00:00.0,1,105.65,Die Wandernde Kuh,Adenauerallee 900,Stuttgart,NULL,70563,Germany,10,40,0.2
+10514,20,Sir Rodney's Marmalade,ERNSH,3,00:00.0,00:00.0,00:00.0,2,789.95,Ernst Handel,Kirchgasse 6,Graz,NULL,8010,Austria,81,39,0
+10515,9,Mishi Kobe Niku,QUICK,2,00:00.0,00:00.0,00:00.0,1,204.47,QUICK-Stop,TaucherstraÃŸe 10,Cunewalde,NULL,1307,Germany,97,16,0.15
+10516,18,Carnarvon Tigers,HUNGO,2,00:00.0,00:00.0,00:00.0,3,62.78,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,NULL,Ireland,62.5,25,0.1
+10517,52,Filo Mix,NORTS,3,00:00.0,00:00.0,00:00.0,3,32.07,North/South,South House 300 Queensbridge,London,NULL,SW7 1RZ,UK,7,6,0
+10518,24,GuaranÃ¡ FantÃ¡stica,TORTU,4,00:00.0,00:00.0,00:00.0,2,218.15,Tortuga Restaurante,Avda. Azteca 123,MÃ©xico D.F.,NULL,5033,Mexico,4.5,5,0
+10519,10,Ikura,CHOPS,6,00:00.0,00:00.0,00:00.0,3,91.76,Chop-suey Chinese,Hauptstr. 31,Bern,NULL,3012,Switzerland,31,16,0.05
+10520,24,GuaranÃ¡ FantÃ¡stica,SANTG,7,00:00.0,00:00.0,00:00.0,1,13.37,SantÃ© Gourmet,Erling Skakkes gate 78,Stavern,NULL,4110,Norway,4.5,8,0
+10521,35,Steeleye Stout,CACTU,8,00:00.0,00:00.0,00:00.0,2,17.22,Cactus Comidas para llevar,Cerrito 333,Buenos Aires,NULL,1010,Argentina,18,3,0
+10522,1,Chai,LEHMS,4,00:00.0,00:00.0,00:00.0,1,45.33,Lehmanns Marktstand,Magazinweg 7,Frankfurt a.M.,NULL,60528,Germany,18,40,0.2
+10523,17,Alice Mutton,SEVES,7,00:00.0,00:00.0,00:00.0,2,77.63,Seven Seas Imports,90 Wadhurst Rd.,London,NULL,OX15 4NB,UK,39,25,0.1
+10524,10,Ikura,BERGS,1,00:00.0,00:00.0,00:00.0,2,244.79,Berglunds snabbkÃ¶p,BerguvsvÃ_gen  8,LuleÃ¥,NULL,S-958 22,Sweden,31,2,0
+10525,36,Inlagd Sill,BONAP,1,00:00.0,00:00.0,00:00.0,2,11.06,Bon app',12 rue des Bouchers,Marseille,NULL,13008,France,19,30,0
+10526,1,Chai,WARTH,4,00:00.0,00:00.0,00:00.0,2,58.59,Wartian Herkku,Torikatu 38,Oulu,NULL,90110,Finland,18,8,0.15
+10527,4,Chef Anton's Cajun Seasoning,QUICK,7,00:00.0,00:00.0,00:00.0,1,41.9,QUICK-Stop,TaucherstraÃŸe 10,Cunewalde,NULL,1307,Germany,22,50,0.1
+10528,11,Queso Cabrales,GREAL,6,00:00.0,00:00.0,00:00.0,2,3.35,Great Lakes Food Market,2732 Baker Blvd.,Eugene,OR,97403,USA,21,3,0
+10529,55,PÃ¢tÃ© chinois,MAISD,5,00:00.0,00:00.0,00:00.0,2,66.69,Maison Dewey,Rue Joseph-Bens 532,Bruxelles,NULL,B-1180,Belgium,24,14,0
+10530,17,Alice Mutton,PICCO,3,00:00.0,00:00.0,00:00.0,2,339.22,Piccolo und mehr,Geislweg 14,Salzburg,NULL,5020,Austria,39,40,0
+10531,59,Raclette Courdavault,OCEAN,7,00:00.0,00:00.0,00:00.0,1,8.12,OcÃ©ano AtlÃ¡ntico Ltda.,Ing. Gustavo Moncada 8585 Piso 20-A,Buenos Aires,NULL,1010,Argentina,55,2,0
+10532,30,Nord-Ost Matjeshering,EASTC,7,00:00.0,00:00.0,00:00.0,3,74.46,Eastern Connection,35 King George,London,NULL,WX3 6FW,UK,25.89,15,0
+10533,4,Chef Anton's Cajun Seasoning,FOLKO,8,00:00.0,00:00.0,00:00.0,1,188.04,Folk och fÃ_ HB,Ã…kergatan 24,BrÃ_cke,NULL,S-844 67,Sweden,22,50,0.05
+10534,30,Nord-Ost Matjeshering,LEHMS,8,00:00.0,00:00.0,00:00.0,2,27.94,Lehmanns Marktstand,Magazinweg 7,Frankfurt a.M.,NULL,60528,Germany,25.89,10,0
+10535,11,Queso Cabrales,ANTON,4,00:00.0,00:00.0,00:00.0,1,15.64,Antonio Moreno TaquerÃ_a,Mataderos  2312,MÃ©xico D.F.,NULL,5023,Mexico,21,50,0.1
+10536,12,Queso Manchego La Pastora,LEHMS,3,00:00.0,00:00.0,00:00.0,2,58.88,Lehmanns Marktstand,Magazinweg 7,Frankfurt a.M.,NULL,60528,Germany,38,15,0.25
+10537,31,Gorgonzola Telino,RICSU,1,00:00.0,00:00.0,00:00.0,1,78.85,Richter Supermarkt,Starenweg 5,GenÃ¨ve,NULL,1204,Switzerland,12.5,30,0
+10538,70,Outback Lager,BSBEV,9,00:00.0,00:00.0,00:00.0,3,4.87,B's Beverages,Fauntleroy Circus,London,NULL,EC2 5NT,UK,15,7,0
+10539,13,Konbu,BSBEV,6,00:00.0,00:00.0,00:00.0,3,12.36,B's Beverages,Fauntleroy Circus,London,NULL,EC2 5NT,UK,6,8,0
+10540,3,Aniseed Syrup,QUICK,3,00:00.0,00:00.0,00:00.0,3,1007.64,QUICK-Stop,TaucherstraÃŸe 10,Cunewalde,NULL,1307,Germany,10,60,0
+10541,24,GuaranÃ¡ FantÃ¡stica,HANAR,2,00:00.0,00:00.0,00:00.0,1,68.65,Hanari Carnes,Rua do PaÃ§o 67,Rio de Janeiro,RJ,05454-876,Brazil,4.5,35,0.1
+10542,11,Queso Cabrales,KOENE,1,00:00.0,00:00.0,00:00.0,3,10.95,KÃ¶niglich Essen,Maubelstr. 90,Brandenburg,NULL,14776,Germany,21,15,0.05
+10543,12,Queso Manchego La Pastora,LILAS,8,00:00.0,00:00.0,00:00.0,2,48.17,LILA-Supermercado,Carrera 52 con Ave. BolÃ_var #65-98 Llano Largo,Barquisimeto,Lara,3508,Venezuela,38,30,0.15
+10544,28,RÃ¶ssle Sauerkraut,LONEP,4,00:00.0,00:00.0,00:00.0,1,24.91,Lonesome Pine Restaurant,89 Chiaroscuro Rd.,Portland,OR,97219,USA,45.6,7,0
+10545,11,Queso Cabrales,LAZYK,8,00:00.0,00:00.0,00:00.0,2,11.92,Lazy K Kountry Store,12 Orchestra Terrace,Walla Walla,WA,99362,USA,21,10,0
+10546,7,Uncle Bob's Organic Dried Pears,VICTE,1,00:00.0,00:00.0,00:00.0,3,194.72,Victuailles en stock,2 rue du Commerce,Lyon,NULL,69004,France,30,10,0
+10547,32,Mascarpone Fabioli,SEVES,3,00:00.0,00:00.0,00:00.0,2,178.43,Seven Seas Imports,90 Wadhurst Rd.,London,NULL,OX15 4NB,UK,32,24,0.15
+10548,34,Sasquatch Ale,TOMSP,3,00:00.0,00:00.0,00:00.0,2,1.43,Toms SpezialitÃ_ten,Luisenstr. 48,MÃ_nster,NULL,44087,Germany,14,10,0.25
+10549,31,Gorgonzola Telino,QUICK,5,00:00.0,00:00.0,00:00.0,1,171.24,QUICK-Stop,TaucherstraÃŸe 10,Cunewalde,NULL,1307,Germany,12.5,55,0.15
+10550,17,Alice Mutton,GODOS,7,00:00.0,00:00.0,00:00.0,3,4.32,Godos Cocina TÃ_pica,C/ Romero 33,Sevilla,NULL,41101,Spain,39,8,0.1
+10551,16,Pavlova,FURIB,4,00:00.0,00:00.0,00:00.0,3,72.95,Furia Bacalhau e Frutos do Mar,Jardim das rosas n. 32,Lisboa,NULL,1675,Portugal,17.45,40,0.15
+10552,69,Gudbrandsdalsost,HILAA,2,00:00.0,00:00.0,00:00.0,1,83.22,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San CristÃ_bal,TÃ¡chira,5022,Venezuela,36,18,0
+10553,11,Queso Cabrales,WARTH,2,00:00.0,00:00.0,00:00.0,2,149.49,Wartian Herkku,Torikatu 38,Oulu,NULL,90110,Finland,21,15,0
+10554,16,Pavlova,OTTIK,4,00:00.0,00:00.0,00:00.0,3,120.97,Ottilies KÃ_seladen,Mehrheimerstr. 369,KÃ¶ln,NULL,50739,Germany,17.45,30,0.05
+10555,14,Tofu,SAVEA,6,00:00.0,00:00.0,00:00.0,3,252.49,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,23.25,30,0.2
+10556,72,Mozzarella di Giovanni,SIMOB,2,00:00.0,00:00.0,00:00.0,1,9.8,Simons bistro,VinbÃ_ltet 34,Kobenhavn,NULL,1734,Denmark,34.8,24,0
+10557,64,Wimmers gute SemmelknÃ¶del,LEHMS,9,00:00.0,00:00.0,00:00.0,2,96.72,Lehmanns Marktstand,Magazinweg 7,Frankfurt a.M.,NULL,60528,Germany,33.25,30,0
+10558,47,Zaanse koeken,AROUT,1,00:00.0,00:00.0,00:00.0,2,72.97,Around the Horn,Brook Farm Stratford St. Mary,Colchester,Essex,CO7 6JX,UK,9.5,25,0
+10559,41,Jack's New England Clam Chowder,BLONP,6,00:00.0,00:00.0,00:00.0,1,8.05,Blondel pÃ¨re et fils,24 place KlÃ©ber,Strasbourg,NULL,67000,France,9.65,12,0.05
+10560,30,Nord-Ost Matjeshering,FRANK,8,00:00.0,00:00.0,00:00.0,1,36.65,Frankenversand,Berliner Platz 43,MÃ_nchen,NULL,80805,Germany,25.89,20,0
+10561,44,Gula Malacca,FOLKO,2,00:00.0,00:00.0,00:00.0,2,242.21,Folk och fÃ_ HB,Ã…kergatan 24,BrÃ_cke,NULL,S-844 67,Sweden,19.45,10,0
+10562,33,Geitost,REGGC,1,00:00.0,00:00.0,00:00.0,1,22.95,Reggiani Caseifici,Strada Provinciale 124,Reggio Emilia,NULL,42100,Italy,2.5,20,0.1
+10563,36,Inlagd Sill,RICAR,2,00:00.0,00:00.0,00:00.0,2,60.43,Ricardo Adocicados,Av. Copacabana 267,Rio de Janeiro,RJ,02389-890,Brazil,19,25,0
+10564,17,Alice Mutton,RATTC,4,00:00.0,00:00.0,00:00.0,3,13.75,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,39,16,0.05
+10565,24,GuaranÃ¡ FantÃ¡stica,MEREP,8,00:00.0,00:00.0,00:00.0,2,7.15,MÃ¨re Paillarde,43 rue St. Laurent,MontrÃ©al,QuÃ©bec,H1J 1C3,Canada,4.5,25,0.1
+10566,11,Queso Cabrales,BLONP,9,00:00.0,00:00.0,00:00.0,1,88.4,Blondel pÃ¨re et fils,24 place KlÃ©ber,Strasbourg,NULL,67000,France,21,35,0.15
+10567,31,Gorgonzola Telino,HUNGO,1,00:00.0,00:00.0,00:00.0,1,33.97,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,NULL,Ireland,12.5,60,0.2
+10568,10,Ikura,GALED,3,00:00.0,00:00.0,00:00.0,3,6.54,GalerÃ_a del gastronÃ_mo,Rambla de CataluÃ±a 23,Barcelona,NULL,8022,Spain,31,5,0
+10569,31,Gorgonzola Telino,RATTC,5,00:00.0,00:00.0,00:00.0,1,58.98,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,12.5,35,0.2
+10570,11,Queso Cabrales,MEREP,3,00:00.0,00:00.0,00:00.0,3,188.99,MÃ¨re Paillarde,43 rue St. Laurent,MontrÃ©al,QuÃ©bec,H1J 1C3,Canada,21,15,0.05
+10571,14,Tofu,ERNSH,8,00:00.0,00:00.0,00:00.0,3,26.06,Ernst Handel,Kirchgasse 6,Graz,NULL,8010,Austria,23.25,11,0.15
+10572,16,Pavlova,BERGS,3,00:00.0,00:00.0,00:00.0,2,116.43,Berglunds snabbkÃ¶p,BerguvsvÃ_gen  8,LuleÃ¥,NULL,S-958 22,Sweden,17.45,12,0.1
+10573,17,Alice Mutton,ANTON,7,00:00.0,00:00.0,00:00.0,3,84.84,Antonio Moreno TaquerÃ_a,Mataderos  2312,MÃ©xico D.F.,NULL,5023,Mexico,39,18,0
+10574,33,Geitost,TRAIH,4,00:00.0,00:00.0,00:00.0,2,37.6,Trail's Head Gourmet Provisioners,722 DaVinci Blvd.,Kirkland,WA,98034,USA,2.5,14,0
+10575,59,Raclette Courdavault,MORGK,5,00:00.0,00:00.0,00:00.0,1,127.34,Morgenstern Gesundkost,Heerstr. 22,Leipzig,NULL,4179,Germany,55,12,0
+10576,1,Chai,TORTU,3,00:00.0,00:00.0,00:00.0,3,18.56,Tortuga Restaurante,Avda. Azteca 123,MÃ©xico D.F.,NULL,5033,Mexico,18,10,0
+10577,39,Chartreuse verte,TRAIH,9,00:00.0,00:00.0,00:00.0,2,25.41,Trail's Head Gourmet Provisioners,722 DaVinci Blvd.,Kirkland,WA,98034,USA,18,10,0
+10578,35,Steeleye Stout,BSBEV,4,00:00.0,00:00.0,00:00.0,3,29.6,B's Beverages,Fauntleroy Circus,London,NULL,EC2 5NT,UK,18,20,0
+10579,15,Genen Shouyu,LETSS,1,00:00.0,00:00.0,00:00.0,2,13.73,Let's Stop N Shop,87 Polk St. Suite 5,San Francisco,CA,94117,USA,15.5,10,0
+10580,14,Tofu,OTTIK,4,00:00.0,00:00.0,00:00.0,3,75.89,Ottilies KÃ_seladen,Mehrheimerstr. 369,KÃ¶ln,NULL,50739,Germany,23.25,15,0.05
+10581,75,RhÃ¶nbrÃ_u Klosterbier,FAMIA,3,00:00.0,00:00.0,00:00.0,1,3.01,Familia Arquibaldo,Rua OrÃ_s 92,Sao Paulo,SP,05442-030,Brazil,7.75,50,0.2
+10582,57,Ravioli Angelo,BLAUS,3,00:00.0,00:00.0,00:00.0,2,27.71,Blauer See Delikatessen,Forsterstr. 57,Mannheim,NULL,68306,Germany,19.5,4,0
+10583,29,ThÃ_ringer Rostbratwurst,WARTH,2,00:00.0,00:00.0,00:00.0,2,7.28,Wartian Herkku,Torikatu 38,Oulu,NULL,90110,Finland,123.79,10,0
+10584,31,Gorgonzola Telino,BLONP,4,00:00.0,00:00.0,00:00.0,1,59.14,Blondel pÃ¨re et fils,24 place KlÃ©ber,Strasbourg,NULL,67000,France,12.5,50,0.05
+10585,47,Zaanse koeken,WELLI,7,00:00.0,00:00.0,00:00.0,1,13.41,Wellington Importadora,Rua do Mercado 12,Resende,SP,08737-363,Brazil,9.5,15,0
+10586,52,Filo Mix,REGGC,9,00:00.0,00:00.0,00:00.0,1,0.48,Reggiani Caseifici,Strada Provinciale 124,Reggio Emilia,NULL,42100,Italy,7,4,0.15
+10587,26,GumbÃ_r GummibÃ_rchen,QUEDE,1,00:00.0,00:00.0,00:00.0,1,62.52,Que DelÃ_cia,Rua da Panificadora 12,Rio de Janeiro,RJ,02389-673,Brazil,31.23,6,0
+10588,18,Carnarvon Tigers,QUICK,2,00:00.0,00:00.0,00:00.0,3,194.67,QUICK-Stop,TaucherstraÃŸe 10,Cunewalde,NULL,1307,Germany,62.5,40,0.2
+10589,35,Steeleye Stout,GREAL,8,00:00.0,00:00.0,00:00.0,2,4.42,Great Lakes Food Market,2732 Baker Blvd.,Eugene,OR,97403,USA,18,4,0
+10590,1,Chai,MEREP,4,00:00.0,00:00.0,00:00.0,3,44.77,MÃ¨re Paillarde,43 rue St. Laurent,MontrÃ©al,QuÃ©bec,H1J 1C3,Canada,18,20,0
+10591,3,Aniseed Syrup,VAFFE,1,00:00.0,00:00.0,00:00.0,1,55.92,Vaffeljernet,Smagsloget 45,Ã…rhus,NULL,8200,Denmark,10,14,0
+10592,15,Genen Shouyu,LEHMS,3,00:00.0,00:00.0,00:00.0,1,32.1,Lehmanns Marktstand,Magazinweg 7,Frankfurt a.M.,NULL,60528,Germany,15.5,25,0.05
+10593,20,Sir Rodney's Marmalade,LEHMS,7,00:00.0,00:00.0,00:00.0,2,174.2,Lehmanns Marktstand,Magazinweg 7,Frankfurt a.M.,NULL,60528,Germany,81,21,0.2
+10594,52,Filo Mix,OLDWO,3,00:00.0,00:00.0,00:00.0,2,5.24,Old World Delicatessen,2743 Bering St.,Anchorage,AK,99508,USA,7,24,0
+10595,35,Steeleye Stout,ERNSH,2,00:00.0,00:00.0,00:00.0,1,96.78,Ernst Handel,Kirchgasse 6,Graz,NULL,8010,Austria,18,30,0.25
+10596,56,Gnocchi di nonna Alice,WHITC,8,00:00.0,00:00.0,00:00.0,1,16.34,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA,38,5,0.2
+10597,24,GuaranÃ¡ FantÃ¡stica,PICCO,7,00:00.0,00:00.0,00:00.0,3,35.12,Piccolo und mehr,Geislweg 14,Salzburg,NULL,5020,Austria,4.5,35,0.2
+10598,27,Schoggi Schokolade,RATTC,1,00:00.0,00:00.0,00:00.0,3,44.42,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,43.9,50,0
+10599,62,Tarte au sucre,BSBEV,6,00:00.0,00:00.0,00:00.0,3,29.98,B's Beverages,Fauntleroy Circus,London,NULL,EC2 5NT,UK,49.3,10,0
+10600,54,TourtiÃ¨re,HUNGC,4,00:00.0,00:00.0,00:00.0,1,45.13,Hungry Coyote Import Store,City Center Plaza 516 Main St.,Elgin,OR,97827,USA,7.45,4,0
+10601,13,Konbu,HILAA,7,00:00.0,00:00.0,00:00.0,1,58.3,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San CristÃ_bal,TÃ¡chira,5022,Venezuela,6,60,0
+10602,77,Original Frankfurter grÃ_ne SoÃŸe,VAFFE,8,00:00.0,00:00.0,00:00.0,2,2.92,Vaffeljernet,Smagsloget 45,Ã…rhus,NULL,8200,Denmark,13,5,0.25
+10603,22,Gustaf's KnÃ_ckebrÃ¶d,SAVEA,8,00:00.0,00:00.0,00:00.0,2,48.77,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,21,48,0
+10604,48,Chocolade,FURIB,1,00:00.0,00:00.0,00:00.0,1,7.46,Furia Bacalhau e Frutos do Mar,Jardim das rosas n. 32,Lisboa,NULL,1675,Portugal,12.75,6,0.1
+10605,16,Pavlova,MEREP,1,00:00.0,00:00.0,00:00.0,2,379.13,MÃ¨re Paillarde,43 rue St. Laurent,MontrÃ©al,QuÃ©bec,H1J 1C3,Canada,17.45,30,0.05
+10606,4,Chef Anton's Cajun Seasoning,TRADH,4,00:00.0,00:00.0,00:00.0,3,79.4,TradiÃ§ao Hipermercados,Av. InÃªs de Castro 414,Sao Paulo,SP,05634-030,Brazil,22,20,0.2
+10607,7,Uncle Bob's Organic Dried Pears,SAVEA,5,00:00.0,00:00.0,00:00.0,1,200.24,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,30,45,0
+10608,56,Gnocchi di nonna Alice,TOMSP,4,00:00.0,00:00.0,00:00.0,2,27.79,Toms SpezialitÃ_ten,Luisenstr. 48,MÃ_nster,NULL,44087,Germany,38,28,0
+10609,1,Chai,DUMON,7,00:00.0,00:00.0,00:00.0,2,1.85,Du monde entier,67 rue des Cinquante Otages,Nantes,NULL,44000,France,18,3,0
+10610,36,Inlagd Sill,LAMAI,8,00:00.0,00:00.0,00:00.0,1,26.78,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,NULL,31000,France,19,21,0.25
+10611,1,Chai,WOLZA,6,00:00.0,00:00.0,00:00.0,2,80.65,Wolski Zajazd,ul. Filtrowa 68,Warszawa,NULL,01-012,Poland,18,6,0
+10612,10,Ikura,SAVEA,1,00:00.0,00:00.0,00:00.0,2,544.08,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,31,70,0
+10613,13,Konbu,HILAA,4,00:00.0,00:00.0,00:00.0,2,8.11,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San CristÃ_bal,TÃ¡chira,5022,Venezuela,6,8,0.1
+10614,11,Queso Cabrales,BLAUS,8,00:00.0,00:00.0,00:00.0,3,1.93,Blauer See Delikatessen,Forsterstr. 57,Mannheim,NULL,68306,Germany,21,14,0
+10615,55,PÃ¢tÃ© chinois,WILMK,2,00:00.0,00:00.0,00:00.0,3,0.75,Wilman Kala,Keskuskatu 45,Helsinki,NULL,21240,Finland,24,5,0
+10616,38,CÃ´te de Blaye,GREAL,1,00:00.0,00:00.0,00:00.0,2,116.53,Great Lakes Food Market,2732 Baker Blvd.,Eugene,OR,97403,USA,263.5,15,0.05
+10617,59,Raclette Courdavault,GREAL,4,00:00.0,00:00.0,00:00.0,2,18.53,Great Lakes Food Market,2732 Baker Blvd.,Eugene,OR,97403,USA,55,30,0.15
+10618,6,Grandma's Boysenberry Spread,MEREP,1,00:00.0,00:00.0,00:00.0,1,154.68,MÃ¨re Paillarde,43 rue St. Laurent,MontrÃ©al,QuÃ©bec,H1J 1C3,Canada,25,70,0
+10619,21,Sir Rodney's Scones,MEREP,3,00:00.0,00:00.0,00:00.0,3,91.05,MÃ¨re Paillarde,43 rue St. Laurent,MontrÃ©al,QuÃ©bec,H1J 1C3,Canada,10,42,0
+10620,24,GuaranÃ¡ FantÃ¡stica,LAUGB,2,00:00.0,00:00.0,00:00.0,3,0.94,Laughing Bacchus Wine Cellars,2319 Elm St.,Vancouver,BC,V3F 2K1,Canada,4.5,5,0
+10621,19,Teatime Chocolate Biscuits,ISLAT,4,00:00.0,00:00.0,00:00.0,2,23.73,Island Trading,Garden House Crowther Way,Cowes,Isle of Wight,PO31 7PJ,UK,9.2,5,0
+10622,2,Chang,RICAR,4,00:00.0,00:00.0,00:00.0,3,50.97,Ricardo Adocicados,Av. Copacabana 267,Rio de Janeiro,RJ,02389-890,Brazil,19,20,0
+10623,14,Tofu,FRANK,8,00:00.0,00:00.0,00:00.0,2,97.18,Frankenversand,Berliner Platz 43,MÃ_nchen,NULL,80805,Germany,23.25,21,0
+10624,28,RÃ¶ssle Sauerkraut,THECR,4,00:00.0,00:00.0,00:00.0,2,94.8,The Cracker Box,55 Grizzly Peak Rd.,Butte,MT,59801,USA,45.6,10,0
+10625,14,Tofu,ANATR,3,00:00.0,00:00.0,00:00.0,1,43.9,Ana Trujillo Emparedados y helados,Avda. de la ConstituciÃ_n 2222,MÃ©xico D.F.,NULL,5021,Mexico,23.25,3,0
+10626,53,Perth Pasties,BERGS,1,00:00.0,00:00.0,00:00.0,2,138.69,Berglunds snabbkÃ¶p,BerguvsvÃ_gen  8,LuleÃ¥,NULL,S-958 22,Sweden,32.8,12,0
+10627,62,Tarte au sucre,SAVEA,8,00:00.0,00:00.0,00:00.0,3,107.46,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,49.3,15,0
+10628,1,Chai,BLONP,4,00:00.0,00:00.0,00:00.0,3,30.36,Blondel pÃ¨re et fils,24 place KlÃ©ber,Strasbourg,NULL,67000,France,18,25,0
+10629,29,ThÃ_ringer Rostbratwurst,GODOS,4,00:00.0,00:00.0,00:00.0,3,85.46,Godos Cocina TÃ_pica,C/ Romero 33,Sevilla,NULL,41101,Spain,123.79,20,0
+10630,55,PÃ¢tÃ© chinois,KOENE,1,00:00.0,00:00.0,00:00.0,2,32.35,KÃ¶niglich Essen,Maubelstr. 90,Brandenburg,NULL,14776,Germany,24,12,0.05
+10631,75,RhÃ¶nbrÃ_u Klosterbier,LAMAI,8,00:00.0,00:00.0,00:00.0,1,0.87,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,NULL,31000,France,7.75,8,0.1
+10632,2,Chang,WANDK,8,00:00.0,00:00.0,00:00.0,1,41.38,Die Wandernde Kuh,Adenauerallee 900,Stuttgart,NULL,70563,Germany,19,30,0.05
+10633,12,Queso Manchego La Pastora,ERNSH,7,00:00.0,00:00.0,00:00.0,3,477.9,Ernst Handel,Kirchgasse 6,Graz,NULL,8010,Austria,38,36,0.15
+10634,7,Uncle Bob's Organic Dried Pears,FOLIG,4,00:00.0,00:00.0,00:00.0,3,487.38,Folies gourmandes,184 chaussÃ©e de Tournai,Lille,NULL,59000,France,30,35,0
+10635,4,Chef Anton's Cajun Seasoning,MAGAA,8,00:00.0,00:00.0,00:00.0,3,47.46,Magazzini Alimentari Riuniti,Via Ludovico il Moro 22,Bergamo,NULL,24100,Italy,22,10,0.1
+10636,4,Chef Anton's Cajun Seasoning,WARTH,4,00:00.0,00:00.0,00:00.0,1,1.15,Wartian Herkku,Torikatu 38,Oulu,NULL,90110,Finland,22,25,0
+10637,11,Queso Cabrales,QUEEN,6,00:00.0,00:00.0,00:00.0,1,201.29,Queen Cozinha,Alameda dos CanÃ rios 891,Sao Paulo,SP,05487-020,Brazil,21,10,0
+10638,45,Rogede sild,LINOD,3,00:00.0,00:00.0,00:00.0,1,158.44,LINO-Delicateses,Ave. 5 de Mayo Porlamar,I. de Margarita,Nueva Esparta,4980,Venezuela,9.5,20,0
+10639,18,Carnarvon Tigers,SANTG,7,00:00.0,00:00.0,00:00.0,3,38.64,SantÃ© Gourmet,Erling Skakkes gate 78,Stavern,NULL,4110,Norway,62.5,8,0
+10640,69,Gudbrandsdalsost,WANDK,4,00:00.0,00:00.0,00:00.0,1,23.55,Die Wandernde Kuh,Adenauerallee 900,Stuttgart,NULL,70563,Germany,36,20,0.25
+10641,2,Chang,HILAA,4,00:00.0,00:00.0,00:00.0,2,179.61,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San CristÃ_bal,TÃ¡chira,5022,Venezuela,19,50,0
+10642,21,Sir Rodney's Scones,SIMOB,7,00:00.0,00:00.0,00:00.0,3,41.89,Simons bistro,VinbÃ_ltet 34,Kobenhavn,NULL,1734,Denmark,10,30,0.2
+10643,28,RÃ¶ssle Sauerkraut,ALFKI,6,00:00.0,00:00.0,00:00.0,1,29.46,Alfreds Futterkiste,Obere Str. 57,Berlin,NULL,12209,Germany,45.6,15,0.25
+10644,18,Carnarvon Tigers,WELLI,3,00:00.0,00:00.0,00:00.0,2,0.14,Wellington Importadora,Rua do Mercado 12,Resende,SP,08737-363,Brazil,62.5,4,0.1
+10645,18,Carnarvon Tigers,HANAR,4,00:00.0,00:00.0,00:00.0,1,12.41,Hanari Carnes,Rua do PaÃ§o 67,Rio de Janeiro,RJ,05454-876,Brazil,62.5,20,0
+10646,1,Chai,HUNGO,9,00:00.0,00:00.0,00:00.0,3,142.33,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,NULL,Ireland,18,15,0.25
+10647,19,Teatime Chocolate Biscuits,QUEDE,4,00:00.0,00:00.0,00:00.0,2,45.54,Que DelÃ_cia,Rua da Panificadora 12,Rio de Janeiro,RJ,02389-673,Brazil,9.2,30,0
+10648,22,Gustaf's KnÃ_ckebrÃ¶d,RICAR,5,00:00.0,00:00.0,00:00.0,2,14.25,Ricardo Adocicados,Av. Copacabana 267,Rio de Janeiro,RJ,02389-890,Brazil,21,15,0
+10649,28,RÃ¶ssle Sauerkraut,MAISD,5,00:00.0,00:00.0,00:00.0,3,6.2,Maison Dewey,Rue Joseph-Bens 532,Bruxelles,NULL,B-1180,Belgium,45.6,20,0
+10650,30,Nord-Ost Matjeshering,FAMIA,5,00:00.0,00:00.0,00:00.0,3,176.81,Familia Arquibaldo,Rua OrÃ_s 92,Sao Paulo,SP,05442-030,Brazil,25.89,30,0
+10651,19,Teatime Chocolate Biscuits,WANDK,8,00:00.0,00:00.0,00:00.0,2,20.6,Die Wandernde Kuh,Adenauerallee 900,Stuttgart,NULL,70563,Germany,9.2,12,0.25
+10652,30,Nord-Ost Matjeshering,GOURL,4,00:00.0,00:00.0,00:00.0,2,7.14,Gourmet Lanchonetes,Av. Brasil 442,Campinas,SP,04876-786,Brazil,25.89,2,0.25
+10653,16,Pavlova,FRANK,1,00:00.0,00:00.0,00:00.0,1,93.25,Frankenversand,Berliner Platz 43,MÃ_nchen,NULL,80805,Germany,17.45,30,0.1
+10654,4,Chef Anton's Cajun Seasoning,BERGS,5,00:00.0,00:00.0,00:00.0,1,55.26,Berglunds snabbkÃ¶p,BerguvsvÃ_gen  8,LuleÃ¥,NULL,S-958 22,Sweden,22,12,0.1
+10655,41,Jack's New England Clam Chowder,REGGC,1,00:00.0,00:00.0,00:00.0,2,4.41,Reggiani Caseifici,Strada Provinciale 124,Reggio Emilia,NULL,42100,Italy,9.65,20,0.2
+10656,14,Tofu,GREAL,6,00:00.0,00:00.0,00:00.0,1,57.15,Great Lakes Food Market,2732 Baker Blvd.,Eugene,OR,97403,USA,23.25,3,0.1
+10657,15,Genen Shouyu,SAVEA,2,00:00.0,00:00.0,00:00.0,2,352.69,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,15.5,50,0
+10658,21,Sir Rodney's Scones,QUICK,4,00:00.0,00:00.0,00:00.0,1,364.15,QUICK-Stop,TaucherstraÃŸe 10,Cunewalde,NULL,1307,Germany,10,60,0
+10659,31,Gorgonzola Telino,QUEEN,7,00:00.0,00:00.0,00:00.0,2,105.81,Queen Cozinha,Alameda dos CanÃ rios 891,Sao Paulo,SP,05487-020,Brazil,12.5,20,0.05
+10660,20,Sir Rodney's Marmalade,HUNGC,8,00:00.0,00:00.0,00:00.0,1,111.29,Hungry Coyote Import Store,City Center Plaza 516 Main St.,Elgin,OR,97827,USA,81,21,0
+10661,39,Chartreuse verte,HUNGO,7,00:00.0,00:00.0,00:00.0,3,17.55,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,NULL,Ireland,18,3,0.2
+10662,68,Scottish Longbreads,LONEP,3,00:00.0,00:00.0,00:00.0,2,1.28,Lonesome Pine Restaurant,89 Chiaroscuro Rd.,Portland,OR,97219,USA,12.5,10,0
+10663,40,Boston Crab Meat,BONAP,2,00:00.0,00:00.0,00:00.0,2,113.15,Bon app',12 rue des Bouchers,Marseille,NULL,13008,France,18.4,30,0.05
+10664,10,Ikura,FURIB,1,00:00.0,00:00.0,00:00.0,3,1.27,Furia Bacalhau e Frutos do Mar,Jardim das rosas n. 32,Lisboa,NULL,1675,Portugal,31,24,0.15
+10665,51,Manjimup Dried Apples,LONEP,1,00:00.0,00:00.0,00:00.0,2,26.31,Lonesome Pine Restaurant,89 Chiaroscuro Rd.,Portland,OR,97219,USA,53,20,0
+10666,29,ThÃ_ringer Rostbratwurst,RICSU,7,00:00.0,00:00.0,00:00.0,2,232.42,Richter Supermarkt,Starenweg 5,GenÃ¨ve,NULL,1204,Switzerland,123.79,36,0
+10667,69,Gudbrandsdalsost,ERNSH,7,00:00.0,00:00.0,00:00.0,1,78.09,Ernst Handel,Kirchgasse 6,Graz,NULL,8010,Austria,36,45,0.2
+10668,31,Gorgonzola Telino,WANDK,1,00:00.0,00:00.0,00:00.0,2,47.22,Die Wandernde Kuh,Adenauerallee 900,Stuttgart,NULL,70563,Germany,12.5,8,0.1
+10669,36,Inlagd Sill,SIMOB,2,00:00.0,00:00.0,00:00.0,1,24.39,Simons bistro,VinbÃ_ltet 34,Kobenhavn,NULL,1734,Denmark,19,30,0
+10670,23,TunnbrÃ¶d,FRANK,4,00:00.0,00:00.0,00:00.0,1,203.48,Frankenversand,Berliner Platz 43,MÃ_nchen,NULL,80805,Germany,9,32,0
+10671,16,Pavlova,FRANR,1,00:00.0,00:00.0,00:00.0,1,30.34,France restauration,54 rue Royale,Nantes,NULL,44000,France,17.45,10,0
+10672,38,CÃ´te de Blaye,BERGS,9,00:00.0,00:00.0,00:00.0,2,95.75,Berglunds snabbkÃ¶p,BerguvsvÃ_gen  8,LuleÃ¥,NULL,S-958 22,Sweden,263.5,15,0.1
+10673,16,Pavlova,WILMK,2,00:00.0,00:00.0,00:00.0,1,22.76,Wilman Kala,Keskuskatu 45,Helsinki,NULL,21240,Finland,17.45,3,0
+10674,23,TunnbrÃ¶d,ISLAT,4,00:00.0,00:00.0,00:00.0,2,0.9,Island Trading,Garden House Crowther Way,Cowes,Isle of Wight,PO31 7PJ,UK,9,5,0
+10675,14,Tofu,FRANK,5,00:00.0,00:00.0,00:00.0,2,31.85,Frankenversand,Berliner Platz 43,MÃ_nchen,NULL,80805,Germany,23.25,30,0
+10676,10,Ikura,TORTU,2,00:00.0,00:00.0,00:00.0,2,2.01,Tortuga Restaurante,Avda. Azteca 123,MÃ©xico D.F.,NULL,5033,Mexico,31,2,0
+10677,26,GumbÃ_r GummibÃ_rchen,ANTON,1,00:00.0,00:00.0,00:00.0,3,4.03,Antonio Moreno TaquerÃ_a,Mataderos  2312,MÃ©xico D.F.,NULL,5023,Mexico,31.23,30,0.15
+10678,12,Queso Manchego La Pastora,SAVEA,7,00:00.0,00:00.0,00:00.0,3,388.98,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,38,100,0
+10679,59,Raclette Courdavault,BLONP,8,00:00.0,00:00.0,00:00.0,3,27.94,Blondel pÃ¨re et fils,24 place KlÃ©ber,Strasbourg,NULL,67000,France,55,12,0
+10680,16,Pavlova,OLDWO,1,00:00.0,00:00.0,00:00.0,1,26.61,Old World Delicatessen,2743 Bering St.,Anchorage,AK,99508,USA,17.45,50,0.25
+10681,19,Teatime Chocolate Biscuits,GREAL,3,00:00.0,00:00.0,00:00.0,3,76.13,Great Lakes Food Market,2732 Baker Blvd.,Eugene,OR,97403,USA,9.2,30,0.1
+10682,33,Geitost,ANTON,3,00:00.0,00:00.0,00:00.0,2,36.13,Antonio Moreno TaquerÃ_a,Mataderos  2312,MÃ©xico D.F.,NULL,5023,Mexico,2.5,30,0
+10683,52,Filo Mix,DUMON,2,00:00.0,00:00.0,00:00.0,1,4.4,Du monde entier,67 rue des Cinquante Otages,Nantes,NULL,44000,France,7,9,0
+10684,40,Boston Crab Meat,OTTIK,3,00:00.0,00:00.0,00:00.0,1,145.63,Ottilies KÃ_seladen,Mehrheimerstr. 369,KÃ¶ln,NULL,50739,Germany,18.4,20,0
+10685,10,Ikura,GOURL,4,00:00.0,00:00.0,00:00.0,2,33.75,Gourmet Lanchonetes,Av. Brasil 442,Campinas,SP,04876-786,Brazil,31,20,0
+10686,17,Alice Mutton,PICCO,2,00:00.0,00:00.0,00:00.0,1,96.5,Piccolo und mehr,Geislweg 14,Salzburg,NULL,5020,Austria,39,30,0.2
+10687,9,Mishi Kobe Niku,HUNGO,9,00:00.0,00:00.0,00:00.0,2,296.43,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,NULL,Ireland,97,50,0.25
+10688,10,Ikura,VAFFE,4,00:00.0,00:00.0,00:00.0,2,299.09,Vaffeljernet,Smagsloget 45,Ã…rhus,NULL,8200,Denmark,31,18,0.1
+10689,1,Chai,BERGS,1,00:00.0,00:00.0,00:00.0,2,13.42,Berglunds snabbkÃ¶p,BerguvsvÃ_gen  8,LuleÃ¥,NULL,S-958 22,Sweden,18,35,0.25
+10690,56,Gnocchi di nonna Alice,HANAR,1,00:00.0,00:00.0,00:00.0,1,15.8,Hanari Carnes,Rua do PaÃ§o 67,Rio de Janeiro,RJ,05454-876,Brazil,38,20,0.25
+10691,1,Chai,QUICK,2,00:00.0,00:00.0,00:00.0,2,810.05,QUICK-Stop,TaucherstraÃŸe 10,Cunewalde,NULL,1307,Germany,18,30,0
+10692,63,Vegie-spread,ALFKI,4,00:00.0,00:00.0,00:00.0,2,61.02,Alfred's Futterkiste,Obere Str. 57,Berlin,NULL,12209,Germany,43.9,20,0
+10693,9,Mishi Kobe Niku,WHITC,3,00:00.0,00:00.0,00:00.0,3,139.34,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA,97,6,0
+10694,7,Uncle Bob's Organic Dried Pears,QUICK,8,00:00.0,00:00.0,00:00.0,3,398.36,QUICK-Stop,TaucherstraÃŸe 10,Cunewalde,NULL,1307,Germany,30,90,0
+10695,8,Northwoods Cranberry Sauce,WILMK,7,00:00.0,00:00.0,00:00.0,1,16.72,Wilman Kala,Keskuskatu 45,Helsinki,NULL,21240,Finland,40,10,0
+10696,17,Alice Mutton,WHITC,8,00:00.0,00:00.0,00:00.0,3,102.55,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA,39,20,0
+10697,19,Teatime Chocolate Biscuits,LINOD,3,00:00.0,00:00.0,00:00.0,1,45.52,LINO-Delicateses,Ave. 5 de Mayo Porlamar,I. de Margarita,Nueva Esparta,4980,Venezuela,9.2,7,0.25
+10698,11,Queso Cabrales,ERNSH,4,00:00.0,00:00.0,00:00.0,1,272.47,Ernst Handel,Kirchgasse 6,Graz,NULL,8010,Austria,21,15,0
+10699,47,Zaanse koeken,MORGK,3,00:00.0,00:00.0,00:00.0,3,0.58,Morgenstern Gesundkost,Heerstr. 22,Leipzig,NULL,4179,Germany,9.5,12,0
+10700,1,Chai,SAVEA,3,00:00.0,00:00.0,00:00.0,1,65.1,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,18,5,0.2
+10701,59,Raclette Courdavault,HUNGO,6,00:00.0,00:00.0,00:00.0,3,220.31,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,NULL,Ireland,55,42,0.15
+10702,3,Aniseed Syrup,ALFKI,4,00:00.0,00:00.0,00:00.0,1,23.94,Alfred's Futterkiste,Obere Str. 57,Berlin,NULL,12209,Germany,10,6,0
+10703,2,Chang,FOLKO,6,00:00.0,00:00.0,00:00.0,2,152.3,Folk och fÃ_ HB,Ã…kergatan 24,BrÃ_cke,NULL,S-844 67,Sweden,19,5,0
+10704,4,Chef Anton's Cajun Seasoning,QUEEN,6,00:00.0,00:00.0,00:00.0,1,4.78,Queen Cozinha,Alameda dos CanÃ rios 891,Sao Paulo,SP,05487-020,Brazil,22,6,0
+10705,31,Gorgonzola Telino,HILAA,9,00:00.0,00:00.0,00:00.0,2,3.52,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San CristÃ_bal,TÃ¡chira,5022,Venezuela,12.5,20,0
+10706,16,Pavlova,OLDWO,8,00:00.0,00:00.0,00:00.0,3,135.63,Old World Delicatessen,2743 Bering St.,Anchorage,AK,99508,USA,17.45,20,0
+10707,55,PÃ¢tÃ© chinois,AROUT,4,00:00.0,00:00.0,00:00.0,3,21.74,Around the Horn,Brook Farm Stratford St. Mary,Colchester,Essex,CO7 6JX,UK,24,21,0
+10708,5,Chef Anton's Gumbo Mix,THEBI,6,00:00.0,00:00.0,00:00.0,2,2.96,The Big Cheese,89 Jefferson Way Suite 2,Portland,OR,97201,USA,21.35,4,0
+10709,8,Northwoods Cranberry Sauce,GOURL,1,00:00.0,00:00.0,00:00.0,3,210.8,Gourmet Lanchonetes,Av. Brasil 442,Campinas,SP,04876-786,Brazil,40,40,0
+10710,19,Teatime Chocolate Biscuits,FRANS,1,00:00.0,00:00.0,00:00.0,1,4.98,Franchi S.p.A.,Via Monte Bianco 34,Torino,NULL,10100,Italy,9.2,5,0
+10711,19,Teatime Chocolate Biscuits,SAVEA,5,00:00.0,00:00.0,00:00.0,2,52.41,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,9.2,12,0
+10712,53,Perth Pasties,HUNGO,3,00:00.0,00:00.0,00:00.0,1,89.93,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,NULL,Ireland,32.8,3,0.05
+10713,10,Ikura,SAVEA,1,00:00.0,00:00.0,00:00.0,1,167.05,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,31,18,0
+10714,2,Chang,SAVEA,5,00:00.0,00:00.0,00:00.0,3,24.49,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,19,30,0.25
+10715,10,Ikura,BONAP,3,00:00.0,00:00.0,00:00.0,1,63.2,Bon app',12 rue des Bouchers,Marseille,NULL,13008,France,31,21,0
+10716,21,Sir Rodney's Scones,RANCH,4,00:00.0,00:00.0,00:00.0,2,22.57,Rancho grande,Av. del Libertador 900,Buenos Aires,NULL,1010,Argentina,10,5,0
+10717,21,Sir Rodney's Scones,FRANK,1,00:00.0,00:00.0,00:00.0,2,59.25,Frankenversand,Berliner Platz 43,MÃ_nchen,NULL,80805,Germany,10,32,0.05
+10718,12,Queso Manchego La Pastora,KOENE,1,00:00.0,00:00.0,00:00.0,3,170.88,KÃ¶niglich Essen,Maubelstr. 90,Brandenburg,NULL,14776,Germany,38,36,0
+10719,18,Carnarvon Tigers,LETSS,8,00:00.0,00:00.0,00:00.0,2,51.44,Let's Stop N Shop,87 Polk St. Suite 5,San Francisco,CA,94117,USA,62.5,12,0.25
+10720,35,Steeleye Stout,QUEDE,8,00:00.0,00:00.0,00:00.0,2,9.53,Que DelÃ_cia,Rua da Panificadora 12,Rio de Janeiro,RJ,02389-673,Brazil,18,21,0
+10721,44,Gula Malacca,QUICK,5,00:00.0,00:00.0,00:00.0,3,48.92,QUICK-Stop,TaucherstraÃŸe 10,Cunewalde,NULL,1307,Germany,19.45,50,0.05
+10722,2,Chang,SAVEA,8,00:00.0,00:00.0,00:00.0,1,74.58,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,19,3,0
+10723,26,GumbÃ_r GummibÃ_rchen,WHITC,3,00:00.0,00:00.0,00:00.0,1,21.72,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA,31.23,15,0
+10724,10,Ikura,MEREP,8,00:00.0,00:00.0,00:00.0,2,57.75,MÃ¨re Paillarde,43 rue St. Laurent,MontrÃ©al,QuÃ©bec,H1J 1C3,Canada,31,16,0
+10725,41,Jack's New England Clam Chowder,FAMIA,4,00:00.0,00:00.0,00:00.0,3,10.83,Familia Arquibaldo,Rua OrÃ_s 92,Sao Paulo,SP,05442-030,Brazil,9.65,12,0
+10726,4,Chef Anton's Cajun Seasoning,EASTC,4,00:00.0,00:00.0,00:00.0,1,16.56,Eastern Connection,35 King George,London,NULL,WX3 6FW,UK,22,25,0
+10727,17,Alice Mutton,REGGC,2,00:00.0,00:00.0,00:00.0,1,89.9,Reggiani Caseifici,Strada Provinciale 124,Reggio Emilia,NULL,42100,Italy,39,20,0.05
+10728,30,Nord-Ost Matjeshering,QUEEN,4,00:00.0,00:00.0,00:00.0,2,58.33,Queen Cozinha,Alameda dos CanÃ rios 891,Sao Paulo,SP,05487-020,Brazil,25.89,15,0
+10729,1,Chai,LINOD,8,00:00.0,00:00.0,00:00.0,3,141.06,LINO-Delicateses,Ave. 5 de Mayo Porlamar,I. de Margarita,Nueva Esparta,4980,Venezuela,18,50,0
+10730,16,Pavlova,BONAP,5,00:00.0,00:00.0,00:00.0,1,20.12,Bon app',12 rue des Bouchers,Marseille,NULL,13008,France,17.45,15,0.05
+10731,21,Sir Rodney's Scones,CHOPS,7,00:00.0,00:00.0,00:00.0,1,96.65,Chop-suey Chinese,Hauptstr. 31,Bern,NULL,3012,Switzerland,10,40,0.05
+10732,76,LakkalikÃ¶Ã¶ri,BONAP,3,00:00.0,00:00.0,00:00.0,1,16.97,Bon app',12 rue des Bouchers,Marseille,NULL,13008,France,18,20,0
+10733,14,Tofu,BERGS,1,00:00.0,00:00.0,00:00.0,3,110.11,Berglunds snabbkÃ¶p,BerguvsvÃ_gen  8,LuleÃ¥,NULL,S-958 22,Sweden,23.25,16,0
+10734,6,Grandma's Boysenberry Spread,GOURL,2,00:00.0,00:00.0,00:00.0,3,1.63,Gourmet Lanchonetes,Av. Brasil 442,Campinas,SP,04876-786,Brazil,25,30,0
+10735,61,Sirop d'Ã©rable,LETSS,6,00:00.0,00:00.0,00:00.0,2,45.97,Let's Stop N Shop,87 Polk St. Suite 5,San Francisco,CA,94117,USA,28.5,20,0.1
+10736,65,Louisiana Fiery Hot Pepper Sauce,HUNGO,9,00:00.0,00:00.0,00:00.0,2,44.1,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,NULL,Ireland,21.05,40,0
+10737,13,Konbu,VINET,2,00:00.0,00:00.0,00:00.0,2,7.79,Vins et alcools Chevalier,59 rue de l'Abbaye,Reims,NULL,51100,France,6,4,0
+10738,16,Pavlova,SPECD,2,00:00.0,00:00.0,00:00.0,1,2.91,SpÃ©cialitÃ©s du monde,25 rue Lauriston,Paris,NULL,75016,France,17.45,3,0
+10739,36,Inlagd Sill,VINET,3,00:00.0,00:00.0,00:00.0,3,11.08,Vins et alcools Chevalier,59 rue de l'Abbaye,Reims,NULL,51100,France,19,6,0
+10740,28,RÃ¶ssle Sauerkraut,WHITC,4,00:00.0,00:00.0,00:00.0,2,81.88,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA,45.6,5,0.2
+10741,2,Chang,AROUT,4,00:00.0,00:00.0,00:00.0,3,10.96,Around the Horn,Brook Farm Stratford St. Mary,Colchester,Essex,CO7 6JX,UK,19,15,0.2
+10742,3,Aniseed Syrup,BOTTM,3,00:00.0,00:00.0,00:00.0,3,243.73,Bottom-Dollar Markets,23 Tsawassen Blvd.,Tsawassen,BC,T2F 8M4,Canada,10,20,0
+10743,46,Spegesild,AROUT,1,00:00.0,00:00.0,00:00.0,2,23.72,Around the Horn,Brook Farm Stratford St. Mary,Colchester,Essex,CO7 6JX,UK,12,28,0.05
+10744,40,Boston Crab Meat,VAFFE,6,00:00.0,00:00.0,00:00.0,1,69.19,Vaffeljernet,Smagsloget 45,Ã…rhus,NULL,8200,Denmark,18.4,50,0.2
+10745,18,Carnarvon Tigers,QUICK,9,00:00.0,00:00.0,00:00.0,1,3.52,QUICK-Stop,TaucherstraÃŸe 10,Cunewalde,NULL,1307,Germany,62.5,24,0
+10746,13,Konbu,CHOPS,1,00:00.0,00:00.0,00:00.0,3,31.43,Chop-suey Chinese,Hauptstr. 31,Bern,NULL,3012,Switzerland,6,6,0
+10747,31,Gorgonzola Telino,PICCO,6,00:00.0,00:00.0,00:00.0,1,117.33,Piccolo und mehr,Geislweg 14,Salzburg,NULL,5020,Austria,12.5,8,0
+10748,23,TunnbrÃ¶d,SAVEA,3,00:00.0,00:00.0,00:00.0,1,232.55,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,9,44,0
+10749,56,Gnocchi di nonna Alice,ISLAT,4,00:00.0,00:00.0,00:00.0,2,61.53,Island Trading,Garden House Crowther Way,Cowes,Isle of Wight,PO31 7PJ,UK,38,15,0
+10750,14,Tofu,WARTH,9,00:00.0,00:00.0,00:00.0,1,79.3,Wartian Herkku,Torikatu 38,Oulu,NULL,90110,Finland,23.25,5,0.15
+10751,26,GumbÃ_r GummibÃ_rchen,RICSU,3,00:00.0,00:00.0,00:00.0,3,130.79,Richter Supermarkt,Starenweg 5,GenÃ¨ve,NULL,1204,Switzerland,31.23,12,0.1
+10752,1,Chai,NORTS,2,00:00.0,00:00.0,00:00.0,3,1.39,North/South,South House 300 Queensbridge,London,NULL,SW7 1RZ,UK,18,8,0
+10753,45,Rogede sild,FRANS,3,00:00.0,00:00.0,00:00.0,1,7.7,Franchi S.p.A.,Via Monte Bianco 34,Torino,NULL,10100,Italy,9.5,4,0
+10754,40,Boston Crab Meat,MAGAA,6,00:00.0,00:00.0,00:00.0,3,2.38,Magazzini Alimentari Riuniti,Via Ludovico il Moro 22,Bergamo,NULL,24100,Italy,18.4,3,0
+10755,47,Zaanse koeken,BONAP,4,00:00.0,00:00.0,00:00.0,2,16.71,Bon app',12 rue des Bouchers,Marseille,NULL,13008,France,9.5,30,0.25
+10756,18,Carnarvon Tigers,SPLIR,8,00:00.0,00:00.0,00:00.0,2,73.21,Split Rail Beer & Ale,P.O. Box 555,Lander,WY,82520,USA,62.5,21,0.2
+10757,34,Sasquatch Ale,SAVEA,6,00:00.0,00:00.0,00:00.0,1,8.19,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,14,30,0
+10758,26,GumbÃ_r GummibÃ_rchen,RICSU,3,00:00.0,00:00.0,00:00.0,3,138.17,Richter Supermarkt,Starenweg 5,GenÃ¨ve,NULL,1204,Switzerland,31.23,20,0
+10759,32,Mascarpone Fabioli,ANATR,3,00:00.0,00:00.0,00:00.0,3,11.99,Ana Trujillo Emparedados y helados,Avda. de la ConstituciÃ_n 2222,MÃ©xico D.F.,NULL,5021,Mexico,32,10,0
+10760,25,NuNuCa NuÃŸ-Nougat-Creme,MAISD,4,00:00.0,00:00.0,00:00.0,1,155.64,Maison Dewey,Rue Joseph-Bens 532,Bruxelles,NULL,B-1180,Belgium,14,12,0.25
+10761,25,NuNuCa NuÃŸ-Nougat-Creme,RATTC,5,00:00.0,00:00.0,00:00.0,2,18.66,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,14,35,0.25
+10762,39,Chartreuse verte,FOLKO,3,00:00.0,00:00.0,00:00.0,1,328.74,Folk och fÃ_ HB,Ã…kergatan 24,BrÃ_cke,NULL,S-844 67,Sweden,18,16,0
+10763,21,Sir Rodney's Scones,FOLIG,3,00:00.0,00:00.0,00:00.0,3,37.35,Folies gourmandes,184 chaussÃ©e de Tournai,Lille,NULL,59000,France,10,40,0
+10764,3,Aniseed Syrup,ERNSH,6,00:00.0,00:00.0,00:00.0,3,145.45,Ernst Handel,Kirchgasse 6,Graz,NULL,8010,Austria,10,20,0.1
+10765,65,Louisiana Fiery Hot Pepper Sauce,QUICK,3,00:00.0,00:00.0,00:00.0,3,42.74,QUICK-Stop,TaucherstraÃŸe 10,Cunewalde,NULL,1307,Germany,21.05,80,0.1
+10766,2,Chang,OTTIK,4,00:00.0,00:00.0,00:00.0,1,157.55,Ottilies KÃ_seladen,Mehrheimerstr. 369,KÃ¶ln,NULL,50739,Germany,19,40,0
+10767,42,Singaporean Hokkien Fried Mee,SUPRD,4,00:00.0,00:00.0,00:00.0,3,1.59,SuprÃªmes dÃ©lices,Boulevard Tirou 255,Charleroi,NULL,B-6000,Belgium,14,2,0
+10768,22,Gustaf's KnÃ_ckebrÃ¶d,AROUT,3,00:00.0,00:00.0,00:00.0,2,146.32,Around the Horn,Brook Farm Stratford St. Mary,Colchester,Essex,CO7 6JX,UK,21,4,0
+10769,41,Jack's New England Clam Chowder,VAFFE,3,00:00.0,00:00.0,00:00.0,1,65.06,Vaffeljernet,Smagsloget 45,Ã…rhus,NULL,8200,Denmark,9.65,30,0.05
+10770,11,Queso Cabrales,HANAR,8,00:00.0,00:00.0,00:00.0,3,5.32,Hanari Carnes,Rua do PaÃ§o 67,Rio de Janeiro,RJ,05454-876,Brazil,21,15,0.25
+10771,71,Flotemysost,ERNSH,9,00:00.0,00:00.0,00:00.0,2,11.19,Ernst Handel,Kirchgasse 6,Graz,NULL,8010,Austria,21.5,16,0
+10772,29,ThÃ_ringer Rostbratwurst,LEHMS,3,00:00.0,00:00.0,00:00.0,2,91.28,Lehmanns Marktstand,Magazinweg 7,Frankfurt a.M.,NULL,60528,Germany,123.79,18,0
+10773,17,Alice Mutton,ERNSH,1,00:00.0,00:00.0,00:00.0,3,96.43,Ernst Handel,Kirchgasse 6,Graz,NULL,8010,Austria,39,33,0
+10774,31,Gorgonzola Telino,FOLKO,4,00:00.0,00:00.0,00:00.0,1,48.2,Folk och fÃ_ HB,Ã…kergatan 24,BrÃ_cke,NULL,S-844 67,Sweden,12.5,2,0.25
+10775,10,Ikura,THECR,7,00:00.0,00:00.0,00:00.0,1,20.25,The Cracker Box,55 Grizzly Peak Rd.,Butte,MT,59801,USA,31,6,0
+10776,31,Gorgonzola Telino,ERNSH,1,00:00.0,00:00.0,00:00.0,3,351.53,Ernst Handel,Kirchgasse 6,Graz,NULL,8010,Austria,12.5,16,0.05
+10777,42,Singaporean Hokkien Fried Mee,GOURL,7,00:00.0,00:00.0,00:00.0,2,3.01,Gourmet Lanchonetes,Av. Brasil 442,Campinas,SP,04876-786,Brazil,14,20,0.2
+10778,41,Jack's New England Clam Chowder,BERGS,3,00:00.0,00:00.0,00:00.0,1,6.79,Berglunds snabbkÃ¶p,BerguvsvÃ_gen  8,LuleÃ¥,NULL,S-958 22,Sweden,9.65,10,0
+10779,16,Pavlova,MORGK,3,00:00.0,00:00.0,00:00.0,2,58.13,Morgenstern Gesundkost,Heerstr. 22,Leipzig,NULL,4179,Germany,17.45,20,0
+10780,70,Outback Lager,LILAS,2,00:00.0,00:00.0,00:00.0,1,42.13,LILA-Supermercado,Carrera 52 con Ave. BolÃ_var #65-98 Llano Largo,Barquisimeto,Lara,3508,Venezuela,15,35,0
+10781,54,TourtiÃ¨re,WARTH,2,00:00.0,00:00.0,00:00.0,3,73.16,Wartian Herkku,Torikatu 38,Oulu,NULL,90110,Finland,7.45,3,0.2
+10782,31,Gorgonzola Telino,CACTU,9,00:00.0,00:00.0,00:00.0,3,1.1,Cactus Comidas para llevar,Cerrito 333,Buenos Aires,NULL,1010,Argentina,12.5,1,0
+10783,31,Gorgonzola Telino,HANAR,4,00:00.0,00:00.0,00:00.0,2,124.98,Hanari Carnes,Rua do PaÃ§o 67,Rio de Janeiro,RJ,05454-876,Brazil,12.5,10,0
+10784,36,Inlagd Sill,MAGAA,4,00:00.0,00:00.0,00:00.0,3,70.09,Magazzini Alimentari Riuniti,Via Ludovico il Moro 22,Bergamo,NULL,24100,Italy,19,30,0
+10785,10,Ikura,GROSR,1,00:00.0,00:00.0,00:00.0,3,1.51,GROSELLA-Restaurante,5Âª Ave. Los Palos Grandes,Caracas,DF,1081,Venezuela,31,10,0
+10786,8,Northwoods Cranberry Sauce,QUEEN,8,00:00.0,00:00.0,00:00.0,1,110.87,Queen Cozinha,Alameda dos CanÃ rios 891,Sao Paulo,SP,05487-020,Brazil,40,30,0.2
+10787,2,Chang,LAMAI,2,00:00.0,00:00.0,00:00.0,1,249.93,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,NULL,31000,France,19,15,0.05
+10788,19,Teatime Chocolate Biscuits,QUICK,1,00:00.0,00:00.0,00:00.0,2,42.7,QUICK-Stop,TaucherstraÃŸe 10,Cunewalde,NULL,1307,Germany,9.2,50,0.05
+10789,18,Carnarvon Tigers,FOLIG,1,00:00.0,00:00.0,00:00.0,2,100.6,Folies gourmandes,184 chaussÃ©e de Tournai,Lille,NULL,59000,France,62.5,30,0
+10790,7,Uncle Bob's Organic Dried Pears,GOURL,6,00:00.0,00:00.0,00:00.0,1,28.23,Gourmet Lanchonetes,Av. Brasil 442,Campinas,SP,04876-786,Brazil,30,3,0.15
+10791,29,ThÃ_ringer Rostbratwurst,FRANK,6,00:00.0,00:00.0,00:00.0,2,16.85,Frankenversand,Berliner Platz 43,MÃ_nchen,NULL,80805,Germany,123.79,14,0.05
+10792,2,Chang,WOLZA,1,00:00.0,00:00.0,00:00.0,3,23.79,Wolski Zajazd,ul. Filtrowa 68,Warszawa,NULL,01-012,Poland,19,10,0
+10793,41,Jack's New England Clam Chowder,AROUT,3,00:00.0,00:00.0,00:00.0,3,4.52,Around the Horn,Brook Farm Stratford St. Mary,Colchester,Essex,CO7 6JX,UK,9.65,14,0
+10794,14,Tofu,QUEDE,6,00:00.0,00:00.0,00:00.0,1,21.49,Que DelÃ_cia,Rua da Panificadora 12,Rio de Janeiro,RJ,02389-673,Brazil,23.25,15,0.2
+10795,16,Pavlova,ERNSH,8,00:00.0,00:00.0,00:00.0,2,126.66,Ernst Handel,Kirchgasse 6,Graz,NULL,8010,Austria,17.45,65,0
+10796,26,GumbÃ_r GummibÃ_rchen,HILAA,3,00:00.0,00:00.0,00:00.0,1,26.52,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San CristÃ_bal,TÃ¡chira,5022,Venezuela,31.23,21,0.2
+10797,11,Queso Cabrales,DRACD,7,00:00.0,00:00.0,00:00.0,2,33.35,Drachenblut Delikatessen,Walserweg 21,Aachen,NULL,52066,Germany,21,20,0
+10798,62,Tarte au sucre,ISLAT,2,00:00.0,00:00.0,00:00.0,1,2.33,Island Trading,Garden House Crowther Way,Cowes,Isle of Wight,PO31 7PJ,UK,49.3,2,0
+10799,13,Konbu,KOENE,9,00:00.0,00:00.0,00:00.0,3,30.76,KÃ¶niglich Essen,Maubelstr. 90,Brandenburg,NULL,14776,Germany,6,20,0.15
+10800,11,Queso Cabrales,SEVES,1,00:00.0,00:00.0,00:00.0,3,137.44,Seven Seas Imports,90 Wadhurst Rd.,London,NULL,OX15 4NB,UK,21,50,0.1
+10801,17,Alice Mutton,BOLID,4,00:00.0,00:00.0,00:00.0,2,97.09,BÃ_lido Comidas preparadas,C/ Araquil 67,Madrid,NULL,28023,Spain,39,40,0.25
+10802,30,Nord-Ost Matjeshering,SIMOB,4,00:00.0,00:00.0,00:00.0,2,257.26,Simons bistro,VinbÃ_ltet 34,Kobenhavn,NULL,1734,Denmark,25.89,25,0.25
+10803,19,Teatime Chocolate Biscuits,WELLI,4,00:00.0,00:00.0,00:00.0,1,55.23,Wellington Importadora,Rua do Mercado 12,Resende,SP,08737-363,Brazil,9.2,24,0.05
+10804,10,Ikura,SEVES,6,00:00.0,00:00.0,00:00.0,2,27.33,Seven Seas Imports,90 Wadhurst Rd.,London,NULL,OX15 4NB,UK,31,36,0
+10805,34,Sasquatch Ale,THEBI,2,00:00.0,00:00.0,00:00.0,3,237.34,The Big Cheese,89 Jefferson Way Suite 2,Portland,OR,97201,USA,14,10,0
+10806,2,Chang,VICTE,3,00:00.0,00:00.0,00:00.0,2,22.11,Victuailles en stock,2 rue du Commerce,Lyon,NULL,69004,France,19,20,0.25
+10807,40,Boston Crab Meat,FRANS,4,00:00.0,00:00.0,00:00.0,1,1.36,Franchi S.p.A.,Via Monte Bianco 34,Torino,NULL,10100,Italy,18.4,1,0
+10808,56,Gnocchi di nonna Alice,OLDWO,2,00:00.0,00:00.0,00:00.0,3,45.53,Old World Delicatessen,2743 Bering St.,Anchorage,AK,99508,USA,38,20,0.15
+10809,52,Filo Mix,WELLI,7,00:00.0,00:00.0,00:00.0,1,4.87,Wellington Importadora,Rua do Mercado 12,Resende,SP,08737-363,Brazil,7,20,0
+10810,13,Konbu,LAUGB,2,00:00.0,00:00.0,00:00.0,3,4.33,Laughing Bacchus Wine Cellars,2319 Elm St.,Vancouver,BC,V3F 2K1,Canada,6,7,0
+10811,19,Teatime Chocolate Biscuits,LINOD,8,00:00.0,00:00.0,00:00.0,1,31.22,LINO-Delicateses,Ave. 5 de Mayo Porlamar,I. de Margarita,Nueva Esparta,4980,Venezuela,9.2,15,0
+10812,31,Gorgonzola Telino,REGGC,5,00:00.0,00:00.0,00:00.0,1,59.78,Reggiani Caseifici,Strada Provinciale 124,Reggio Emilia,NULL,42100,Italy,12.5,16,0.1
+10813,2,Chang,RICAR,1,00:00.0,00:00.0,00:00.0,1,47.38,Ricardo Adocicados,Av. Copacabana 267,Rio de Janeiro,RJ,02389-890,Brazil,19,12,0.2
+10814,41,Jack's New England Clam Chowder,VICTE,3,00:00.0,00:00.0,00:00.0,3,130.94,Victuailles en stock,2 rue du Commerce,Lyon,NULL,69004,France,9.65,20,0
+10815,33,Geitost,SAVEA,2,00:00.0,00:00.0,00:00.0,3,14.62,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,2.5,16,0
+10816,38,CÃ´te de Blaye,GREAL,4,00:00.0,00:00.0,00:00.0,2,719.78,Great Lakes Food Market,2732 Baker Blvd.,Eugene,OR,97403,USA,263.5,30,0.05
+10817,26,GumbÃ_r GummibÃ_rchen,KOENE,3,00:00.0,00:00.0,00:00.0,2,306.07,KÃ¶niglich Essen,Maubelstr. 90,Brandenburg,NULL,14776,Germany,31.23,40,0.15
+10818,32,Mascarpone Fabioli,MAGAA,7,00:00.0,00:00.0,00:00.0,3,65.48,Magazzini Alimentari Riuniti,Via Ludovico il Moro 22,Bergamo,NULL,24100,Italy,32,20,0
+10819,43,Ipoh Coffee,CACTU,2,00:00.0,00:00.0,00:00.0,3,19.76,Cactus Comidas para llevar,Cerrito 333,Buenos Aires,NULL,1010,Argentina,46,7,0
+10820,56,Gnocchi di nonna Alice,RATTC,3,00:00.0,00:00.0,00:00.0,2,37.52,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,38,30,0
+10821,35,Steeleye Stout,SPLIR,1,00:00.0,00:00.0,00:00.0,1,36.68,Split Rail Beer & Ale,P.O. Box 555,Lander,WY,82520,USA,18,20,0
+10822,62,Tarte au sucre,TRAIH,6,00:00.0,00:00.0,00:00.0,3,7,Trail's Head Gourmet Provisioners,722 DaVinci Blvd.,Kirkland,WA,98034,USA,49.3,3,0
+10823,11,Queso Cabrales,LILAS,5,00:00.0,00:00.0,00:00.0,2,163.97,LILA-Supermercado,Carrera 52 con Ave. BolÃ_var #65-98 Llano Largo,Barquisimeto,Lara,3508,Venezuela,21,20,0.1
+10824,41,Jack's New England Clam Chowder,FOLKO,8,00:00.0,00:00.0,00:00.0,1,1.23,Folk och fÃ_ HB,Ã…kergatan 24,BrÃ_cke,NULL,S-844 67,Sweden,9.65,12,0
+10825,26,GumbÃ_r GummibÃ_rchen,DRACD,1,00:00.0,00:00.0,00:00.0,1,79.25,Drachenblut Delikatessen,Walserweg 21,Aachen,NULL,52066,Germany,31.23,12,0
+10826,31,Gorgonzola Telino,BLONP,6,00:00.0,00:00.0,00:00.0,1,7.09,Blondel pÃ¨re et fils,24 place KlÃ©ber,Strasbourg,NULL,67000,France,12.5,35,0
+10827,10,Ikura,BONAP,1,00:00.0,00:00.0,00:00.0,2,63.54,Bon app',12 rue des Bouchers,Marseille,NULL,13008,France,31,15,0
+10828,20,Sir Rodney's Marmalade,RANCH,9,00:00.0,00:00.0,00:00.0,1,90.85,Rancho grande,Av. del Libertador 900,Buenos Aires,NULL,1010,Argentina,81,5,0
+10829,2,Chang,ISLAT,9,00:00.0,00:00.0,00:00.0,1,154.72,Island Trading,Garden House Crowther Way,Cowes,Isle of Wight,PO31 7PJ,UK,19,10,0
+10830,6,Grandma's Boysenberry Spread,TRADH,4,00:00.0,00:00.0,00:00.0,2,81.83,TradiÃ§ao Hipermercados,Av. InÃªs de Castro 414,Sao Paulo,SP,05634-030,Brazil,25,6,0
+10831,19,Teatime Chocolate Biscuits,SANTG,3,00:00.0,00:00.0,00:00.0,2,72.19,SantÃ© Gourmet,Erling Skakkes gate 78,Stavern,NULL,4110,Norway,9.2,2,0
+10832,13,Konbu,LAMAI,2,00:00.0,00:00.0,00:00.0,2,43.26,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,NULL,31000,France,6,3,0.2
+10833,7,Uncle Bob's Organic Dried Pears,OTTIK,6,00:00.0,00:00.0,00:00.0,2,71.49,Ottilies KÃ_seladen,Mehrheimerstr. 369,KÃ¶ln,NULL,50739,Germany,30,20,0.1
+10834,29,ThÃ_ringer Rostbratwurst,TRADH,1,00:00.0,00:00.0,00:00.0,3,29.78,TradiÃ§ao Hipermercados,Av. InÃªs de Castro 414,Sao Paulo,SP,05634-030,Brazil,123.79,8,0.05
+10835,59,Raclette Courdavault,ALFKI,1,00:00.0,00:00.0,00:00.0,3,69.53,Alfred's Futterkiste,Obere Str. 57,Berlin,NULL,12209,Germany,55,15,0
+10836,22,Gustaf's KnÃ_ckebrÃ¶d,ERNSH,7,00:00.0,00:00.0,00:00.0,1,411.88,Ernst Handel,Kirchgasse 6,Graz,NULL,8010,Austria,21,52,0
+10837,13,Konbu,BERGS,9,00:00.0,00:00.0,00:00.0,3,13.32,Berglunds snabbkÃ¶p,BerguvsvÃ_gen  8,LuleÃ¥,NULL,S-958 22,Sweden,6,6,0
+10838,1,Chai,LINOD,3,00:00.0,00:00.0,00:00.0,3,59.28,LINO-Delicateses,Ave. 5 de Mayo Porlamar,I. de Margarita,Nueva Esparta,4980,Venezuela,18,4,0.25
+10839,58,Escargots de Bourgogne,TRADH,3,00:00.0,00:00.0,00:00.0,3,35.43,TradiÃ§ao Hipermercados,Av. InÃªs de Castro 414,Sao Paulo,SP,05634-030,Brazil,13.25,30,0.1
+10840,25,NuNuCa NuÃŸ-Nougat-Creme,LINOD,4,00:00.0,00:00.0,00:00.0,2,2.71,LINO-Delicateses,Ave. 5 de Mayo Porlamar,I. de Margarita,Nueva Esparta,4980,Venezuela,14,6,0.2
+10841,10,Ikura,SUPRD,5,00:00.0,00:00.0,00:00.0,2,424.3,SuprÃªmes dÃ©lices,Boulevard Tirou 255,Charleroi,NULL,B-6000,Belgium,31,16,0
+10842,11,Queso Cabrales,TORTU,1,00:00.0,00:00.0,00:00.0,3,54.42,Tortuga Restaurante,Avda. Azteca 123,MÃ©xico D.F.,NULL,5033,Mexico,21,15,0
+10843,51,Manjimup Dried Apples,VICTE,4,00:00.0,00:00.0,00:00.0,2,9.26,Victuailles en stock,2 rue du Commerce,Lyon,NULL,69004,France,53,4,0.25
+10844,22,Gustaf's KnÃ_ckebrÃ¶d,PICCO,8,00:00.0,00:00.0,00:00.0,2,25.22,Piccolo und mehr,Geislweg 14,Salzburg,NULL,5020,Austria,21,35,0
+10845,23,TunnbrÃ¶d,QUICK,8,00:00.0,00:00.0,00:00.0,1,212.98,QUICK-Stop,TaucherstraÃŸe 10,Cunewalde,NULL,1307,Germany,9,70,0.1
+10846,4,Chef Anton's Cajun Seasoning,SUPRD,2,00:00.0,00:00.0,00:00.0,3,56.46,SuprÃªmes dÃ©lices,Boulevard Tirou 255,Charleroi,NULL,B-6000,Belgium,22,21,0
+10847,1,Chai,SAVEA,4,00:00.0,00:00.0,00:00.0,3,487.57,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,18,80,0.2
+10848,5,Chef Anton's Gumbo Mix,CONSH,7,00:00.0,00:00.0,00:00.0,2,38.24,Consolidated Holdings,Berkeley Gardens 12  Brewery,London,NULL,WX1 6LT,UK,21.35,30,0
+10849,3,Aniseed Syrup,KOENE,9,00:00.0,00:00.0,00:00.0,2,0.56,KÃ¶niglich Essen,Maubelstr. 90,Brandenburg,NULL,14776,Germany,10,49,0
+10850,25,NuNuCa NuÃŸ-Nougat-Creme,VICTE,1,00:00.0,00:00.0,00:00.0,1,49.19,Victuailles en stock,2 rue du Commerce,Lyon,NULL,69004,France,14,20,0.15
+10851,2,Chang,RICAR,5,00:00.0,00:00.0,00:00.0,1,160.55,Ricardo Adocicados,Av. Copacabana 267,Rio de Janeiro,RJ,02389-890,Brazil,19,5,0.05
+10852,2,Chang,RATTC,8,00:00.0,00:00.0,00:00.0,1,174.05,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,19,15,0
+10853,18,Carnarvon Tigers,BLAUS,9,00:00.0,00:00.0,00:00.0,2,53.83,Blauer See Delikatessen,Forsterstr. 57,Mannheim,NULL,68306,Germany,62.5,10,0
+10854,10,Ikura,ERNSH,3,00:00.0,00:00.0,00:00.0,2,100.22,Ernst Handel,Kirchgasse 6,Graz,NULL,8010,Austria,31,100,0.15
+10855,16,Pavlova,OLDWO,3,00:00.0,00:00.0,00:00.0,1,170.97,Old World Delicatessen,2743 Bering St.,Anchorage,AK,99508,USA,17.45,50,0
+10856,2,Chang,ANTON,3,00:00.0,00:00.0,00:00.0,2,58.43,Antonio Moreno TaquerÃ_a,Mataderos  2312,MÃ©xico D.F.,NULL,5023,Mexico,19,20,0
+10857,3,Aniseed Syrup,BERGS,8,00:00.0,00:00.0,00:00.0,2,188.85,Berglunds snabbkÃ¶p,BerguvsvÃ_gen  8,LuleÃ¥,NULL,S-958 22,Sweden,10,30,0
+10858,7,Uncle Bob's Organic Dried Pears,LACOR,2,00:00.0,00:00.0,00:00.0,1,52.51,La corne d'abondance,67 avenue de l'Europe,Versailles,NULL,78000,France,30,5,0
+10859,24,GuaranÃ¡ FantÃ¡stica,FRANK,1,00:00.0,00:00.0,00:00.0,2,76.1,Frankenversand,Berliner Platz 43,MÃ_nchen,NULL,80805,Germany,4.5,40,0.25
+10860,51,Manjimup Dried Apples,FRANR,3,00:00.0,00:00.0,00:00.0,3,19.26,France restauration,54 rue Royale,Nantes,NULL,44000,France,53,3,0
+10861,17,Alice Mutton,WHITC,4,00:00.0,00:00.0,00:00.0,2,14.93,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA,39,42,0
+10862,11,Queso Cabrales,LEHMS,8,00:00.0,00:00.0,00:00.0,2,53.23,Lehmanns Marktstand,Magazinweg 7,Frankfurt a.M.,NULL,60528,Germany,21,25,0
+10863,1,Chai,HILAA,4,00:00.0,00:00.0,00:00.0,2,30.26,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San CristÃ_bal,TÃ¡chira,5022,Venezuela,18,20,0.15
+10864,35,Steeleye Stout,AROUT,4,00:00.0,00:00.0,00:00.0,2,3.04,Around the Horn,Brook Farm Stratford St. Mary,Colchester,Essex,CO7 6JX,UK,18,4,0
+10865,38,CÃ´te de Blaye,QUICK,2,00:00.0,00:00.0,00:00.0,1,348.14,QUICK-Stop,TaucherstraÃŸe 10,Cunewalde,NULL,1307,Germany,263.5,60,0.05
+10866,2,Chang,BERGS,5,00:00.0,00:00.0,00:00.0,1,109.11,Berglunds snabbkÃ¶p,BerguvsvÃ_gen  8,LuleÃ¥,NULL,S-958 22,Sweden,19,21,0.25
+10867,53,Perth Pasties,LONEP,6,00:00.0,00:00.0,00:00.0,1,1.93,Lonesome Pine Restaurant,89 Chiaroscuro Rd.,Portland,OR,97219,USA,32.8,3,0
+10868,26,GumbÃ_r GummibÃ_rchen,QUEEN,7,00:00.0,00:00.0,00:00.0,2,191.27,Queen Cozinha,Alameda dos CanÃ rios 891,Sao Paulo,SP,05487-020,Brazil,31.23,20,0
+10869,1,Chai,SEVES,5,00:00.0,00:00.0,00:00.0,1,143.28,Seven Seas Imports,90 Wadhurst Rd.,London,NULL,OX15 4NB,UK,18,40,0
+10870,35,Steeleye Stout,WOLZA,5,00:00.0,00:00.0,00:00.0,3,12.04,Wolski Zajazd,ul. Filtrowa 68,Warszawa,NULL,01-012,Poland,18,3,0
+10871,6,Grandma's Boysenberry Spread,BONAP,9,00:00.0,00:00.0,00:00.0,2,112.27,Bon app',12 rue des Bouchers,Marseille,NULL,13008,France,25,50,0.05
+10872,55,PÃ¢tÃ© chinois,GODOS,5,00:00.0,00:00.0,00:00.0,2,175.32,Godos Cocina TÃ_pica,C/ Romero 33,Sevilla,NULL,41101,Spain,24,10,0.05
+10873,21,Sir Rodney's Scones,WILMK,4,00:00.0,00:00.0,00:00.0,1,0.82,Wilman Kala,Keskuskatu 45,Helsinki,NULL,21240,Finland,10,20,0
+10874,10,Ikura,GODOS,5,00:00.0,00:00.0,00:00.0,2,19.58,Godos Cocina TÃ_pica,C/ Romero 33,Sevilla,NULL,41101,Spain,31,10,0
+10875,19,Teatime Chocolate Biscuits,BERGS,4,00:00.0,00:00.0,00:00.0,2,32.37,Berglunds snabbkÃ¶p,BerguvsvÃ_gen  8,LuleÃ¥,NULL,S-958 22,Sweden,9.2,25,0
+10876,46,Spegesild,BONAP,7,00:00.0,00:00.0,00:00.0,3,60.42,Bon app',12 rue des Bouchers,Marseille,NULL,13008,France,12,21,0
+10877,16,Pavlova,RICAR,1,00:00.0,00:00.0,00:00.0,1,38.06,Ricardo Adocicados,Av. Copacabana 267,Rio de Janeiro,RJ,02389-890,Brazil,17.45,30,0.25
+10878,20,Sir Rodney's Marmalade,QUICK,4,00:00.0,00:00.0,00:00.0,1,46.69,QUICK-Stop,TaucherstraÃŸe 10,Cunewalde,NULL,1307,Germany,81,20,0.05
+10879,40,Boston Crab Meat,WILMK,3,00:00.0,00:00.0,00:00.0,3,8.5,Wilman Kala,Keskuskatu 45,Helsinki,NULL,21240,Finland,18.4,12,0
+10880,23,TunnbrÃ¶d,FOLKO,7,00:00.0,00:00.0,00:00.0,1,88.01,Folk och fÃ_ HB,Ã…kergatan 24,BrÃ_cke,NULL,S-844 67,Sweden,9,30,0.2
+10881,73,RÃ¶d Kaviar,CACTU,4,00:00.0,00:00.0,00:00.0,1,2.84,Cactus Comidas para llevar,Cerrito 333,Buenos Aires,NULL,1010,Argentina,15,10,0
+10882,42,Singaporean Hokkien Fried Mee,SAVEA,4,00:00.0,00:00.0,00:00.0,3,23.1,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,14,25,0
+10883,24,GuaranÃ¡ FantÃ¡stica,LONEP,8,00:00.0,00:00.0,00:00.0,3,0.53,Lonesome Pine Restaurant,89 Chiaroscuro Rd.,Portland,OR,97219,USA,4.5,8,0
+10884,21,Sir Rodney's Scones,LETSS,4,00:00.0,00:00.0,00:00.0,2,90.97,Let's Stop N Shop,87 Polk St. Suite 5,San Francisco,CA,94117,USA,10,40,0.05
+10885,2,Chang,SUPRD,6,00:00.0,00:00.0,00:00.0,3,5.64,SuprÃªmes dÃ©lices,Boulevard Tirou 255,Charleroi,NULL,B-6000,Belgium,19,20,0
+10886,10,Ikura,HANAR,1,00:00.0,00:00.0,00:00.0,1,4.99,Hanari Carnes,Rua do PaÃ§o 67,Rio de Janeiro,RJ,05454-876,Brazil,31,70,0
+10887,25,NuNuCa NuÃŸ-Nougat-Creme,GALED,8,00:00.0,00:00.0,00:00.0,3,1.25,GalerÃ_a del gastronÃ_mo,Rambla de CataluÃ±a 23,Barcelona,NULL,8022,Spain,14,5,0
+10888,2,Chang,GODOS,1,00:00.0,00:00.0,00:00.0,2,51.87,Godos Cocina TÃ_pica,C/ Romero 33,Sevilla,NULL,41101,Spain,19,20,0
+10889,11,Queso Cabrales,RATTC,9,00:00.0,00:00.0,00:00.0,3,280.61,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,21,40,0
+10890,17,Alice Mutton,DUMON,7,00:00.0,00:00.0,00:00.0,1,32.76,Du monde entier,67 rue des Cinquante Otages,Nantes,NULL,44000,France,39,15,0
+10891,30,Nord-Ost Matjeshering,LEHMS,7,00:00.0,00:00.0,00:00.0,2,20.37,Lehmanns Marktstand,Magazinweg 7,Frankfurt a.M.,NULL,60528,Germany,25.89,15,0.05
+10892,59,Raclette Courdavault,MAISD,4,00:00.0,00:00.0,00:00.0,2,120.27,Maison Dewey,Rue Joseph-Bens 532,Bruxelles,NULL,B-1180,Belgium,55,40,0.05
+10893,8,Northwoods Cranberry Sauce,KOENE,9,00:00.0,00:00.0,00:00.0,2,77.78,KÃ¶niglich Essen,Maubelstr. 90,Brandenburg,NULL,14776,Germany,40,30,0
+10894,13,Konbu,SAVEA,1,00:00.0,00:00.0,00:00.0,1,116.13,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,6,28,0.05
+10895,24,GuaranÃ¡ FantÃ¡stica,ERNSH,3,00:00.0,00:00.0,00:00.0,1,162.75,Ernst Handel,Kirchgasse 6,Graz,NULL,8010,Austria,4.5,110,0
+10896,45,Rogede sild,MAISD,7,00:00.0,00:00.0,00:00.0,3,32.45,Maison Dewey,Rue Joseph-Bens 532,Bruxelles,NULL,B-1180,Belgium,9.5,15,0
+10897,29,ThÃ_ringer Rostbratwurst,HUNGO,3,00:00.0,00:00.0,00:00.0,2,603.54,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,NULL,Ireland,123.79,80,0
+10898,13,Konbu,OCEAN,4,00:00.0,00:00.0,00:00.0,2,1.27,OcÃ©ano AtlÃ¡ntico Ltda.,Ing. Gustavo Moncada 8585 Piso 20-A,Buenos Aires,NULL,1010,Argentina,6,5,0
+10899,39,Chartreuse verte,LILAS,5,00:00.0,00:00.0,00:00.0,3,1.21,LILA-Supermercado,Carrera 52 con Ave. BolÃ_var #65-98 Llano Largo,Barquisimeto,Lara,3508,Venezuela,18,8,0.15
+10900,70,Outback Lager,WELLI,1,00:00.0,00:00.0,00:00.0,2,1.66,Wellington Importadora,Rua do Mercado 12,Resende,SP,08737-363,Brazil,15,3,0.25
+10901,41,Jack's New England Clam Chowder,HILAA,4,00:00.0,00:00.0,00:00.0,1,62.09,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San CristÃ_bal,TÃ¡chira,5022,Venezuela,9.65,30,0
+10902,55,PÃ¢tÃ© chinois,FOLKO,1,00:00.0,00:00.0,00:00.0,1,44.15,Folk och fÃ_ HB,Ã…kergatan 24,BrÃ_cke,NULL,S-844 67,Sweden,24,30,0.15
+10903,13,Konbu,HANAR,3,00:00.0,00:00.0,00:00.0,3,36.71,Hanari Carnes,Rua do PaÃ§o 67,Rio de Janeiro,RJ,05454-876,Brazil,6,40,0
+10904,58,Escargots de Bourgogne,WHITC,3,00:00.0,00:00.0,00:00.0,3,162.95,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA,13.25,15,0
+10905,1,Chai,WELLI,9,00:00.0,00:00.0,00:00.0,2,13.72,Wellington Importadora,Rua do Mercado 12,Resende,SP,08737-363,Brazil,18,20,0.05
+10906,61,Sirop d'Ã©rable,WOLZA,4,00:00.0,00:00.0,00:00.0,3,26.29,Wolski Zajazd,ul. Filtrowa 68,Warszawa,NULL,01-012,Poland,28.5,15,0
+10907,75,RhÃ¶nbrÃ_u Klosterbier,SPECD,6,00:00.0,00:00.0,00:00.0,3,9.19,SpÃ©cialitÃ©s du monde,25 rue Lauriston,Paris,NULL,75016,France,7.75,14,0
+10908,7,Uncle Bob's Organic Dried Pears,REGGC,4,00:00.0,00:00.0,00:00.0,2,32.96,Reggiani Caseifici,Strada Provinciale 124,Reggio Emilia,NULL,42100,Italy,30,20,0.05
+10909,7,Uncle Bob's Organic Dried Pears,SANTG,1,00:00.0,00:00.0,00:00.0,2,53.05,SantÃ© Gourmet,Erling Skakkes gate 78,Stavern,NULL,4110,Norway,30,12,0
+10910,19,Teatime Chocolate Biscuits,WILMK,1,00:00.0,00:00.0,00:00.0,3,38.11,Wilman Kala,Keskuskatu 45,Helsinki,NULL,21240,Finland,9.2,12,0
+10911,1,Chai,GODOS,3,00:00.0,00:00.0,00:00.0,1,38.19,Godos Cocina TÃ_pica,C/ Romero 33,Sevilla,NULL,41101,Spain,18,10,0
+10912,11,Queso Cabrales,HUNGO,2,00:00.0,00:00.0,00:00.0,2,580.91,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,NULL,Ireland,21,40,0.25
+10913,4,Chef Anton's Cajun Seasoning,QUEEN,4,00:00.0,00:00.0,00:00.0,1,33.05,Queen Cozinha,Alameda dos CanÃ rios 891,Sao Paulo,SP,05487-020,Brazil,22,30,0.25
+10914,71,Flotemysost,QUEEN,6,00:00.0,00:00.0,00:00.0,1,21.19,Queen Cozinha,Alameda dos CanÃ rios 891,Sao Paulo,SP,05487-020,Brazil,21.5,25,0
+10915,17,Alice Mutton,TORTU,2,00:00.0,00:00.0,00:00.0,2,3.51,Tortuga Restaurante,Avda. Azteca 123,MÃ©xico D.F.,NULL,5033,Mexico,39,10,0
+10916,16,Pavlova,RANCH,1,00:00.0,00:00.0,00:00.0,2,63.77,Rancho grande,Av. del Libertador 900,Buenos Aires,NULL,1010,Argentina,17.45,6,0
+10917,30,Nord-Ost Matjeshering,ROMEY,4,00:00.0,00:00.0,00:00.0,2,8.29,Romero y tomillo,Gran VÃ_a 1,Madrid,NULL,28001,Spain,25.89,1,0
+10918,1,Chai,BOTTM,3,00:00.0,00:00.0,00:00.0,3,48.83,Bottom-Dollar Markets,23 Tsawassen Blvd.,Tsawassen,BC,T2F 8M4,Canada,18,60,0.25
+10919,16,Pavlova,LINOD,2,00:00.0,00:00.0,00:00.0,2,19.8,LINO-Delicateses,Ave. 5 de Mayo Porlamar,I. de Margarita,Nueva Esparta,4980,Venezuela,17.45,24,0
+10920,50,Valkoinen suklaa,AROUT,4,00:00.0,00:00.0,00:00.0,2,29.61,Around the Horn,Brook Farm Stratford St. Mary,Colchester,Essex,CO7 6JX,UK,16.25,24,0
+10921,35,Steeleye Stout,VAFFE,1,00:00.0,00:00.0,00:00.0,1,176.48,Vaffeljernet,Smagsloget 45,Ã…rhus,NULL,8200,Denmark,18,10,0
+10922,17,Alice Mutton,HANAR,5,00:00.0,00:00.0,00:00.0,3,62.74,Hanari Carnes,Rua do PaÃ§o 67,Rio de Janeiro,RJ,05454-876,Brazil,39,15,0
+10923,42,Singaporean Hokkien Fried Mee,LAMAI,7,00:00.0,00:00.0,00:00.0,3,68.26,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,NULL,31000,France,14,10,0.2
+10924,10,Ikura,BERGS,3,00:00.0,00:00.0,00:00.0,2,151.52,Berglunds snabbkÃ¶p,BerguvsvÃ_gen  8,LuleÃ¥,NULL,S-958 22,Sweden,31,20,0.1
+10925,36,Inlagd Sill,HANAR,3,00:00.0,00:00.0,00:00.0,1,2.27,Hanari Carnes,Rua do PaÃ§o 67,Rio de Janeiro,RJ,05454-876,Brazil,19,25,0.15
+10926,11,Queso Cabrales,ANATR,4,00:00.0,00:00.0,00:00.0,3,39.92,Ana Trujillo Emparedados y helados,Avda. de la ConstituciÃ_n 2222,MÃ©xico D.F.,NULL,5021,Mexico,21,2,0
+10927,20,Sir Rodney's Marmalade,LACOR,4,00:00.0,00:00.0,00:00.0,1,19.79,La corne d'abondance,67 avenue de l'Europe,Versailles,NULL,78000,France,81,5,0
+10928,47,Zaanse koeken,GALED,1,00:00.0,00:00.0,00:00.0,1,1.36,GalerÃ_a del gastronÃ_mo,Rambla de CataluÃ±a 23,Barcelona,NULL,8022,Spain,9.5,5,0
+10929,21,Sir Rodney's Scones,FRANK,6,00:00.0,00:00.0,00:00.0,1,33.93,Frankenversand,Berliner Platz 43,MÃ_nchen,NULL,80805,Germany,10,60,0
+10930,21,Sir Rodney's Scones,SUPRD,4,00:00.0,00:00.0,00:00.0,3,15.55,SuprÃªmes dÃ©lices,Boulevard Tirou 255,Charleroi,NULL,B-6000,Belgium,10,36,0
+10931,13,Konbu,RICSU,4,00:00.0,00:00.0,00:00.0,2,13.6,Richter Supermarkt,Starenweg 5,GenÃ¨ve,NULL,1204,Switzerland,6,42,0.15
+10932,16,Pavlova,BONAP,8,00:00.0,00:00.0,00:00.0,1,134.64,Bon app',12 rue des Bouchers,Marseille,NULL,13008,France,17.45,30,0.1
+10933,53,Perth Pasties,ISLAT,6,00:00.0,00:00.0,00:00.0,3,54.15,Island Trading,Garden House Crowther Way,Cowes,Isle of Wight,PO31 7PJ,UK,32.8,2,0
+10934,6,Grandma's Boysenberry Spread,LEHMS,3,00:00.0,00:00.0,00:00.0,3,32.01,Lehmanns Marktstand,Magazinweg 7,Frankfurt a.M.,NULL,60528,Germany,25,20,0
+10935,1,Chai,WELLI,4,00:00.0,00:00.0,00:00.0,3,47.59,Wellington Importadora,Rua do Mercado 12,Resende,SP,08737-363,Brazil,18,21,0
+10936,36,Inlagd Sill,GREAL,3,00:00.0,00:00.0,00:00.0,2,33.68,Great Lakes Food Market,2732 Baker Blvd.,Eugene,OR,97403,USA,19,30,0.2
+10937,28,RÃ¶ssle Sauerkraut,CACTU,7,00:00.0,00:00.0,00:00.0,3,31.51,Cactus Comidas para llevar,Cerrito 333,Buenos Aires,NULL,1010,Argentina,45.6,8,0
+10938,13,Konbu,QUICK,3,00:00.0,00:00.0,00:00.0,2,31.89,QUICK-Stop,TaucherstraÃŸe 10,Cunewalde,NULL,1307,Germany,6,20,0.25
+10939,2,Chang,MAGAA,2,00:00.0,00:00.0,00:00.0,2,76.33,Magazzini Alimentari Riuniti,Via Ludovico il Moro 22,Bergamo,NULL,24100,Italy,19,10,0.15
+10940,7,Uncle Bob's Organic Dried Pears,BONAP,8,00:00.0,00:00.0,00:00.0,3,19.77,Bon app',12 rue des Bouchers,Marseille,NULL,13008,France,30,8,0
+10941,31,Gorgonzola Telino,SAVEA,7,00:00.0,00:00.0,00:00.0,2,400.81,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,12.5,44,0.25
+10942,49,Maxilaku,REGGC,9,00:00.0,00:00.0,00:00.0,3,17.95,Reggiani Caseifici,Strada Provinciale 124,Reggio Emilia,NULL,42100,Italy,20,28,0
+10943,13,Konbu,BSBEV,4,00:00.0,00:00.0,00:00.0,2,2.17,B's Beverages,Fauntleroy Circus,London,NULL,EC2 5NT,UK,6,15,0
+10944,11,Queso Cabrales,BOTTM,6,00:00.0,00:00.0,00:00.0,3,52.92,Bottom-Dollar Markets,23 Tsawassen Blvd.,Tsawassen,BC,T2F 8M4,Canada,21,5,0.25
+10945,13,Konbu,MORGK,4,00:00.0,00:00.0,00:00.0,1,10.22,Morgenstern Gesundkost,Heerstr. 22,Leipzig,NULL,4179,Germany,6,20,0
+10946,10,Ikura,VAFFE,1,00:00.0,00:00.0,00:00.0,2,27.2,Vaffeljernet,Smagsloget 45,Ã…rhus,NULL,8200,Denmark,31,25,0
+10947,59,Raclette Courdavault,BSBEV,3,00:00.0,00:00.0,00:00.0,2,3.26,B's Beverages,Fauntleroy Circus,London,NULL,EC2 5NT,UK,55,4,0
+10948,50,Valkoinen suklaa,GODOS,3,00:00.0,00:00.0,00:00.0,3,23.39,Godos Cocina TÃ_pica,C/ Romero 33,Sevilla,NULL,41101,Spain,16.25,9,0
+10949,6,Grandma's Boysenberry Spread,BOTTM,2,00:00.0,00:00.0,00:00.0,3,74.44,Bottom-Dollar Markets,23 Tsawassen Blvd.,Tsawassen,BC,T2F 8M4,Canada,25,12,0
+10950,4,Chef Anton's Cajun Seasoning,MAGAA,1,00:00.0,00:00.0,00:00.0,2,2.5,Magazzini Alimentari Riuniti,Via Ludovico il Moro 22,Bergamo,NULL,24100,Italy,22,5,0
+10951,33,Geitost,RICSU,9,00:00.0,00:00.0,00:00.0,2,30.85,Richter Supermarkt,Starenweg 5,GenÃ¨ve,NULL,1204,Switzerland,2.5,15,0.05
+10952,6,Grandma's Boysenberry Spread,ALFKI,1,00:00.0,00:00.0,00:00.0,1,40.42,Alfred's Futterkiste,Obere Str. 57,Berlin,NULL,12209,Germany,25,16,0.05
+10953,20,Sir Rodney's Marmalade,AROUT,9,00:00.0,00:00.0,00:00.0,2,23.72,Around the Horn,Brook Farm Stratford St. Mary,Colchester,Essex,CO7 6JX,UK,81,50,0.05
+10954,16,Pavlova,LINOD,5,00:00.0,00:00.0,00:00.0,1,27.91,LINO-Delicateses,Ave. 5 de Mayo Porlamar,I. de Margarita,Nueva Esparta,4980,Venezuela,17.45,28,0.15
+10955,75,RhÃ¶nbrÃ_u Klosterbier,FOLKO,8,00:00.0,00:00.0,00:00.0,2,3.26,Folk och fÃ_ HB,Ã…kergatan 24,BrÃ_cke,NULL,S-844 67,Sweden,7.75,12,0.2
+10956,21,Sir Rodney's Scones,BLAUS,6,00:00.0,00:00.0,00:00.0,2,44.65,Blauer See Delikatessen,Forsterstr. 57,Mannheim,NULL,68306,Germany,10,12,0
+10957,30,Nord-Ost Matjeshering,HILAA,8,00:00.0,00:00.0,00:00.0,3,105.36,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San CristÃ_bal,TÃ¡chira,5022,Venezuela,25.89,30,0
+10958,5,Chef Anton's Gumbo Mix,OCEAN,7,00:00.0,00:00.0,00:00.0,2,49.56,OcÃ©ano AtlÃ¡ntico Ltda.,Ing. Gustavo Moncada 8585 Piso 20-A,Buenos Aires,NULL,1010,Argentina,21.35,20,0
+10959,75,RhÃ¶nbrÃ_u Klosterbier,GOURL,6,00:00.0,00:00.0,00:00.0,2,4.98,Gourmet Lanchonetes,Av. Brasil 442,Campinas,SP,04876-786,Brazil,7.75,20,0.15
+10960,24,GuaranÃ¡ FantÃ¡stica,HILAA,3,00:00.0,00:00.0,00:00.0,1,2.08,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San CristÃ_bal,TÃ¡chira,5022,Venezuela,4.5,10,0.25
+10961,52,Filo Mix,QUEEN,8,00:00.0,00:00.0,00:00.0,1,104.47,Queen Cozinha,Alameda dos CanÃ rios 891,Sao Paulo,SP,05487-020,Brazil,7,6,0.05
+10962,7,Uncle Bob's Organic Dried Pears,QUICK,8,00:00.0,00:00.0,00:00.0,2,275.79,QUICK-Stop,TaucherstraÃŸe 10,Cunewalde,NULL,1307,Germany,30,45,0
+10963,60,Camembert Pierrot,FURIB,9,00:00.0,00:00.0,00:00.0,3,2.7,Furia Bacalhau e Frutos do Mar,Jardim das rosas n. 32,Lisboa,NULL,1675,Portugal,34,2,0.15
+10964,18,Carnarvon Tigers,SPECD,3,00:00.0,00:00.0,00:00.0,2,87.38,SpÃ©cialitÃ©s du monde,25 rue Lauriston,Paris,NULL,75016,France,62.5,6,0
+10965,51,Manjimup Dried Apples,OLDWO,6,00:00.0,00:00.0,00:00.0,3,144.38,Old World Delicatessen,2743 Bering St.,Anchorage,AK,99508,USA,53,16,0
+10966,37,Gravad lax,CHOPS,4,00:00.0,00:00.0,00:00.0,1,27.19,Chop-suey Chinese,Hauptstr. 31,Bern,NULL,3012,Switzerland,26,8,0
+10967,19,Teatime Chocolate Biscuits,TOMSP,2,00:00.0,00:00.0,00:00.0,2,62.22,Toms SpezialitÃ_ten,Luisenstr. 48,MÃ_nster,NULL,44087,Germany,9.2,12,0
+10968,12,Queso Manchego La Pastora,ERNSH,1,00:00.0,00:00.0,00:00.0,3,74.6,Ernst Handel,Kirchgasse 6,Graz,NULL,8010,Austria,38,30,0
+10969,46,Spegesild,COMMI,1,00:00.0,00:00.0,00:00.0,2,0.21,ComÃ©rcio Mineiro,Av. dos LusÃ_adas 23,Sao Paulo,SP,05432-043,Brazil,12,9,0
+10970,52,Filo Mix,BOLID,9,00:00.0,00:00.0,00:00.0,1,16.16,BÃ_lido Comidas preparadas,C/ Araquil 67,Madrid,NULL,28023,Spain,7,40,0.2
+10971,29,ThÃ_ringer Rostbratwurst,FRANR,2,00:00.0,00:00.0,00:00.0,2,121.82,France restauration,54 rue Royale,Nantes,NULL,44000,France,123.79,14,0
+10972,17,Alice Mutton,LACOR,4,00:00.0,00:00.0,00:00.0,2,0.02,La corne d'abondance,67 avenue de l'Europe,Versailles,NULL,78000,France,39,6,0
+10973,26,GumbÃ_r GummibÃ_rchen,LACOR,6,00:00.0,00:00.0,00:00.0,2,15.17,La corne d'abondance,67 avenue de l'Europe,Versailles,NULL,78000,France,31.23,5,0
+10974,63,Vegie-spread,SPLIR,3,00:00.0,00:00.0,00:00.0,3,12.96,Split Rail Beer & Ale,P.O. Box 555,Lander,WY,82520,USA,43.9,10,0
+10975,8,Northwoods Cranberry Sauce,BOTTM,1,00:00.0,00:00.0,00:00.0,3,32.27,Bottom-Dollar Markets,23 Tsawassen Blvd.,Tsawassen,BC,T2F 8M4,Canada,40,16,0
+10976,28,RÃ¶ssle Sauerkraut,HILAA,1,00:00.0,00:00.0,00:00.0,1,37.97,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San CristÃ_bal,TÃ¡chira,5022,Venezuela,45.6,20,0
+10977,39,Chartreuse verte,FOLKO,8,00:00.0,00:00.0,00:00.0,3,208.5,Folk och fÃ_ HB,Ã…kergatan 24,BrÃ_cke,NULL,S-844 67,Sweden,18,30,0
+10978,8,Northwoods Cranberry Sauce,MAISD,9,00:00.0,00:00.0,00:00.0,2,32.82,Maison Dewey,Rue Joseph-Bens 532,Bruxelles,NULL,B-1180,Belgium,40,20,0.15
+10979,7,Uncle Bob's Organic Dried Pears,ERNSH,8,00:00.0,00:00.0,00:00.0,2,353.07,Ernst Handel,Kirchgasse 6,Graz,NULL,8010,Austria,30,18,0
+10980,75,RhÃ¶nbrÃ_u Klosterbier,FOLKO,4,00:00.0,00:00.0,00:00.0,1,1.26,Folk och fÃ_ HB,Ã…kergatan 24,BrÃ_cke,NULL,S-844 67,Sweden,7.75,40,0.2
+10981,38,CÃ´te de Blaye,HANAR,1,00:00.0,00:00.0,00:00.0,2,193.37,Hanari Carnes,Rua do PaÃ§o 67,Rio de Janeiro,RJ,05454-876,Brazil,263.5,60,0
+10982,7,Uncle Bob's Organic Dried Pears,BOTTM,2,00:00.0,00:00.0,00:00.0,1,14.01,Bottom-Dollar Markets,23 Tsawassen Blvd.,Tsawassen,BC,T2F 8M4,Canada,30,20,0
+10983,13,Konbu,SAVEA,2,00:00.0,00:00.0,00:00.0,2,657.54,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,6,84,0.15
+10984,16,Pavlova,SAVEA,1,00:00.0,00:00.0,00:00.0,3,211.22,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,17.45,55,0
+10985,16,Pavlova,HUNGO,2,00:00.0,00:00.0,00:00.0,1,91.51,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,NULL,Ireland,17.45,36,0.1
+10986,11,Queso Cabrales,OCEAN,8,00:00.0,00:00.0,00:00.0,2,217.86,OcÃ©ano AtlÃ¡ntico Ltda.,Ing. Gustavo Moncada 8585 Piso 20-A,Buenos Aires,NULL,1010,Argentina,21,30,0
+10987,7,Uncle Bob's Organic Dried Pears,EASTC,8,00:00.0,00:00.0,00:00.0,1,185.48,Eastern Connection,35 King George,London,NULL,WX3 6FW,UK,30,60,0
+10988,7,Uncle Bob's Organic Dried Pears,RATTC,3,00:00.0,00:00.0,00:00.0,2,61.14,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,30,60,0
+10989,6,Grandma's Boysenberry Spread,QUEDE,2,00:00.0,00:00.0,00:00.0,1,34.76,Que DelÃ_cia,Rua da Panificadora 12,Rio de Janeiro,RJ,02389-673,Brazil,25,40,0
+10990,21,Sir Rodney's Scones,ERNSH,2,00:00.0,00:00.0,00:00.0,3,117.61,Ernst Handel,Kirchgasse 6,Graz,NULL,8010,Austria,10,65,0
+10991,2,Chang,QUICK,1,00:00.0,00:00.0,00:00.0,1,38.51,QUICK-Stop,TaucherstraÃŸe 10,Cunewalde,NULL,1307,Germany,19,50,0.2
+10992,72,Mozzarella di Giovanni,THEBI,1,00:00.0,00:00.0,00:00.0,3,4.27,The Big Cheese,89 Jefferson Way Suite 2,Portland,OR,97201,USA,34.8,2,0
+10993,29,ThÃ_ringer Rostbratwurst,FOLKO,7,00:00.0,00:00.0,00:00.0,3,8.81,Folk och fÃ_ HB,Ã…kergatan 24,BrÃ_cke,NULL,S-844 67,Sweden,123.79,50,0.25
+10994,59,Raclette Courdavault,VAFFE,2,00:00.0,00:00.0,00:00.0,3,65.53,Vaffeljernet,Smagsloget 45,Ã…rhus,NULL,8200,Denmark,55,18,0.05
+10995,51,Manjimup Dried Apples,PERIC,1,00:00.0,00:00.0,00:00.0,3,46,Pericles Comidas clÃ¡sicas,Calle Dr. Jorge Cash 321,MÃ©xico D.F.,NULL,5033,Mexico,53,20,0
+10996,42,Singaporean Hokkien Fried Mee,QUICK,4,00:00.0,00:00.0,00:00.0,2,1.12,QUICK-Stop,TaucherstraÃŸe 10,Cunewalde,NULL,1307,Germany,14,40,0
+10997,32,Mascarpone Fabioli,LILAS,8,00:00.0,00:00.0,00:00.0,2,73.91,LILA-Supermercado,Carrera 52 con Ave. BolÃ_var #65-98 Llano Largo,Barquisimeto,Lara,3508,Venezuela,32,50,0
+10998,24,GuaranÃ¡ FantÃ¡stica,WOLZA,8,00:00.0,00:00.0,00:00.0,2,20.31,Wolski Zajazd,ul. Filtrowa 68,Warszawa,NULL,01-012,Poland,4.5,12,0
+10999,41,Jack's New England Clam Chowder,OTTIK,6,00:00.0,00:00.0,00:00.0,2,96.35,Ottilies KÃ_seladen,Mehrheimerstr. 369,KÃ¶ln,NULL,50739,Germany,9.65,20,0.05
+11000,4,Chef Anton's Cajun Seasoning,RATTC,2,00:00.0,00:00.0,00:00.0,3,55.12,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,22,25,0.25
+11001,7,Uncle Bob's Organic Dried Pears,FOLKO,2,00:00.0,00:00.0,00:00.0,2,197.3,Folk och fÃ_ HB,Ã…kergatan 24,BrÃ_cke,NULL,S-844 67,Sweden,30,60,0
+11002,13,Konbu,SAVEA,4,00:00.0,00:00.0,00:00.0,1,141.16,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,6,56,0
+11003,1,Chai,THECR,3,00:00.0,00:00.0,00:00.0,3,14.91,The Cracker Box,55 Grizzly Peak Rd.,Butte,MT,59801,USA,18,4,0
+11004,26,GumbÃ_r GummibÃ_rchen,MAISD,3,00:00.0,00:00.0,00:00.0,1,44.84,Maison Dewey,Rue Joseph-Bens 532,Bruxelles,NULL,B-1180,Belgium,31.23,6,0
+11005,1,Chai,WILMK,2,00:00.0,00:00.0,00:00.0,1,0.75,Wilman Kala,Keskuskatu 45,Helsinki,NULL,21240,Finland,18,2,0
+11006,1,Chai,GREAL,3,00:00.0,00:00.0,00:00.0,2,25.19,Great Lakes Food Market,2732 Baker Blvd.,Eugene,OR,97403,USA,18,8,0
+11007,8,Northwoods Cranberry Sauce,PRINI,8,00:00.0,00:00.0,00:00.0,2,202.24,Princesa Isabel Vinhos,Estrada da saÃºde n. 58,Lisboa,NULL,1756,Portugal,40,30,0
+11008,28,RÃ¶ssle Sauerkraut,ERNSH,7,00:00.0,00:00.0,NULL,3,79.46,Ernst Handel,Kirchgasse 6,Graz,NULL,8010,Austria,45.6,70,0.05
+11009,24,GuaranÃ¡ FantÃ¡stica,GODOS,2,00:00.0,00:00.0,00:00.0,1,59.11,Godos Cocina TÃ_pica,C/ Romero 33,Sevilla,NULL,41101,Spain,4.5,12,0
+11010,7,Uncle Bob's Organic Dried Pears,REGGC,2,00:00.0,00:00.0,00:00.0,2,28.71,Reggiani Caseifici,Strada Provinciale 124,Reggio Emilia,NULL,42100,Italy,30,20,0
+11011,58,Escargots de Bourgogne,ALFKI,3,00:00.0,00:00.0,00:00.0,1,1.21,Alfred's Futterkiste,Obere Str. 57,Berlin,NULL,12209,Germany,13.25,40,0.05
+11012,19,Teatime Chocolate Biscuits,FRANK,1,00:00.0,00:00.0,00:00.0,3,242.95,Frankenversand,Berliner Platz 43,MÃ_nchen,NULL,80805,Germany,9.2,50,0.05
+11013,23,TunnbrÃ¶d,ROMEY,2,00:00.0,00:00.0,00:00.0,1,32.99,Romero y tomillo,Gran VÃ_a 1,Madrid,NULL,28001,Spain,9,10,0
+11014,41,Jack's New England Clam Chowder,LINOD,2,00:00.0,00:00.0,00:00.0,3,23.6,LINO-Delicateses,Ave. 5 de Mayo Porlamar,I. de Margarita,Nueva Esparta,4980,Venezuela,9.65,28,0.1
+11015,30,Nord-Ost Matjeshering,SANTG,2,00:00.0,00:00.0,00:00.0,2,4.62,SantÃ© Gourmet,Erling Skakkes gate 78,Stavern,NULL,4110,Norway,25.89,15,0
+11016,31,Gorgonzola Telino,AROUT,9,00:00.0,00:00.0,00:00.0,2,33.8,Around the Horn,Brook Farm Stratford St. Mary,Colchester,Essex,CO7 6JX,UK,12.5,15,0
+11017,3,Aniseed Syrup,ERNSH,9,00:00.0,00:00.0,00:00.0,2,754.26,Ernst Handel,Kirchgasse 6,Graz,NULL,8010,Austria,10,25,0
+11018,12,Queso Manchego La Pastora,LONEP,4,00:00.0,00:00.0,00:00.0,2,11.65,Lonesome Pine Restaurant,89 Chiaroscuro Rd.,Portland,OR,97219,USA,38,20,0
+11019,46,Spegesild,RANCH,6,00:00.0,00:00.0,NULL,3,3.17,Rancho grande,Av. del Libertador 900,Buenos Aires,NULL,1010,Argentina,12,3,0
+11020,10,Ikura,OTTIK,2,00:00.0,00:00.0,00:00.0,2,43.3,Ottilies KÃ_seladen,Mehrheimerstr. 369,KÃ¶ln,NULL,50739,Germany,31,24,0.15
+11021,2,Chang,QUICK,3,00:00.0,00:00.0,00:00.0,1,297.18,QUICK-Stop,TaucherstraÃŸe 10,Cunewalde,NULL,1307,Germany,19,11,0.25
+11022,19,Teatime Chocolate Biscuits,HANAR,9,00:00.0,00:00.0,00:00.0,2,6.27,Hanari Carnes,Rua do PaÃ§o 67,Rio de Janeiro,RJ,05454-876,Brazil,9.2,35,0
+11023,7,Uncle Bob's Organic Dried Pears,BSBEV,1,00:00.0,00:00.0,00:00.0,2,123.83,B's Beverages,Fauntleroy Circus,London,NULL,EC2 5NT,UK,30,4,0
+11024,26,GumbÃ_r GummibÃ_rchen,EASTC,4,00:00.0,00:00.0,00:00.0,1,74.36,Eastern Connection,35 King George,London,NULL,WX3 6FW,UK,31.23,12,0
+11025,1,Chai,WARTH,6,00:00.0,00:00.0,00:00.0,3,29.17,Wartian Herkku,Torikatu 38,Oulu,NULL,90110,Finland,18,10,0.1
+11026,18,Carnarvon Tigers,FRANS,4,00:00.0,00:00.0,00:00.0,1,47.09,Franchi S.p.A.,Via Monte Bianco 34,Torino,NULL,10100,Italy,62.5,8,0
+11027,24,GuaranÃ¡ FantÃ¡stica,BOTTM,1,00:00.0,00:00.0,00:00.0,1,52.52,Bottom-Dollar Markets,23 Tsawassen Blvd.,Tsawassen,BC,T2F 8M4,Canada,4.5,30,0.25
+11028,55,PÃ¢tÃ© chinois,KOENE,2,00:00.0,00:00.0,00:00.0,1,29.59,KÃ¶niglich Essen,Maubelstr. 90,Brandenburg,NULL,14776,Germany,24,35,0
+11029,56,Gnocchi di nonna Alice,CHOPS,4,00:00.0,00:00.0,00:00.0,1,47.84,Chop-suey Chinese,Hauptstr. 31,Bern,NULL,3012,Switzerland,38,20,0
+11030,2,Chang,SAVEA,7,00:00.0,00:00.0,00:00.0,2,830.75,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,19,100,0.25
+11031,1,Chai,SAVEA,6,00:00.0,00:00.0,00:00.0,2,227.22,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,18,45,0
+11032,36,Inlagd Sill,WHITC,2,00:00.0,00:00.0,00:00.0,3,606.19,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA,19,35,0
+11033,53,Perth Pasties,RICSU,7,00:00.0,00:00.0,00:00.0,3,84.74,Richter Supermarkt,Starenweg 5,GenÃ¨ve,NULL,1204,Switzerland,32.8,70,0.1
+11034,21,Sir Rodney's Scones,OLDWO,8,00:00.0,00:00.0,00:00.0,1,40.32,Old World Delicatessen,2743 Bering St.,Anchorage,AK,99508,USA,10,15,0.1
+11035,1,Chai,SUPRD,2,00:00.0,00:00.0,00:00.0,2,0.17,SuprÃªmes dÃ©lices,Boulevard Tirou 255,Charleroi,NULL,B-6000,Belgium,18,10,0
+11036,13,Konbu,DRACD,8,00:00.0,00:00.0,00:00.0,3,149.47,Drachenblut Delikatessen,Walserweg 21,Aachen,NULL,52066,Germany,6,7,0
+11037,70,Outback Lager,GODOS,7,00:00.0,00:00.0,00:00.0,1,3.2,Godos Cocina TÃ_pica,C/ Romero 33,Sevilla,NULL,41101,Spain,15,4,0
+11038,40,Boston Crab Meat,SUPRD,1,00:00.0,00:00.0,00:00.0,2,29.59,SuprÃªmes dÃ©lices,Boulevard Tirou 255,Charleroi,NULL,B-6000,Belgium,18.4,5,0.2
+11039,28,RÃ¶ssle Sauerkraut,LINOD,1,00:00.0,00:00.0,NULL,2,65,LINO-Delicateses,Ave. 5 de Mayo Porlamar,I. de Margarita,Nueva Esparta,4980,Venezuela,45.6,20,0
+11040,21,Sir Rodney's Scones,GREAL,4,00:00.0,00:00.0,NULL,3,18.84,Great Lakes Food Market,2732 Baker Blvd.,Eugene,OR,97403,USA,10,20,0
+11041,2,Chang,CHOPS,3,00:00.0,00:00.0,00:00.0,2,48.22,Chop-suey Chinese,Hauptstr. 31,Bern,NULL,3012,Switzerland,19,30,0.2
+11042,44,Gula Malacca,COMMI,2,00:00.0,00:00.0,00:00.0,1,29.99,ComÃ©rcio Mineiro,Av. dos LusÃ_adas 23,Sao Paulo,SP,05432-043,Brazil,19.45,15,0
+11043,11,Queso Cabrales,SPECD,5,00:00.0,00:00.0,00:00.0,2,8.8,SpÃ©cialitÃ©s du monde,25 rue Lauriston,Paris,NULL,75016,France,21,10,0
+11044,62,Tarte au sucre,WOLZA,4,00:00.0,00:00.0,00:00.0,1,8.72,Wolski Zajazd,ul. Filtrowa 68,Warszawa,NULL,01-012,Poland,49.3,12,0
+11045,33,Geitost,BOTTM,6,00:00.0,00:00.0,NULL,2,70.58,Bottom-Dollar Markets,23 Tsawassen Blvd.,Tsawassen,BC,T2F 8M4,Canada,2.5,15,0
+11046,12,Queso Manchego La Pastora,WANDK,8,00:00.0,00:00.0,00:00.0,2,71.64,Die Wandernde Kuh,Adenauerallee 900,Stuttgart,NULL,70563,Germany,38,20,0.05
+11047,1,Chai,EASTC,7,00:00.0,00:00.0,00:00.0,3,46.62,Eastern Connection,35 King George,London,NULL,WX3 6FW,UK,18,25,0.25
+11048,68,Scottish Longbreads,BOTTM,7,00:00.0,00:00.0,00:00.0,3,24.12,Bottom-Dollar Markets,23 Tsawassen Blvd.,Tsawassen,BC,T2F 8M4,Canada,12.5,42,0
+11049,2,Chang,GOURL,3,00:00.0,00:00.0,00:00.0,1,8.34,Gourmet Lanchonetes,Av. Brasil 442,Campinas,SP,04876-786,Brazil,19,10,0.2
+11050,76,LakkalikÃ¶Ã¶ri,FOLKO,8,00:00.0,00:00.0,00:00.0,2,59.41,Folk och fÃ_ HB,Ã…kergatan 24,BrÃ_cke,NULL,S-844 67,Sweden,18,50,0.1
+11051,24,GuaranÃ¡ FantÃ¡stica,LAMAI,7,00:00.0,00:00.0,NULL,3,2.79,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,NULL,31000,France,4.5,10,0.2
+11052,43,Ipoh Coffee,HANAR,3,00:00.0,00:00.0,00:00.0,1,67.26,Hanari Carnes,Rua do PaÃ§o 67,Rio de Janeiro,RJ,05454-876,Brazil,46,30,0.2
+11053,18,Carnarvon Tigers,PICCO,2,00:00.0,00:00.0,00:00.0,2,53.05,Piccolo und mehr,Geislweg 14,Salzburg,NULL,5020,Austria,62.5,35,0.2
+11054,33,Geitost,CACTU,8,00:00.0,00:00.0,NULL,1,0.33,Cactus Comidas para llevar,Cerrito 333,Buenos Aires,NULL,1010,Argentina,2.5,10,0
+11055,24,GuaranÃ¡ FantÃ¡stica,HILAA,7,00:00.0,00:00.0,00:00.0,2,120.92,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San CristÃ_bal,TÃ¡chira,5022,Venezuela,4.5,15,0
+11056,7,Uncle Bob's Organic Dried Pears,EASTC,8,00:00.0,00:00.0,00:00.0,2,278.96,Eastern Connection,35 King George,London,NULL,WX3 6FW,UK,30,40,0
+11057,70,Outback Lager,NORTS,3,00:00.0,00:00.0,00:00.0,3,4.13,North/South,South House 300 Queensbridge,London,NULL,SW7 1RZ,UK,15,3,0
+11058,21,Sir Rodney's Scones,BLAUS,9,00:00.0,00:00.0,NULL,3,31.14,Blauer See Delikatessen,Forsterstr. 57,Mannheim,NULL,68306,Germany,10,3,0
+11059,13,Konbu,RICAR,2,00:00.0,00:00.0,NULL,2,85.8,Ricardo Adocicados,Av. Copacabana 267,Rio de Janeiro,RJ,02389-890,Brazil,6,30,0
+11060,60,Camembert Pierrot,FRANS,2,00:00.0,00:00.0,00:00.0,2,10.98,Franchi S.p.A.,Via Monte Bianco 34,Torino,NULL,10100,Italy,34,4,0
+11061,60,Camembert Pierrot,GREAL,4,00:00.0,00:00.0,NULL,3,14.01,Great Lakes Food Market,2732 Baker Blvd.,Eugene,OR,97403,USA,34,15,0
+11062,53,Perth Pasties,REGGC,4,00:00.0,00:00.0,NULL,2,29.93,Reggiani Caseifici,Strada Provinciale 124,Reggio Emilia,NULL,42100,Italy,32.8,10,0.2
+11063,34,Sasquatch Ale,HUNGO,3,00:00.0,00:00.0,00:00.0,2,81.73,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,NULL,Ireland,14,30,0
+11064,17,Alice Mutton,SAVEA,1,00:00.0,00:00.0,00:00.0,1,30.09,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,39,77,0.1
+11065,30,Nord-Ost Matjeshering,LILAS,8,00:00.0,00:00.0,NULL,1,12.91,LILA-Supermercado,Carrera 52 con Ave. BolÃ_var #65-98 Llano Largo,Barquisimeto,Lara,3508,Venezuela,25.89,4,0.25
+11066,16,Pavlova,WHITC,7,00:00.0,00:00.0,00:00.0,2,44.72,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA,17.45,3,0
+11067,41,Jack's New England Clam Chowder,DRACD,1,00:00.0,00:00.0,00:00.0,2,7.98,Drachenblut Delikatessen,Walserweg 21,Aachen,NULL,52066,Germany,9.65,9,0
+11068,28,RÃ¶ssle Sauerkraut,QUEEN,8,00:00.0,00:00.0,NULL,2,81.75,Queen Cozinha,Alameda dos CanÃ rios 891,Sao Paulo,SP,05487-020,Brazil,45.6,8,0.15
+11069,39,Chartreuse verte,TORTU,1,00:00.0,00:00.0,00:00.0,2,15.67,Tortuga Restaurante,Avda. Azteca 123,MÃ©xico D.F.,NULL,5033,Mexico,18,20,0
+11070,1,Chai,LEHMS,2,00:00.0,00:00.0,NULL,1,136,Lehmanns Marktstand,Magazinweg 7,Frankfurt a.M.,NULL,60528,Germany,18,40,0.15
+11071,7,Uncle Bob's Organic Dried Pears,LILAS,1,00:00.0,00:00.0,NULL,1,0.93,LILA-Supermercado,Carrera 52 con Ave. BolÃ_var #65-98 Llano Largo,Barquisimeto,Lara,3508,Venezuela,30,15,0.05
+11072,2,Chang,ERNSH,4,00:00.0,00:00.0,NULL,2,258.64,Ernst Handel,Kirchgasse 6,Graz,NULL,8010,Austria,19,8,0
+11073,11,Queso Cabrales,PERIC,2,00:00.0,00:00.0,NULL,2,24.95,Pericles Comidas clÃ¡sicas,Calle Dr. Jorge Cash 321,MÃ©xico D.F.,NULL,5033,Mexico,21,10,0
+11074,16,Pavlova,SIMOB,7,00:00.0,00:00.0,NULL,2,18.44,Simons bistro,VinbÃ_ltet 34,Kobenhavn,NULL,1734,Denmark,17.45,14,0.05
+11075,2,Chang,RICSU,8,00:00.0,00:00.0,NULL,2,6.19,Richter Supermarkt,Starenweg 5,GenÃ¨ve,NULL,1204,Switzerland,19,10,0.15
+11076,6,Grandma's Boysenberry Spread,BONAP,4,00:00.0,00:00.0,NULL,2,38.28,Bon app',12 rue des Bouchers,Marseille,NULL,13008,France,25,20,0.25
+11077,2,Chang,RATTC,1,00:00.0,00:00.0,NULL,2,8.53,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,19,24,0.2
