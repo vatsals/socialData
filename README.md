@@ -5,7 +5,9 @@ SocialData is a Vue based web application that has been developed with the aim o
 
 For the first case, where the analyst is well versed in writing SQL queries, the following features have been implemented to ease out the work of the analysts and enhance their experience:
 
-Query Syntax Highlighting: The most important feature that enhances the experience of a person who writes in his/her query is syntax highlighting. I have developed a small text editor wherein people can write their query and as they write it, the text editor highlights the syntax based on the keyword input, henceforth making it easy for them to read the query. Also for reference, I've added the database details to the right of text editor mentioning the tables and their corresponding length of records which a person can refer to while writing the query. 
+Query Syntax Highlighting: The most important feature that enhances the experience of a person who writes in his/her query is syntax highlighting. I have developed a small text editor wherein people can write their query and as they write it, the text editor highlights the syntax based on the keyword input, henceforth making it easy for them to read the query. 
+
+Schema Reference: Also for reference, I've added the Database details to the right of text editor mentioning the tables and corresponding length of records. When a person clicks the tablename, it gives the entire schema details of the corresponding table clicked which a person can refer to while writing the query. 
 
 Text Editor Shortcuts: The text editor which I developed that features syntax highlighting is also enritched with keyboard shortcuts. I've added keyboard shortcuts like Esc to clear text in the input, Enter to execute the query, Alt+k to save the frequently used queries. 
 

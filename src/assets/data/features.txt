@@ -3,6 +3,7 @@ Keyboard events: Esc, Enter, Alt+k to save a query used Frequently
 Save/Remove Frequently Used Searches
 Dummy Loading while Fetching
 Smooth scroll to results after Fetch
+Complete Database Schema on right
 
 Database/Table Details
 Fetches data from Data Store

@@ -27,8 +27,8 @@
             <th>TableName</th>
             <th>Records</th>
           </tr>
-          <tr>
-            <td>{{ tablename }}</td>
+          <tr v-on:click="showCols">
+            <td class="tablePoint" >{{ tablename }}</td>
             <td>{{ records }}</td>
           </tr>
         </table>
@@ -48,6 +48,17 @@
         <button class="buttonGenerate buttonGenerateDef modalClose" v-on:click="hide">Close</button>
       </div>
     </modal>
+
+    <modal class="queryResults" name="tableCols">
+      <p class="tableCols">Table Details</p>
+      <ul class="ulCols">
+        <li class="liCols" v-for="(col, index) in tablecols" :key="index">{{ index+1 }} - {{ col }}</li>
+      </ul>
+      <div class="modalCloseDiv cls">
+        <button class="buttonGenerate buttonGenerateDef modalClose" v-on:click="hideCols">Close</button>
+      </div>
+    </modal>
+
     <div id="querydata">
       <v-client-table :data="data" :columns="columns" :options="options"></v-client-table>
     </div>
@@ -105,8 +116,16 @@ export default {
       this.$modal.show('results');
     },
 
+    showCols: function() {
+      this.$modal.show('tableCols');
+    },
+
     hide: function() {
       this.$modal.hide('results');
+    },
+
+    hideCols: function() {
+      this.$modal.hide('tableCols');
     },
 
     highlight: function() {
@@ -162,7 +181,7 @@ export default {
       text: '',
       tablename: 'Orders',
       records: 830,
-      // columns: ['orderID', 'productID', 'productName', 'customerID', 'employeeID', 'orderDate', 'requiredDate', 'shippedDate', 'shipVia', 'freight', 'shipName', 'shipAddress', 'shipCity', 'shipRegion', 'shipPostalCode', 'shipDetails', 'shipCountry', 'unitPrice', 'quantity', 'discount'],
+      tablecols: ['orderID', 'productID', 'productName', 'customerID', 'employeeID', 'orderDate', 'requiredDate', 'shippedDate', 'shipVia', 'freight', 'shipName', 'shipAddress', 'shipCity', 'shipRegion', 'shipPostalCode', 'shipDetails', 'shipCountry', 'unitPrice', 'quantity', 'discount'],
       columns: ['orderID', 'productID', 'productName', 'customerID', 'employeeID', 'orderDate', 'shippedDate', 'freight', 'shipDetails', 'unitPrice', 'quantity', 'discount'],
       options: {
         dateColumns: [''],
@@ -282,5 +301,35 @@ export default {
 
 .flexDiv {
   display: flex;
+}
+
+.tablePoint {
+  cursor: pointer;
+}
+
+.ulCols {
+    width: 50%;
+    list-style-type: none;
+    margin-top: 15px;
+    padding: 10px 30px 10px 30px;
+    margin-left: 25%;
+    background: #fafafa;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+
+}
+
+.liCols {
+  padding: 3px 20px;
+  font-size: 13px;
+}
+
+.tableCols {
+  color: #1e80ed;
+  margin: 10px 0px;
+  text-align: center;
+  justify-content: center;
+  font-size: 18px;
 }
 </style>

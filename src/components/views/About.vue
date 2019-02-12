@@ -11,7 +11,11 @@
     </p>
 
     <p>
-      <b>Query Syntax Highlighting:</b> The most important feature that enhances the experience of a person who writes in his/her query is syntax highlighting. I have developed a small text editor wherein people can write their query and as they write it, the text editor highlights the syntax based on the keyword input, henceforth making it easy for them to read the query. Also for reference, I've added the database details to the right of text editor mentioning the tables and their corresponding length of records which a person can refer to while writing the query. 
+      <b>Query Syntax Highlighting:</b> TQuery Syntax Highlighting: The most important feature that enhances the experience of a person who writes in his/her query is syntax highlighting. I have developed a small text editor wherein people can write their query and as they write it, the text editor highlights the syntax based on the keyword input, henceforth making it easy for them to read the query. 
+    </p>
+    
+    <p>
+      <b>Schema Reference: </b>Also for reference, I've added the Database details to the right of text editor mentioning the tables and corresponding length of records. When a person clicks the tablename, it gives the entire schema details of the corresponding table clicked which a person can refer to while writing the query. 
     </p>
 
     <p>
