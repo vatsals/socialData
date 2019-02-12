@@ -319,3 +319,47 @@ pre {
     color: #1e80ed;
     text-align: center;
 }
+
+.qHeadAbout {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1e80ed;
+    text-align: center;
+}
+
+.vue-slide-bar-tooltip {
+    border: 1px solid #1e80ed !important;
+    background-color: #1e80ed !important;
+}
+
+.vue-slide-bar-process {
+    background-color: #1e80ed !important;
+}
+
+.pQuery {
+    color: #1e80ed;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.pSaved {
+    margin-bottom: 10px;
+}
+
+.tableEntry {
+    width: 100px;
+    color: #FF5144;
+    font-weight: 600;
+}
+
+.about {
+    text-align: justify;
+}
+
+.about b {
+    color: #1e80ed;
+}

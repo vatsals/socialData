@@ -1,0 +1,13 @@
+Query Syntax Highlighting
+Keyboard events: Esc, Enter, Alt+k to save a query used Frequently
+Save/Remove Frequently Used Searches
+Dummy Loading while Fetching
+Smooth scroll to results after Fetch
+
+Database/Table Details
+Fetches data from Data Store
+Table Filtering(Search, Sort, Pagination)
+Exports to CSV and Excel
+
+Create Own query using UI
+Query Builder with Slider

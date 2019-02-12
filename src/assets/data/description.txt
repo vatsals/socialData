@@ -1,5 +1,3 @@
-# social_data
-Description: 
 
 SocialData is a Vue based web application that has been developed with the aim of easing out work of data analysts by simplifying the way they can query data from the database and get results. The platform has been built in such a way that a technical person who is well versed in writing SQL queries can use the sql query editor to directly write his/her queries and execute them to get results from the database. Also the ones who ain't comfortable in writing SQL queries have the option of creating their own queries using a simple system which helps them create a query from the user interface. 
 
@@ -22,32 +20,3 @@ Create Query using UI: Firstly, they get an option to select the table over whic
 For each column, I have already added their data type. For example if it is a Text column like Product Name, the field type will be Text and the conditions that can be queried will be 'Equals' 'Contains', 'Begins with' etc. If it is a numeric column like orderID, the conditions  that can be queried will be '=', '<', '>', '<=' etc. Apart from them, I have also added a custom field type for quantity which is a slider where a person can select the quantity by adjusting the slider. 
 
 Adding a rule or rule group helps the person to add complex conditions to their query. Once all the conditions are added, hitting generate button will convert the selected conditions to a JSON format which can be passed to server side for processing so as to convert it to a query based on the object as it contains all the relevant fields in an object format including all and/or operations on multiple condition which can be easily parsed on server side and a query can be generated. Once generated, the user is redirected to landing page and the table is updated with the results obtained by the query. Also we can populate the query editor on the landing page so that user can store the query for future use case. The query generation by json so passed is based on the assumption that analysts cannot alter the database, so only view query is what they can execute. 
-
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

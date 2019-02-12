@@ -1,6 +1,13 @@
 <template>
   <div id="query">
     <p class="qHead">Create Your Own Query!</p>
+    <p class="pQuery">TableName: 
+      <select class="form-control tableEntry" name="tablename" v-model="selected">
+          <option v-for="(table, index) in tables" :key="index" v-bind:value="table">
+            {{ table.name }}
+          </option>
+      </select>
+    </p>
     <vue-query-builder :rules="rules" v-model="query"></vue-query-builder>
 
     <div class="btnGen">
@@ -19,6 +26,7 @@
 
 <script>
 import VueQueryBuilder from "vue-query-builder";
+import VueSlideBar from "vue-slide-bar";
 
 export default {
   name: "query",
@@ -38,14 +46,20 @@ export default {
 
   data() {
     return {
+      tables: [
+        { name: "Orders" }
+      ],
+
+      selected: { name: "Orders" },
+      
       rules: [
         {
-          type: "text",
+          type: "numeric",
           id: "orderID",
           label: "Order ID"
         },
         {
-          type: "text",
+          type: "numeric",
           id: "productID",
           label: "Product ID"
         },
@@ -60,7 +74,7 @@ export default {
           label: "Customer ID"
         },
         {
-          type: "text",
+          type: "numeric",
           id: "employeeID",
           label: "Employee ID"
         },
@@ -80,12 +94,12 @@ export default {
           label: "Shipped Date"
         },
         {
-          type: "text",
+          type: "numeric",
           id: "shipVia",
           label: "Ship Via"
         },
         {
-          type: "text",
+          type: "numeric",
           id: "freight",
           label: "Freight"
         },
@@ -110,7 +124,7 @@ export default {
           label: "Ship Region"
         },
         {
-          type: "text",
+          type: "numeric",
           id: "shipPostalCode",
           label: "Ship PostalCode"
         },
@@ -120,28 +134,22 @@ export default {
           label: "Ship Country"
         },
         {
-          type: "text",
+          type: "numeric",
           id: "unitPrice",
           label: "Unit Price"
         },
         {
-          type: "text",
+          type: "custom-component",
           id: "quantity",
-          label: "Quantity"
+          label: "Quantity",
+          operators: ["="],
+          component: VueSlideBar,
+          default: 50
         },
         {
-          type: "text",
+          type: "numeric",
           id: "discount",
           label: "Discount"
-        },
-        {
-          type: "radio",
-          id: "fruit",
-          label: "Fruit",
-          choices: [
-            { label: "Apple", value: "apple" },
-            { label: "Banana", value: "banana" }
-          ]
         }
       ],
 
@@ -149,25 +157,35 @@ export default {
         "logicalOperator": "All",
         "children": [
           {
+            "type": "query-builder-rule",
+            "query": {
+              "rule": "orderID",
+              "selectedOperator": ">",
+              "selectedOperand": "Order ID",
+              "value": "10"
+            }
+          },
+          {
+            "type": "query-builder-rule",
+            "query": {
+              "rule": "productName",
+              "selectedOperator": "begins with",
+              "selectedOperand": "Product Name",
+              "value": "abcd"
+            }
+          },
+          {
             "type": "query-builder-group",
             "query": {
-              "logicalOperator": "Any",
+              "logicalOperator": "All",
               "children": [
                 {
                   "type": "query-builder-rule",
                   "query": {
-                    "rule": "productName",
-                    "selectedOperator": "contains",
-                    "selectedOperand": "productName",
-                    "value": null
-                  }
-                },
-                {
-                  "type": "query-builder-rule",
-                  "query": {
-                    "rule": "fruit",
-                    "selectedOperand": "Fruit",
-                    "value": "banana"
+                    "rule": "quantity",
+                    "selectedOperator": "=",
+                    "selectedOperand": "Quantity",
+                    "value": 40
                   }
                 }
               ]

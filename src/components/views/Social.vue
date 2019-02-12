@@ -1,14 +1,22 @@
 <template>
   <div id="social">
+    <p class="sHead">Already Comfortable with SQL? Write your Query here!</p>
     <div class="mainBox">
       <div class="socialBox">
-        <div contenteditable="true" data-text="Your query goes here!" class="textSocial" id="textSoc" ref="queryText" v-on:keyup.space="highlight" v-on:keyup.esc="clearText" v-on:keyup.enter="runQuery">
+        <div contenteditable="true" data-text="Your query goes here.." class="textSocial" id="textSoc" ref="queryText" v-on:keyup.space="highlight" v-on:keyup.alt.k="saveQuery" v-on:keyup.esc="clearText" v-on:keyup.enter="runQuery">
         </div>
-        <div class="btnGen btnTop">
-          <button class="buttonGenerate buttonGenerateDef modalClose queryBtn" v-on:click="runQuery">Execute Query!</button>
-          <div class="pQuery">
-            <p class="pLink" v-on:click="saveQuery">Save</p>
-            <p class="pLink pLinkRight" v-on:click="show">Previous</p>
+        <div class="btnGen btnTop flexChange">
+          <div class="flexStyle">
+            <div class="flexDiv">
+              <button class="buttonGenerate buttonGenerateDef modalClose queryBtn" v-on:click="runQuery">Execute Query!</button>
+            </div>
+            <div class="pQuery">
+              <p class="pLink" v-on:click="saveQuery">Save</p>
+              <p class="pLink pLinkRight" v-on:click="show">Previous</p>
+            </div>
+          </div>
+          <div>
+            <tile v-if="isLoading"></tile>
           </div>
         </div>
       </div>
@@ -27,10 +35,15 @@
       </div>
     </div>
     <modal class="queryResults" name="results">
-      <p v-for="(query, index) in queries" :key="index">
-        <span class="pQuery" v-on:click="copyQuery(index)">{{query}}</span>
-        <span class="pSpan" v-on:click="removeQuery(index)">x</span>
-      </p>
+      <div v-if="queries.length">
+        <p v-for="(query, index) in queries" :key="index">
+          <span class="pQuery pSaved" v-on:click="copyQuery(index)">{{query}}</span>
+          <span class="pSpan" v-on:click="removeQuery(index)">x</span>
+        </p>
+      </div>
+      <div v-else>
+        <p><span class="pQuery pSaved">No Queries saved</span></p>
+      </div>
       <div class="modalCloseDiv cls">
         <button class="buttonGenerate buttonGenerateDef modalClose" v-on:click="hide">Close</button>
       </div>
@@ -59,6 +72,14 @@ export default {
 
   methods: {
     runQuery: function() {
+      this.isLoading = true;
+      setTimeout(()=>{
+        this.isLoading = false;
+        document.querySelector('#querydata').scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }, 3000);
     },
 
     copyQuery: function(index) {
@@ -76,6 +97,7 @@ export default {
       if(this.$refs.queryText.textContent!='') {
         this.queries.push(this.$refs.queryText.textContent);
         localStorage.setItem("savedQueries", JSON.stringify(this.queries));
+        this.show();
       }
     },
 
@@ -91,7 +113,7 @@ export default {
       var newHTML = '';
       var text = this.$refs.queryText.textContent.replace(/[\s]+/g, " ").trim().split(' ');
       for(var i=0; i<text.length; i++) {
-        if(text[i].toUpperCase()== "SELECT" || text[i].toUpperCase()== "UPDATE" || text[i].toUpperCase()== "FROM"|| text[i].toUpperCase()== "WHERE"|| text[i].toUpperCase()== "LIKE"|| text[i].toUpperCase()== "BETWEEN"|| text[i].toUpperCase()== "NOT LIKE"|| text[i].toUpperCase()== "FALSE"|| text[i].toUpperCase()== "NULL"|| text[i].toUpperCase()== "FROM"|| text[i].toUpperCase()== "TRUE"|| text[i].toUpperCase()== "NOT IN" || text[i].toUpperCase()== "AND" || text[i].toUpperCase()== "OR" || text[i].toUpperCase()== "DELETE") {
+        if(text[i].toUpperCase()== "SELECT" || text[i].toUpperCase()== "UPDATE" || text[i].toUpperCase()== "FROM"|| text[i].toUpperCase()== "WHERE"|| text[i].toUpperCase()== "LIKE"|| text[i].toUpperCase()== "BETWEEN"|| text[i].toUpperCase()== "NOT LIKE"|| text[i].toUpperCase()== "FALSE"|| text[i].toUpperCase()== "NULL"|| text[i].toUpperCase()== "FROM"|| text[i].toUpperCase()== "TRUE"|| text[i].toUpperCase()== "NOT IN" || text[i].toUpperCase()== "AND" || text[i].toUpperCase()== "OR" || text[i].toUpperCase()== "ORDERS" || text[i].toUpperCase()== "DELETE") {
           newHTML += "<span class='highlightText'>" + text[i] + "&nbsp;</span>";
         }
         else {
@@ -135,6 +157,7 @@ export default {
   data() {
     return {
       data: [],
+      isLoading: false,
       queries: [],
       text: '',
       tablename: 'Orders',
@@ -223,5 +246,41 @@ export default {
   color: #ff0000;
   font-size: 13px;
   font-weight: 600;
+}
+
+.sHead {
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1e80ed;
+    text-align: center;
+}
+
+.spinner {
+  margin: 5px auto !important;
+  width: 50px !important;
+  height: 25px !important;
+  font-size: 8px !important;
+}
+
+.spinner>div[data-v-ae580a66] {
+  width: 4px !important;
+  background-color: #FF5144 !important;
+}
+
+.flexChange {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexStyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 8px;
+}
+
+.flexDiv {
+  display: flex;
 }
 </style>
